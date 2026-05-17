@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>合成生物学 AI 助教</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <canvas id="bioCanvas" aria-hidden="true"></canvas>
+    <main class="app-shell">
+      <section class="workspace" aria-label="合成生物学 AI 助教">
+        <aside class="side-panel">
+          <div class="brand-row">
+            <img src="/synbio-mark.svg" alt="" class="brand-mark">
+            <div>
+              <p class="kicker">SynBio Tutor</p>
+              <h1>合成生物学 AI 助教</h1>
+            </div>
+          </div>
+
+          <div class="topic-board" id="topicBoard"></div>
+
+          <div class="source-strip">
+            <p>权威知识源</p>
+            <div id="sourceList"></div>
+          </div>
+        </aside>
+
+        <section class="chat-panel">
+          <div class="status-bar">
+            <span id="systemMode">本地知识库待命</span>
+            <span id="confidence">置信度 --</span>
+          </div>
+
+          <div class="chat-log" id="chatLog" aria-live="polite">
+            <article class="message assistant">
+              <div class="avatar">AI</div>
+              <div class="bubble">
+                <p>你好，我是你的合成生物学 AI 助教。可以问我“合成生物学和基因编辑有什么区别？”、“遗传线路为什么像电路？”或“生物传感器能做什么？”。</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="prompt-row" id="promptRow">
+            <button type="button" data-question="用 3 个比喻解释合成生物学是什么">3 个比喻</button>
+            <button type="button" data-question="生物传感器的核心思想是什么？">生物传感器</button>
+            <button type="button" data-question="AI 如何帮助合成生物学设计？">AI 融合</button>
+            <button type="button" data-question="为什么合成生物学需要伦理和安全治理？">安全治理</button>
+          </div>
+
+          <form class="ask-box" id="askForm">
+            <textarea id="questionInput" name="question" rows="2" placeholder="输入你的问题，例如：遗传开关为什么能记住状态？"></textarea>
+            <button type="submit" id="askButton" aria-label="发送问题">
+              <span>发送</span>
+            </button>
+          </form>
+        </section>
+      </section>
+    </main>
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [["\\(", "\\)"]],
+          displayMath: [["\\[", "\\]"], ["$$", "$$"]]
+        },
+        options: {
+          skipHtmlTags: ["script", "noscript", "style", "textarea", "pre", "code"]
+        }
+      };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,229 @@
+{
+  "updated_at": "2026-05-12",
+  "project_positioning": "Synthetic biology AI tutor for public science Q&A and delightful exploration. The knowledge base is curated from authoritative public sources and is designed for retrieval-augmented generation. Fine-tuning is recommended for tone and conversation patterns, not as the primary store of scientific facts.",
+  "sources": [
+    {
+      "id": "nhgri-synbio",
+      "title": "Synthetic Biology",
+      "publisher": "National Human Genome Research Institute (NHGRI), NIH",
+      "url": "https://www.genome.gov/about-genomics/policy-issues/synthetic-biology",
+      "authority": "US national genomics institute educational and policy resource",
+      "notes": "General definition, examples, genome editing distinction, ethical and social implications."
+    },
+    {
+      "id": "ncbi-biotech-age",
+      "title": "Biotechnology in the Age of Synthetic Biology",
+      "publisher": "NCBI Bookshelf / National Academies",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK535871/",
+      "authority": "National Library of Medicine indexed National Academies report",
+      "notes": "Conceptual framing, engineering ideas, tools and dual-use context."
+    },
+    {
+      "id": "ncbi-positioning",
+      "title": "Synthetic Biology: Science and Technology for the New Millennium",
+      "publisher": "NCBI Bookshelf / National Academies",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK202049/",
+      "authority": "National Academies symposium report hosted by NCBI",
+      "notes": "Engineering principles, parts/devices/systems, applications and history."
+    },
+    {
+      "id": "ncbi-applications",
+      "title": "Synthetic Biology: Applications Come of Age",
+      "publisher": "NCBI Bookshelf / National Academies",
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK84446/",
+      "authority": "National Academies workshop summary hosted by NCBI",
+      "notes": "Synthetic circuits, toggle switch, repressilator, modular engineering."
+    },
+    {
+      "id": "ncbi-biosensors",
+      "title": "Synthetic Biology and the Art of Biosensor Design",
+      "publisher": "NCBI Bookshelf / National Academies",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK84465/",
+      "authority": "National Academies workshop summary hosted by NCBI",
+      "notes": "Biosensor concepts and design thinking."
+    },
+    {
+      "id": "who-responsible-life-sciences",
+      "title": "Global Guidance Framework for the Responsible Use of the Life Sciences",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/publications-detail-redirect/9789240056107/",
+      "authority": "WHO global technical and normative guidance",
+      "notes": "Biorisk, dual-use governance, responsible research lifecycle."
+    },
+    {
+      "id": "nhgri-ai-genomics",
+      "title": "Artificial Intelligence, Machine Learning and Genomics",
+      "publisher": "National Human Genome Research Institute (NHGRI), NIH",
+      "url": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/artificial-intelligence-machine-learning-and-genomics",
+      "authority": "US national genomics institute educational resource",
+      "notes": "AI/ML framing for genomics and computational biological data."
+    }
+  ],
+  "documents": [
+    {
+      "id": "synbio-definition",
+      "title": "什么是合成生物学",
+      "topic": "基础概念",
+      "level": "beginner",
+      "source_ids": ["nhgri-synbio", "ncbi-biotech-age", "ncbi-positioning"],
+      "keywords": ["定义", "合成生物学", "工程化", "生物系统", "设计", "构建", "redesign", "synthetic biology"],
+      "summary": "合成生物学把工程学的设计思想带入生命科学，目标是改造或构建生物部件、装置和系统，使细胞或生物获得有用的新能力。它不只是观察自然系统如何工作，还会问：如果想让一个生物系统表现出某种功能，需要哪些可组合的部件和调控逻辑？",
+      "facts": [
+        "常见目标包括让微生物生产药物、燃料或香料，或让细胞感知环境信号。",
+        "合成生物学强调标准化、模块化、抽象分层、建模和设计-构建-测试-学习循环。",
+        "该领域跨越生物学、工程、计算科学、化学、遗传学和伦理治理。"
+      ],
+      "analogy": "可以把它想成给细胞写一段温柔但严谨的说明书：DNA 像代码，细胞像会自己生长、会受环境影响的微型工厂。"
+    },
+    {
+      "id": "synbio-vs-editing",
+      "title": "合成生物学和基因编辑的区别",
+      "topic": "基础概念",
+      "level": "beginner",
+      "source_ids": ["nhgri-synbio"],
+      "keywords": ["基因编辑", "CRISPR", "区别", "genome editing", "DNA", "基因组"],
+      "summary": "合成生物学和基因编辑都可能改变遗传代码，但侧重点不同。基因编辑通常是在现有基因组上做较小、较定位的修改；合成生物学常常会设计并组装较长 DNA 片段、通路或调控网络，让系统产生新的功能组合。",
+      "facts": [
+        "基因编辑工具可以删除、替换或插入小片段 DNA。",
+        "合成生物学项目可能把来自不同来源的基因、调控元件和代谢路径组合起来。",
+        "在实际研究中二者常常配合使用：编辑工具负责精确落笔，合成生物学负责整体设计。"
+      ],
+      "analogy": "基因编辑像在已有文章里精修句子；合成生物学更像搭一篇新文章的结构、段落和风格。"
+    },
+    {
+      "id": "design-build-test-learn",
+      "title": "设计-构建-测试-学习循环",
+      "topic": "工程方法",
+      "level": "intermediate",
+      "source_ids": ["ncbi-positioning", "ncbi-applications"],
+      "keywords": ["DBTL", "设计", "构建", "测试", "学习", "工程循环", "modeling", "prototype"],
+      "summary": "合成生物学常用设计-构建-测试-学习循环：先用知识和模型提出设计，再构建 DNA 或细胞系统，测试实际行为，最后从数据中学习并改进下一轮设计。",
+      "facts": [
+        "工程化方法帮助研究者把复杂系统拆成可理解、可复用、可迭代的模块。",
+        "由于细胞存在环境依赖和随机性，测试和学习步骤非常关键。",
+        "计算建模、自动化实验和高通量测量能加速循环。"
+      ],
+      "analogy": "这像调一支细胞乐队：先写谱，排练，录音听效果，再修改下一版乐谱。"
+    },
+    {
+      "id": "parts-devices-systems",
+      "title": "生物部件、装置和系统",
+      "topic": "工程方法",
+      "level": "intermediate",
+      "source_ids": ["ncbi-positioning", "ncbi-biotech-age"],
+      "keywords": ["部件", "装置", "系统", "启动子", "元件", "模块化", "parts", "devices", "systems"],
+      "summary": "合成生物学常把生物设计分成层级：部件是较小的功能单元，装置把多个部件组合成可执行逻辑的模块，系统则把多个装置整合到细胞或生物过程中。",
+      "facts": [
+        "部件可以包括启动子、核糖体结合位点、编码序列、调控 RNA 或蛋白元件。",
+        "装置可以实现开关、振荡、逻辑门、传感或代谢转换等功能。",
+        "系统层面需要考虑宿主细胞、资源竞争、环境条件和生物安全。"
+      ],
+      "analogy": "部件像积木，装置像拼好的小机关，系统像一座会呼吸、会反馈的微型城市。"
+    },
+    {
+      "id": "genetic-circuits",
+      "title": "遗传线路：开关、振荡器和逻辑门",
+      "topic": "核心案例",
+      "level": "intermediate",
+      "source_ids": ["ncbi-applications"],
+      "keywords": ["遗传线路", "toggle switch", "repressilator", "振荡器", "逻辑门", "基因网络", "circuit"],
+      "summary": "早期合成生物学的代表案例包括遗传开关和 repressilator 振荡器。它们显示基因调控元件可以被设计成类似电子线路的行为，例如记忆状态或周期性变化。",
+      "facts": [
+        "遗传开关可以在两个状态之间保持记忆式转换。",
+        "振荡器让基因表达随时间周期性起伏。",
+        "这些案例证明了用工程蓝图构建细胞行为的可能性，也暴露了生物系统比电子元件更依赖环境的问题。"
+      ],
+      "analogy": "遗传线路像细胞里的小控制台：有按钮、有节拍器，也有会互相影响的信号灯。"
+    },
+    {
+      "id": "biosensors",
+      "title": "生物传感器",
+      "topic": "应用案例",
+      "level": "beginner",
+      "source_ids": ["nhgri-synbio", "ncbi-biosensors"],
+      "keywords": ["生物传感器", "biosensor", "检测", "环境", "信号", "污染", "诊断"],
+      "summary": "生物传感器利用细胞、蛋白或核酸对特定信号的响应，把环境中的化学物质、污染物或生物标志物转化为可读输出，如颜色、荧光或电信号。",
+      "facts": [
+        "合成生物学可设计传感模块、处理模块和输出模块。",
+        "应用场景包括环境监测、食品安全、医学检测和工业过程监控。",
+        "真实应用必须考虑灵敏度、特异性、稳定性、封闭使用和监管要求。"
+      ],
+      "analogy": "生物传感器像给细胞装了一只鼻子，再接上一盏小灯：闻到目标信号，就亮起来。"
+    },
+    {
+      "id": "applications",
+      "title": "合成生物学能做什么",
+      "topic": "应用案例",
+      "level": "beginner",
+      "source_ids": ["nhgri-synbio", "ncbi-positioning"],
+      "keywords": ["应用", "药物", "农业", "制造", "环境", "能源", "biomanufacturing", "medicine"],
+      "summary": "合成生物学的应用覆盖医学、制造、农业、环境和能源。公开科普中常见例子包括改造微生物清理污染、生产药物或燃料，改造作物提升营养，或让酵母生产香料分子。",
+      "facts": [
+        "生物制造可利用细胞生产小分子、蛋白、材料和化学品。",
+        "农业应用可能关注营养强化、抗逆性和可持续生产。",
+        "环境应用包括污染物检测和生物修复，但释放到环境中的系统需要严格评估。"
+      ],
+      "analogy": "它像把自然界亿万年打磨出的化学能力，请进一间更可控的设计工作室。"
+    },
+    {
+      "id": "ai-and-genomics",
+      "title": "AI 与基因组数据",
+      "topic": "AI融合",
+      "level": "intermediate",
+      "source_ids": ["nhgri-ai-genomics"],
+      "keywords": ["AI", "机器学习", "基因组", "数据", "模型", "预测", "design"],
+      "summary": "AI 和机器学习可帮助研究者在复杂基因组数据中寻找模式，用于序列功能预测、实验设计建议、文献检索、数据解读和候选方案排序。它适合辅助科学判断，但不能替代实验验证和生物安全审查。",
+      "facts": [
+        "机器学习依赖高质量数据、清晰任务定义和严格验证。",
+        "在合成生物学中，AI 常用于设计空间搜索、结果预测、文本知识整合和自动化实验规划。",
+        "模型输出需要来源、置信度和人工审校，尤其是涉及健康、安全或环境问题时。"
+      ],
+      "analogy": "AI 像一位读过很多实验记录的导航员，能指出可能的路线，但方向盘仍要握在科学规范和实验验证手里。"
+    },
+    {
+      "id": "ethics-safety",
+      "title": "伦理、安全与负责任创新",
+      "topic": "安全治理",
+      "level": "beginner",
+      "source_ids": ["nhgri-synbio", "who-responsible-life-sciences", "ncbi-biotech-age"],
+      "keywords": ["伦理", "安全", "生物安全", "biosecurity", "biosafety", "dual-use", "治理", "风险", "负责任"],
+      "summary": "合成生物学有巨大潜力，也涉及生物安全、生物安保、环境影响、公平可及、监管和公众参与等问题。WHO 将负责任使用生命科学视为研究全生命周期中的共同责任，强调在释放创新潜力的同时预防误用风险。",
+      "facts": [
+        "双重用途研究是指既可能带来益处，也可能被误用造成伤害的研究。",
+        "负责任治理包括风险评估、机构审查、培训、透明沟通、监管遵循和持续监督。",
+        "科普问答应避免提供可操作的危险实验步骤、病原体增强方案、毒素生产细节或规避监管的建议。"
+      ],
+      "analogy": "合成生物学像一把能修桥也能伤人的精密工具；真正的魅力来自创造力和责任感一起在线。"
+    },
+    {
+      "id": "whole-genome-synthesis",
+      "title": "全基因组合成",
+      "topic": "前沿话题",
+      "level": "intermediate",
+      "source_ids": ["nhgri-synbio"],
+      "keywords": ["全基因组", "基因组合成", "Genome Project-Write", "yeast", "病毒", "genome synthesis"],
+      "summary": "研究者已经证明可以合成病毒基因组，并完成过细菌基因组合成以及酵母基因组的部分合成。全基因组合成帮助科学家理解基因组如何工作，也引发生物安保和伦理治理关注。",
+      "facts": [
+        "病毒基因组较小，因此早期全合成案例首先出现在病毒上。",
+        "全基因组合成可推动 DNA 合成技术、最小基因组研究和细胞设计。",
+        "涉及病原体或潜在危害的内容必须遵循严格监管和风险审查。"
+      ],
+      "analogy": "如果测序是读一本生命之书，基因组合成就是学习如何排版、改写，甚至重做其中的章节。"
+    }
+  ],
+  "safety_policy": {
+    "allowed": [
+      "科普解释、概念比较、历史与应用案例",
+      "非操作性的高层次研究思路",
+      "伦理治理、生物安全和风险沟通",
+      "学习路线、术语解释和公开资料导读"
+    ],
+    "disallowed": [
+      "具体湿实验步骤、参数、培养条件或操作流程",
+      "病原体增强、毒素生产、规避筛查或监管的建议",
+      "可直接执行的基因构建设计、序列优化或释放方案",
+      "对现实生物系统进行危险改造的故障排除"
+    ],
+    "refusal_style": "友好解释边界，转向安全的概念层面、风险评估框架或正规学习资源。"
+  }
+}

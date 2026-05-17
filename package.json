@@ -1,0 +1,19 @@
+{
+  "name": "synbio-ai-tutor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A synthetic biology AI tutor prototype with curated RAG knowledge, safety guardrails, and a playful science-communication interface.",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "ingest": "node scripts/ingest_sources.js",
+    "check:prompt": "node scripts/check_deepseek_prompt.js",
+    "check:frontend": "node scripts/check_frontend_render.js",
+    "verify:deepseek": "node scripts/verify_deepseek_api.js",
+    "test": "node scripts/smoke_test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
