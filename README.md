@@ -180,14 +180,4 @@ npm run eval:retrieval
 - 增加教师后台：来源审校、知识卡版本管理、风险问题记录。
 - 增加离线 embedding 索引、reranker、引用到原文段落的证据定位和人工审校工作流。
 
-## GitHub 同步注意
 
-`.env` 已经写入 `.gitignore`，正常用 Git 同步时不会提交 API Key。可以提交 `.env.example`，不要提交 `.env`。
-
-如果 `.env` 曾经被 Git 跟踪过，需要先从索引里移除但保留本地文件：
-
-```bash
-git rm --cached .env
-```
-
-如果要打包整个文件夹发给别人，记得删除或清空 `.env`。
