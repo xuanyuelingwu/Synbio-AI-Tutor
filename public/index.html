@@ -3,56 +3,105 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>合成生物学 AI 助教</title>
+    <title>NucleArk 核舟计划 · 合成生物学 AI 助教</title>
     <link rel="stylesheet" href="/styles.css">
   </head>
   <body>
-    <canvas id="bioCanvas" aria-hidden="true"></canvas>
+    <canvas id="phaseCanvas" aria-hidden="true"></canvas>
     <main class="app-shell">
-      <section class="workspace" aria-label="合成生物学 AI 助教">
+      <section class="workspace" aria-label="NucleArk 核舟计划">
         <aside class="side-panel">
           <div class="brand-row">
             <img src="/synbio-mark.svg" alt="" class="brand-mark">
             <div>
-              <p class="kicker">SynBio Tutor</p>
-              <h1>合成生物学 AI 助教</h1>
+              <p class="kicker">
+                <span class="label-en">NucleArk</span>
+                <span class="label-zh">核舟计划</span>
+              </p>
+              <h1>SynBio Tutor</h1>
+              <span class="bilingual">
+                <span class="label-en">Synthetic Biology AI Tutor</span>
+                <span class="label-zh">合成生物学 AI 助教</span>
+              </span>
             </div>
+          </div>
+
+          <div class="mission-panel">
+            <p>
+              <span class="label-en">Synthetic Biology Tutor</span>
+              <span class="label-zh">合成生物学科普助教</span>
+            </p>
+            <strong>
+              <span class="label-en">Evidence-grounded science communication</span>
+              <span class="label-zh">证据驱动科学传播</span>
+            </strong>
           </div>
 
           <div class="topic-board" id="topicBoard"></div>
 
           <div class="source-strip">
-            <p>权威知识源</p>
+            <p>
+              <span class="label-en">Evidence References</span>
+              <span class="label-zh">证据来源</span>
+            </p>
             <div id="sourceList"></div>
           </div>
         </aside>
 
         <section class="chat-panel">
           <div class="status-bar">
-            <span id="systemMode">本地知识库待命</span>
-            <span id="confidence">置信度 --</span>
+            <span id="systemMode">
+              <span class="label-en">Local evidence mode</span>
+              <span class="label-zh">本地证据模式</span>
+            </span>
+            <span id="confidence">
+              <span class="label-en">Evidence --</span>
+              <span class="label-zh">证据 --</span>
+            </span>
           </div>
 
           <div class="chat-log" id="chatLog" aria-live="polite">
             <article class="message assistant">
               <div class="avatar">AI</div>
               <div class="bubble">
-                <p>你好，我是你的合成生物学 AI 助教。可以问我“合成生物学和基因编辑有什么区别？”、“遗传线路为什么像电路？”或“生物传感器能做什么？”。</p>
+                <p>
+                  <span class="label-en">NucleArk tutor is ready.</span>
+                  <span class="label-zh">NucleArk 助教已就绪。</span>
+                </p>
+                <p>
+                  <span class="label-en">Try questions like “Synthetic biology vs. genome editing?”, “Why are genetic circuits like circuits?”, or “What can biosensors do?”</span>
+                  <span class="label-zh">可以问“合成生物学和基因编辑有什么区别？”、“遗传线路为什么像电路？”或“生物传感器能做什么？”。</span>
+                </p>
               </div>
             </article>
           </div>
 
           <div class="prompt-row" id="promptRow">
-            <button type="button" data-question="用 3 个比喻解释合成生物学是什么">3 个比喻</button>
-            <button type="button" data-question="生物传感器的核心思想是什么？">生物传感器</button>
-            <button type="button" data-question="AI 如何帮助合成生物学设计？">AI 融合</button>
-            <button type="button" data-question="为什么合成生物学需要伦理和安全治理？">安全治理</button>
+            <button type="button" data-question="用 3 个比喻解释合成生物学是什么">
+              <span class="label-en">Analogies</span>
+              <span class="label-zh">3 个比喻</span>
+            </button>
+            <button type="button" data-question="生物传感器的核心思想是什么？">
+              <span class="label-en">Biosensors</span>
+              <span class="label-zh">生物传感器</span>
+            </button>
+            <button type="button" data-question="AI 如何帮助合成生物学设计？">
+              <span class="label-en">AI Fusion</span>
+              <span class="label-zh">AI 融合</span>
+            </button>
+            <button type="button" data-question="为什么合成生物学需要伦理和安全治理？">
+              <span class="label-en">Safety</span>
+              <span class="label-zh">安全治理</span>
+            </button>
           </div>
 
           <form class="ask-box" id="askForm">
-            <textarea id="questionInput" name="question" rows="2" placeholder="输入你的问题，例如：遗传开关为什么能记住状态？"></textarea>
-            <button type="submit" id="askButton" aria-label="发送问题">
-              <span>发送</span>
+            <textarea id="questionInput" name="question" rows="2" placeholder="Ask a question&#10;输入问题，例如：遗传开关为什么能记住状态？"></textarea>
+            <button type="submit" id="askButton" aria-label="Send question / 发送问题">
+              <span>
+                <span class="label-en">Send</span>
+                <span class="label-zh">发送</span>
+              </span>
             </button>
           </form>
         </section>

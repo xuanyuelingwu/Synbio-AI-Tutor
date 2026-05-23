@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-12",
+  "updated_at": "2026-05-23",
   "project_positioning": "Synthetic biology AI tutor for public science Q&A and delightful exploration. The knowledge base is curated from authoritative public sources and is designed for retrieval-augmented generation. Fine-tuning is recommended for tone and conversation patterns, not as the primary store of scientific facts.",
   "sources": [
     {
@@ -57,6 +57,62 @@
       "url": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/artificial-intelligence-machine-learning-and-genomics",
       "authority": "US national genomics institute educational resource",
       "notes": "AI/ML framing for genomics and computational biological data."
+    },
+    {
+      "id": "nibib-synbio",
+      "title": "Synthetic Biology",
+      "publisher": "National Institute of Biomedical Imaging and Bioengineering (NIBIB), NIH",
+      "url": "https://www.nibib.nih.gov/science-education/science-topics/synthetic-biology",
+      "authority": "NIH biomedical engineering science education resource",
+      "notes": "Definition, biological circuits, biomedical applications, living DNA sensors and NIH Synthetic Biology Consortium context."
+    },
+    {
+      "id": "nist-engineering-synbio",
+      "title": "Engineering / synthetic biology",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://www.nist.gov/engineering-synthetic-biology",
+      "authority": "US national measurement standards institute resource",
+      "notes": "Engineering biology, measurement science, biofoundries, standards, reproducibility and bioeconomy context."
+    },
+    {
+      "id": "nist-cell-free-systems",
+      "title": "Cell-free systems",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://www.nist.gov/cell-free-systems",
+      "authority": "US national measurement standards institute topic page",
+      "notes": "Cell-free systems as an engineering biology topic, with links to NIST publications and projects."
+    },
+    {
+      "id": "nist-protein-engineering",
+      "title": "Protein engineering",
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "url": "https://www.nist.gov/protein-engineering",
+      "authority": "US national measurement standards institute topic page",
+      "notes": "Protein engineering as a synthetic biology-adjacent engineering topic, emphasizing measurement and standards."
+    },
+    {
+      "id": "national-academies-biodefense-synbio",
+      "title": "Biodefense in the Age of Synthetic Biology",
+      "publisher": "National Academies of Sciences, Engineering, and Medicine",
+      "url": "https://www.nationalacademies.org/publications/24890",
+      "authority": "National Academies consensus study report",
+      "notes": "Framework for assessing security concerns and mitigation options related to advances in synthetic biology."
+    },
+    {
+      "id": "oecd-synbio-in-focus",
+      "title": "Synthetic biology in focus: Policy issues and opportunities in engineering life",
+      "publisher": "OECD Science, Technology and Industry Working Papers",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/02/synthetic-biology-in-focus_42893a6a/3e6510cf-en.pdf",
+      "authority": "OECD working paper on science, technology and innovation policy",
+      "notes": "Policy themes including trustworthiness, responsibility, transparency, stewardship, public good and responsiveness."
+    },
+    {
+      "id": "royal-society-synbio",
+      "title": "Synthetic biology",
+      "publisher": "The Royal Society",
+      "url": "https://royalsociety.org/news-resources/projects/synthetic-biology/",
+      "authority": "UK national academy science policy resource",
+      "notes": "Definition, applications, benefits, uncertainty and public dialogue context."
     }
   ],
   "documents": [
@@ -209,6 +265,96 @@
         "涉及病原体或潜在危害的内容必须遵循严格监管和风险审查。"
       ],
       "analogy": "如果测序是读一本生命之书，基因组合成就是学习如何排版、改写，甚至重做其中的章节。"
+    },
+    {
+      "id": "biomedical-synbio",
+      "title": "合成生物学在医学中的应用",
+      "topic": "应用案例",
+      "level": "beginner",
+      "source_ids": ["nibib-synbio", "nhgri-synbio", "royal-society-synbio"],
+      "keywords": ["医学", "生物医学", "药物", "治疗", "诊断", "living DNA sensors", "RNA", "therapy", "medicine"],
+      "summary": "合成生物学在医学中常被用于构建诊断、药物递送、细胞治疗和可编程生物系统等概念。权威科普材料常举出生物线路、活体 DNA 传感器、RNA 递送治疗蛋白等方向，强调它们的潜力，同时也提醒真实临床转化需要严格验证和监管。",
+      "facts": [
+        "NIBIB 将合成生物学描述为结合生物学、工程、遗传学、化学和计算科学的交叉领域。",
+        "生物线路可以调控细胞中的基因表达，让细胞执行特定任务。",
+        "医学应用通常需要经过安全性、有效性、可制造性和伦理审查，不应把早期研究直接等同于成熟疗法。"
+      ],
+      "analogy": "医学合成生物学像给细胞加一套更清晰的任务单：它可能帮助诊断或治疗，但每一条指令都必须先通过严谨的质量检查。"
+    },
+    {
+      "id": "measurement-standards-biofoundry",
+      "title": "测量、标准化和生物铸造厂",
+      "topic": "工程方法",
+      "level": "intermediate",
+      "source_ids": ["nist-engineering-synbio"],
+      "keywords": ["测量", "标准化", "生物铸造厂", "biofoundry", "reproducibility", "standards", "automation", "measurement"],
+      "summary": "工程化生命系统的一个难点是：细胞和生物过程会随时间、环境和测量方式变化。NIST 强调，可靠的测量、标准和自动化平台能帮助研究者更稳定地比较设计、评估结果，并推动可重复的生物制造。",
+      "facts": [
+        "NIST 将工程生物学描述为有意设计、制造和部署活细胞、细胞系统及其他生物过程。",
+        "生物系统不像静态材料那样容易测量，因此标准化和计量科学对合成生物学尤其重要。",
+        "自动化平台和生物铸造厂可以支持更系统的设计、测试、测量和筛选。"
+      ],
+      "analogy": "如果合成生物学像造桥，测量和标准就是尺子、水平仪和验收规范；没有它们，再漂亮的蓝图也很难可靠复现。"
+    },
+    {
+      "id": "cell-free-synthetic-biology",
+      "title": "细胞自由合成生物学",
+      "topic": "前沿话题",
+      "level": "intermediate",
+      "source_ids": ["nist-cell-free-systems", "nist-engineering-synbio"],
+      "keywords": ["细胞自由", "无细胞", "cell-free", "TX-TL", "原型验证", "体外系统", "prototyping"],
+      "summary": "细胞自由系统把部分生物反应从完整活细胞中拿出来，在更可控的体外环境中研究和原型验证。它常用于快速测试生物部件、理解反应网络或探索最小细胞等问题，但它不是绕开安全规范的捷径。",
+      "facts": [
+        "NIST 将 cell-free systems 列为工程/合成生物学的重要主题之一。",
+        "细胞自由系统可以降低完整细胞带来的部分复杂性，帮助研究者更快观察某些分子层面的输入输出关系。",
+        "从体外系统得到的结论仍需要谨慎外推到活细胞和真实应用场景。"
+      ],
+      "analogy": "细胞自由系统像把一台复杂机器的关键齿轮拿到透明工作台上观察：更容易看清局部机制，但不能忘记整台机器还有外壳、负载和环境。"
+    },
+    {
+      "id": "protein-engineering",
+      "title": "蛋白工程与合成生物学",
+      "topic": "工程方法",
+      "level": "intermediate",
+      "source_ids": ["nist-protein-engineering", "nist-engineering-synbio"],
+      "keywords": ["蛋白工程", "protein engineering", "酶", "功能", "结构", "设计", "测量"],
+      "summary": "蛋白工程关注如何理解和改造蛋白质的功能、稳定性、结合能力或催化能力。它与合成生物学密切相关，因为许多生物线路、传感器、代谢通路和细胞工厂最终都依赖蛋白质执行具体功能。",
+      "facts": [
+        "蛋白质常是细胞中执行催化、识别、结构支撑和信号传递的核心分子。",
+        "蛋白工程需要把设计想法、功能测量和结构理解结合起来。",
+        "在科普层面可以讨论设计原则和应用方向，但不应提供可直接执行的危险蛋白或毒素优化方案。"
+      ],
+      "analogy": "如果 DNA 像设计图，蛋白质就像真正上岗的工具和机器；蛋白工程是在理解工具原理后，谨慎调整它的形状和性能。"
+    },
+    {
+      "id": "biosecurity-risk-assessment",
+      "title": "合成生物学的生物安保风险评估",
+      "topic": "安全治理",
+      "level": "intermediate",
+      "source_ids": ["national-academies-biodefense-synbio", "who-responsible-life-sciences", "oecd-synbio-in-focus"],
+      "keywords": ["生物安保", "biosecurity", "风险评估", "双重用途", "biodefense", "misuse", "治理", "mitigation"],
+      "summary": "National Academies 将合成生物学视为主要服务于有益目标的领域，但也强调某些能力可能被误用，因此需要现实、分层、可更新的风险评估框架。风险治理的重点不是恐慌，而是识别哪些能力、情境和行为需要额外审查与缓释措施。",
+      "facts": [
+        "合成生物学的安全讨论应区分正常研究、双重用途风险和恶意误用场景。",
+        "权威报告强调用框架评估不同技术能力可能带来的安全关切，而不是把整个领域简单标签化。",
+        "缓释措施可包括培训、审查、责任文化、透明沟通和对高风险信息的谨慎处理。"
+      ],
+      "analogy": "生物安保像实验室和社会之间的防火门：它不是为了阻止所有探索，而是为了让有价值的探索在可控边界内发生。"
+    },
+    {
+      "id": "technology-stewardship-public-trust",
+      "title": "技术治理、公众信任与负责任创新",
+      "topic": "安全治理",
+      "level": "beginner",
+      "source_ids": ["oecd-synbio-in-focus", "royal-society-synbio", "who-responsible-life-sciences"],
+      "keywords": ["技术治理", "公众信任", "负责任创新", "stewardship", "trust", "transparency", "public dialogue", "policy"],
+      "summary": "合成生物学不只是技术问题，也涉及社会目标、公众沟通、透明度和责任分配。OECD 强调可信、责任、透明、技术 stewardship 和公共利益等价值；Royal Society 也指出这一领域潜力巨大，但治理和社会影响仍存在不确定性。",
+      "facts": [
+        "公众沟通应是双向的：不仅向公众解释技术，也让研究和政策听见社会需求与担忧。",
+        "过度承诺应用效果可能损害信任，尤其是在技术还处于早期或高度不确定时。",
+        "负责任创新要求研究者、机构、企业和监管者共同关注风险、收益、公平性和长期影响。"
+      ],
+      "analogy": "技术治理像给一艘快船配上航海图、气象预报和公共航道规则：速度重要，但方向、透明和责任同样重要。"
     }
   ],
   "safety_policy": {

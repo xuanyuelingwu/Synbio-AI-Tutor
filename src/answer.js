@@ -7,6 +7,47 @@ import { searchDocuments, uniqueSourcesForDocs } from "./retrieval.js";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
 
+function topEvidence(matches, limit = 6) {
+  const seen = new Set();
+  const evidence = [];
+
+  for (const match of matches) {
+    for (const item of match.evidence ?? []) {
+      if (seen.has(item.id)) continue;
+      seen.add(item.id);
+      evidence.push(item);
+      if (evidence.length >= limit) return evidence;
+    }
+  }
+
+  return evidence;
+}
+
+function sourceIndexMap(sources) {
+  return new Map(sources.map((source, index) => [source.id, index + 1]));
+}
+
+function sourceRefs(sourceIds = [], indexMap) {
+  return sourceIds
+    .map((id) => indexMap.get(id))
+    .filter(Boolean)
+    .map((index) => `[${index}]`)
+    .join(" ");
+}
+
+function publicEvidence(matches, limit = 6) {
+  return topEvidence(matches, limit).map((item) => ({
+    id: item.id,
+    doc_id: item.doc.id,
+    title: item.title,
+    topic: item.topic,
+    kind: item.kind,
+    text: item.text,
+    score: item.score,
+    source_ids: item.source_ids
+  }));
+}
+
 function buildFallbackAnswer(matches, sources) {
   if (matches.length === 0) {
     return [
@@ -19,22 +60,23 @@ function buildFallbackAnswer(matches, sources) {
   }
 
   const primary = matches[0].doc;
-  const supporting = matches.slice(1, 3).map(({ doc }) => doc);
-  const facts = [primary, ...supporting]
-    .flatMap((doc) => doc.facts ?? [])
-    .slice(0, 5)
-    .map((fact) => `- ${fact}`)
+  const indexMap = sourceIndexMap(sources);
+  const evidence = topEvidence(matches, 5)
+    .map((item) => {
+      const refs = sourceRefs(item.source_ids, indexMap);
+      return `- ${item.text}${refs ? ` ${refs}` : ""}`;
+    })
     .join("\n");
 
   const sourceLine = sources
     .slice(0, 3)
-    .map((source) => source.publisher)
+    .map((source, index) => `[${index + 1}] ${source.publisher}`)
     .join("、");
 
   return [
     `可以。围绕“${primary.title}”，最核心的理解是：${primary.summary}`,
     "",
-    facts ? `关键点：\n${facts}` : "",
+    evidence ? `当前知识库命中的证据：\n${evidence}` : "",
     "",
     `有趣一点说：${primary.analogy}`,
     "",
@@ -45,6 +87,7 @@ function buildFallbackAnswer(matches, sources) {
 }
 
 function sourceBlocks(sources) {
+  if (!sources.length) return "当前检索没有命中可引用来源。";
   return sources.map((source, index) => (
     `[${index + 1}] ${source.title} - ${source.publisher}\n${source.url}`
   )).join("\n\n");
@@ -65,11 +108,32 @@ function buildInstructions(kb) {
 }
 
 function buildContext(matches, sources) {
+  const indexMap = sourceIndexMap(sources);
+  const evidence = topEvidence(matches, 8).map((item, index) => {
+    const refs = sourceRefs(item.source_ids, indexMap) || "未匹配来源编号";
+    return [
+      `证据 ${index + 1}: ${item.title}`,
+      `主题: ${item.topic}`,
+      `类型: ${item.kind}`,
+      `内容: ${item.text}`,
+      `来源: ${refs}`
+    ].join("\n");
+  }).join("\n\n");
+
   const docs = matches.map(({ doc }, index) => (
     `资料 ${index + 1}: ${doc.title}\n主题: ${doc.topic}\n摘要: ${doc.summary}\n事实: ${(doc.facts ?? []).join("；")}\n类比: ${doc.analogy}\n来源ID: ${(doc.source_ids ?? []).join(", ")}`
   )).join("\n\n");
 
-  return `${docs}\n\n来源清单:\n${sourceBlocks(sources)}`;
+  return [
+    "优先依据这些证据片段回答，并在关键判断后使用来源编号。",
+    evidence || "没有命中证据片段。",
+    "",
+    "相关知识卡:",
+    docs || "无。",
+    "",
+    "来源清单:",
+    sourceBlocks(sources)
+  ].join("\n");
 }
 
 async function callDeepSeek({ question, kb, matches, sources }) {
@@ -132,7 +196,8 @@ export async function answerQuestion(kb, question) {
       mode: "safety_redirect",
       confidence: 0.8,
       matches: [],
-      sources: sources.length ? sources : kb.sources.filter((source) => source.id === "who-responsible-life-sciences")
+      sources: sources.length ? sources : kb.sources.filter((source) => source.id === "who-responsible-life-sciences"),
+      evidence: []
     };
   }
 
@@ -144,7 +209,8 @@ export async function answerQuestion(kb, question) {
         mode: "deepseek_rag",
         confidence: matches.length ? 0.86 : 0.45,
         matches: matches.map(({ doc, score }) => ({ id: doc.id, title: doc.title, topic: doc.topic, score })),
-        sources
+        sources,
+        evidence: publicEvidence(matches)
       };
     }
   } catch (error) {
@@ -156,6 +222,7 @@ export async function answerQuestion(kb, question) {
     mode: "local_rag_fallback",
     confidence: matches.length ? 0.72 : 0.35,
     matches: matches.map(({ doc, score }) => ({ id: doc.id, title: doc.title, topic: doc.topic, score })),
-    sources
+    sources,
+    evidence: publicEvidence(matches)
   };
 }

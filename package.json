@@ -10,6 +10,7 @@
     "ingest": "node scripts/ingest_sources.js",
     "check:prompt": "node scripts/check_deepseek_prompt.js",
     "check:frontend": "node scripts/check_frontend_render.js",
+    "eval:retrieval": "node scripts/evaluate_retrieval.js",
     "verify:deepseek": "node scripts/verify_deepseek_api.js",
     "test": "node scripts/smoke_test.js"
   },

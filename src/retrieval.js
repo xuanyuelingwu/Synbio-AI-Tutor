@@ -3,7 +3,8 @@ import fs from "node:fs";
 const CJK_RANGE = /[\u3400-\u9fff]/;
 const STOP_WORDS = new Set([
   "the", "and", "for", "with", "what", "why", "how", "are", "is", "to", "of",
-  "a", "an", "in", "on", "吗", "呢", "的", "了", "和", "与", "及", "请", "什么"
+  "a", "an", "in", "on", "吗", "呢", "的", "了", "和", "与", "及", "请", "什么",
+  "一个", "一下", "可以", "为什么", "怎么", "如何"
 ]);
 
 export function loadKnowledgeBase(filePath) {
@@ -27,31 +28,141 @@ export function tokenize(input = "") {
 }
 
 export function searchDocuments(kb, query, limit = 4) {
+  const evidence = searchEvidence(kb, query, limit * 3);
+  const docsById = new Map();
+
+  for (const item of evidence) {
+    const current = docsById.get(item.doc.id);
+    if (!current) {
+      docsById.set(item.doc.id, {
+        doc: item.doc,
+        score: item.score,
+        evidence: [item]
+      });
+      continue;
+    }
+
+    current.score += item.score * 0.55;
+    if (current.evidence.length < 3) current.evidence.push(item);
+  }
+
+  return [...docsById.values()]
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit);
+}
+
+export function buildEvidenceChunks(kb) {
+  return kb.documents.flatMap((doc) => {
+    const common = {
+      doc,
+      doc_id: doc.id,
+      title: doc.title,
+      topic: doc.topic,
+      level: doc.level,
+      source_ids: doc.source_ids ?? [],
+      keywords: doc.keywords ?? []
+    };
+
+    const chunks = [
+      {
+        ...common,
+        id: `${doc.id}:summary`,
+        kind: "summary",
+        text: doc.summary,
+        weight: 1.35
+      },
+      ...(doc.facts ?? []).map((fact, index) => ({
+        ...common,
+        id: `${doc.id}:fact:${index + 1}`,
+        kind: "fact",
+        text: fact,
+        weight: 1.2
+      })),
+      {
+        ...common,
+        id: `${doc.id}:analogy`,
+        kind: "analogy",
+        text: doc.analogy,
+        weight: 0.75
+      }
+    ];
+
+    return chunks
+      .filter((chunk) => chunk.text)
+      .map((chunk) => ({
+        ...chunk,
+        tokens: tokenize([
+          chunk.title,
+          chunk.topic,
+          chunk.text,
+          ...(chunk.keywords ?? [])
+        ].join(" "))
+      }));
+  });
+}
+
+export function searchEvidence(kb, query, limit = 8) {
   const queryTokens = tokenize(query);
+  if (queryTokens.length === 0) return [];
+
   const querySet = new Set(queryTokens);
+  const chunks = buildEvidenceChunks(kb);
+  const avgLength = chunks.reduce((sum, chunk) => sum + chunk.tokens.length, 0) / Math.max(1, chunks.length);
+  const documentFrequency = new Map();
 
-  const scored = kb.documents.map((doc) => {
-    const haystack = [
-      doc.title,
-      doc.topic,
-      doc.level,
-      doc.summary,
-      doc.analogy,
-      ...(doc.keywords ?? []),
-      ...(doc.facts ?? [])
-    ].join(" ");
-    const docTokens = tokenize(haystack);
+  for (const chunk of chunks) {
+    const unique = new Set(chunk.tokens);
+    for (const token of unique) {
+      documentFrequency.set(token, (documentFrequency.get(token) ?? 0) + 1);
+    }
+  }
+
+  const lowerQuery = query.toLowerCase();
+  const scored = chunks.map((chunk) => {
+    const frequencies = new Map();
+    for (const token of chunk.tokens) {
+      frequencies.set(token, (frequencies.get(token) ?? 0) + 1);
+    }
+
+    const matchedTokens = new Set();
     let score = 0;
+    const k1 = 1.35;
+    const b = 0.72;
 
-    for (const token of docTokens) {
-      if (querySet.has(token)) score += token.length > 2 ? 2 : 1;
+    for (const token of querySet) {
+      const frequency = frequencies.get(token) ?? 0;
+      if (!frequency) continue;
+
+      const df = documentFrequency.get(token) ?? 0;
+      const idf = Math.log(1 + (chunks.length - df + 0.5) / (df + 0.5));
+      const lengthPenalty = k1 * (1 - b + b * (chunk.tokens.length / Math.max(1, avgLength)));
+      score += idf * ((frequency * (k1 + 1)) / (frequency + lengthPenalty));
+      matchedTokens.add(token);
     }
 
-    for (const keyword of doc.keywords ?? []) {
-      if (query.toLowerCase().includes(keyword.toLowerCase())) score += 5;
+    for (const keyword of chunk.keywords ?? []) {
+      if (keyword && lowerQuery.includes(keyword.toLowerCase())) {
+        score += 3.5;
+        for (const token of tokenize(keyword)) matchedTokens.add(token);
+      }
     }
 
-    return { doc, score };
+    if (lowerQuery.includes(chunk.title.toLowerCase())) score += 4;
+    if (lowerQuery.includes(chunk.topic.toLowerCase())) score += 2;
+    score += (matchedTokens.size / Math.max(1, querySet.size)) * 2.25;
+    score *= chunk.weight;
+
+    return {
+      id: chunk.id,
+      kind: chunk.kind,
+      doc: chunk.doc,
+      title: chunk.title,
+      topic: chunk.topic,
+      text: chunk.text,
+      source_ids: chunk.source_ids,
+      score: Number(score.toFixed(4)),
+      matched_tokens: [...matchedTokens].slice(0, 12)
+    };
   });
 
   return scored
@@ -67,8 +178,11 @@ export function hydrateSources(kb, sourceIds = []) {
 
 export function uniqueSourcesForDocs(kb, docs) {
   const ids = new Set();
-  for (const { doc } of docs) {
+  for (const { doc, evidence = [] } of docs) {
     for (const id of doc.source_ids ?? []) ids.add(id);
+    for (const item of evidence) {
+      for (const id of item.source_ids ?? []) ids.add(id);
+    }
   }
   return hydrateSources(kb, [...ids]);
 }

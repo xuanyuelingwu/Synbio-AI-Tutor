@@ -1,17 +1,29 @@
-const RISK_PATTERNS = [
-  /病原|病毒|细菌.*增强|增强.*毒力|毒力|传染性|传播性/,
-  /毒素|生物武器|致病|耐药|逃逸免疫|免疫逃逸/,
-  /具体.*(步骤|参数|流程|protocol|培养|转染|转化|发酵)/i,
-  /(合成|构建|设计).*(病毒|病原体|毒素|耐药|释放)/,
-  /(规避|绕过).*(监管|审查|筛查|检测)/,
-  /(序列|引物|质粒|载体).*(优化|设计|给出|生成)/
+const DIRECT_RISK_PATTERNS = [
+  /增强.*(毒力|致病|传染性|传播性|耐药|免疫逃逸)/,
+  /(毒力|致病|传染性|传播性|耐药|免疫逃逸).*增强/,
+  /生物武器|武器化|毒素生产|病原体释放/,
+  /(规避|绕过|逃避).*(监管|审查|筛查|检测|追踪)/,
+  /(合成|构建|设计|优化|改造).*(病毒|病原体|毒素|耐药|免疫逃逸|传播)/
+];
+
+const OPERATIONAL_PATTERNS = [
+  /具体.*(步骤|参数|流程|protocol|方案|条件)/i,
+  /(培养|转染|转化|发酵|筛选|纯化|表达|扩增).*(步骤|参数|条件|流程|protocol)/i,
+  /(序列|引物|质粒|载体|基因线路).*(优化|设计|给出|生成|构建|改造)/,
+  /(帮我|请).*(设计|生成|优化).*(序列|引物|质粒|载体|病毒|毒素|病原体)/
+];
+
+const RISK_OBJECT_PATTERNS = [
+  /病毒|病原体|毒素|致病菌|耐药|传播性|传染性|免疫逃逸|环境释放/
 ];
 
 export function assessSafety(question) {
   const normalized = question.trim();
-  const matched = RISK_PATTERNS.find((pattern) => pattern.test(normalized));
+  const direct = DIRECT_RISK_PATTERNS.find((pattern) => pattern.test(normalized));
+  const operational = OPERATIONAL_PATTERNS.find((pattern) => pattern.test(normalized));
+  const riskyObject = RISK_OBJECT_PATTERNS.find((pattern) => pattern.test(normalized));
 
-  if (!matched) {
+  if (!direct && !(operational && riskyObject)) {
     return { allowed: true, reason: null };
   }
 

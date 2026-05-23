@@ -10,6 +10,19 @@
 - 微调更适合训练语气、讲解节奏、类比风格和拒答方式。
 - 涉及生物安全、伦理或真实实验的问题，会转向安全的概念层面。
 
+## 当前升级版能力
+
+这个版本已经从“整张知识卡关键词匹配”升级为“证据片段级 RAG”：
+
+- 检索会把每张知识卡拆成摘要、事实、类比等证据片段，并用 BM25 风格评分、关键词加权和覆盖度加权排序。
+- `/api/ask` 会返回 `evidence` 字段，前端可展开查看命中的证据片段、主题、类型和分数。
+- DeepSeek 回答上下文会优先提供证据片段和来源编号，减少模型凭空发挥。
+- 本地 fallback 回答也会列出命中的证据片段和来源编号。
+- 安全边界从单纯关键词拦截改成“直接高风险意图”或“可操作请求 + 风险对象”的组合判断，普通概念科普问题更少被误拦。
+- 新增 `npm run eval:retrieval`，用于检查核心问题的 top-1 / top-3 检索命中率和安全边界样例。
+
+注意：`data/fine_tune_style_examples.jsonl` 目前仍是风格微调样例，不是已经完成的模型微调训练链路。现阶段事实准确性主要依赖 RAG，而不是把知识直接微调进模型。
+
 ## 权威知识源
 
 当前知识库整理自：
@@ -28,6 +41,20 @@
   https://www.who.int/publications-detail-redirect/9789240056107/
 - NHGRI/NIH: Artificial Intelligence, Machine Learning and Genomics  
   https://www.genome.gov/about-genomics/educational-resources/fact-sheets/artificial-intelligence-machine-learning-and-genomics
+- NIBIB/NIH: Synthetic Biology  
+  https://www.nibib.nih.gov/science-education/science-topics/synthetic-biology
+- NIST: Engineering / synthetic biology  
+  https://www.nist.gov/engineering-synthetic-biology
+- NIST: Cell-free systems  
+  https://www.nist.gov/cell-free-systems
+- NIST: Protein engineering  
+  https://www.nist.gov/protein-engineering
+- National Academies: Biodefense in the Age of Synthetic Biology  
+  https://www.nationalacademies.org/publications/24890
+- OECD: Synthetic biology in focus  
+  https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/02/synthetic-biology-in-focus_42893a6a/3e6510cf-en.pdf
+- The Royal Society: Synthetic biology  
+  https://royalsociety.org/news-resources/projects/synthetic-biology/
 
 ## 运行
 
@@ -98,6 +125,7 @@ scripts/check_deepseek_prompt.js  DeepSeek 请求体和前置提示词检查
 scripts/verify_deepseek_api.js    DeepSeek API Key 与模型直连验证
 scripts/verify_app_deepseek.ps1   完整应用链路验证
 scripts/smoke_test.js             基础冒烟测试
+scripts/evaluate_retrieval.js     检索与安全边界评估
 scripts/start_server.ps1          Windows 启动脚本
 ```
 
@@ -118,12 +146,39 @@ POST /api/ask
 }
 ```
 
+返回中除了 `answer`、`mode`、`confidence`、`matches`、`sources`，还包含：
+
+```json
+{
+  "evidence": [
+    {
+      "id": "synbio-vs-editing:summary",
+      "title": "合成生物学和基因编辑的区别",
+      "topic": "基础概念",
+      "kind": "summary",
+      "text": "命中的知识库证据片段",
+      "score": 12.34
+    }
+  ]
+}
+```
+
+## 验证
+
+```powershell
+npm test
+npm run check:frontend
+npm run check:prompt
+npm run eval:retrieval
+```
+
 ## 后续可扩展方向
 
 - 增加中文权威教材、综述和政策文件，经人工审校后进入知识库。
 - 把 `data/raw_sources` 接入向量数据库，替换当前关键词检索。
 - 为不同年龄层增加回答风格：小学生、大学通识、科研入门。
 - 增加教师后台：来源审校、知识卡版本管理、风险问题记录。
+- 增加离线 embedding 索引、reranker、引用到原文段落的证据定位和人工审校工作流。
 
 ## GitHub 同步注意
 

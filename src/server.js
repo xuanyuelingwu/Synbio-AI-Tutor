@@ -99,6 +99,21 @@ const server = http.createServer(async (req, res) => {
       return;
     }
 
+    if (req.method === "GET" && url.pathname.startsWith("/api/documents/")) {
+      const id = decodeURIComponent(url.pathname.replace("/api/documents/", ""));
+      const document = kb.documents.find((doc) => doc.id === id);
+
+      if (!document) {
+        sendJson(res, 404, { error: "Document not found" });
+        return;
+      }
+
+      const sourceIds = new Set(document.source_ids ?? []);
+      const sources = kb.sources.filter((source) => sourceIds.has(source.id));
+      sendJson(res, 200, { document, sources });
+      return;
+    }
+
     if (req.method === "POST" && url.pathname === "/api/ask") {
       const body = await parseJson(req);
       const question = String(body.question ?? "").trim();
