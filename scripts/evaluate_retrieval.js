@@ -13,6 +13,10 @@ const documentIds = new Set(kb.documents.map((doc) => doc.id));
 const localSourceIds = new Set(kb.sources.filter((source) => source.source_tier === "local_textbook_reference").map((source) => source.id));
 
 assert.equal(kb.learning_path?.length, 10, "learning path should contain 10 modules");
+assert.ok((kb.textbook_evidence ?? []).length >= 900, "textbook evidence should include broad citation-level coverage");
+assert.ok((kb.textbook_evidence ?? []).some((item) => item.source_id === "local-meyers-synbio-textbook"), "Meyers textbook evidence should be indexed");
+assert.ok((kb.textbook_evidence ?? []).some((item) => item.source_id === "local-braman-synbio-methods"), "Braman textbook evidence should be indexed");
+assert.ok((kb.textbook_evidence ?? []).some((item) => item.evidence_scope === "locator_only_operational_content_excluded"), "operational textbook sections should be locator-only");
 for (const doc of kb.documents) {
   assert.ok(moduleIds.has(doc.module_id), `${doc.id} should reference a learning module`);
   assert.ok(doc.learning_objectives?.length >= 1, `${doc.id} should have learning objectives`);
@@ -165,6 +169,10 @@ const contextRows = contextCases.map((item) => {
     freeTop: free[0]?.doc.id
   };
 });
+
+const textbookHits = searchEvidence(kb, "TXTL cell-free regulatory elements Braman textbook", 10);
+assert.ok(textbookHits.some((hit) => hit.citation?.source_id === "local-braman-synbio-methods"), "textbook-aware query should return Braman citation evidence");
+assert.ok(textbookHits.some((hit) => hit.citation?.page_start), "textbook evidence should include page references");
 
 console.table(rows);
 console.table(safetyRows);

@@ -16,11 +16,12 @@ function topEvidence(matches, limit = 6) {
       if (seen.has(item.id)) continue;
       seen.add(item.id);
       evidence.push(item);
-      if (evidence.length >= limit) return evidence;
     }
   }
 
-  return evidence;
+  return evidence
+    .sort((a, b) => (b.score ?? 0) - (a.score ?? 0))
+    .slice(0, limit);
 }
 
 function sourceIndexMap(sources) {
@@ -55,6 +56,7 @@ function publicEvidence(matches, limit = 6) {
     base_score: item.base_score,
     boosted_score: item.boosted_score,
     boost_reason: item.boost_reason,
+    citation: item.citation,
     source_ids: item.source_ids
   }));
 }
@@ -77,7 +79,10 @@ function buildFallbackAnswer(matches, sources) {
   const evidence = topEvidence(matches, 5)
     .map((item) => {
       const refs = sourceRefs(item.source_ids, indexMap);
-      return `- ${item.text}${refs ? ` ${refs}` : ""}`;
+      const citation = item.citation
+        ? ` (${item.citation.author}, ${item.citation.book_title}, pp. ${item.citation.page_start}-${item.citation.page_end})`
+        : "";
+      return `- ${item.text}${citation}${refs ? ` ${refs}` : ""}`;
     })
     .join("\n");
 
@@ -130,9 +135,12 @@ function buildContext(matches, sources, options = {}) {
       `学习模块: ${item.module_id ?? "未标注"}`,
       `类型: ${item.kind}`,
       `内容: ${item.text}`,
+      item.citation
+        ? `教材定位: ${item.citation.author}, ${item.citation.book_title}, pp. ${item.citation.page_start}-${item.citation.page_end}; section: ${item.citation.section}; scope: ${item.citation.evidence_scope}`
+        : "",
       `检索加权: ${item.boost_reason ?? "none"}`,
       `来源: ${refs}`
-    ].join("\n");
+    ].filter(Boolean).join("\n");
   }).join("\n\n");
 
   const docs = matches.map(({ doc }, index) => (

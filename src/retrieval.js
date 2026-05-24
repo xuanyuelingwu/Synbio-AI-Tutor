@@ -87,7 +87,10 @@ export function searchDocuments(kb, query, limit = 4, options = {}) {
     }
 
     current.score += item.score * 0.55;
-    if (current.evidence.length < 3) current.evidence.push(item);
+    const hasCitationEvidence = current.evidence.some((evidenceItem) => evidenceItem.citation);
+    if (current.evidence.length < 3 || (item.citation && !hasCitationEvidence && current.evidence.length < 4)) {
+      current.evidence.push(item);
+    }
   }
 
   return [...docsById.values()]
@@ -96,7 +99,8 @@ export function searchDocuments(kb, query, limit = 4, options = {}) {
 }
 
 export function buildEvidenceChunks(kb) {
-  return kb.documents.flatMap((doc) => {
+  const documentMap = new Map(kb.documents.map((doc) => [doc.id, doc]));
+  const documentChunks = kb.documents.flatMap((doc) => {
     const common = {
       doc,
       doc_id: doc.id,
@@ -145,6 +149,61 @@ export function buildEvidenceChunks(kb) {
         ].join(" "))
       }));
   });
+
+  const textbookChunks = (kb.textbook_evidence ?? []).map((item) => {
+    const docId = item.document_ids?.find((id) => documentMap.has(id)) ?? item.document_ids?.[0];
+    const doc = documentMap.get(docId) ?? {
+      id: docId ?? item.id,
+      title: item.title,
+      topic: item.module_ids?.[0] ?? "Textbook Reference",
+      level: "beginner",
+      module_id: item.module_ids?.[0],
+      source_ids: [item.source_id],
+      keywords: item.keywords ?? []
+    };
+    const moduleId = item.module_ids?.[0] ?? doc.module_id;
+    const isLocatorOnly = item.evidence_scope === "locator_only_operational_content_excluded";
+
+    const chunk = {
+      doc,
+      doc_id: doc.id,
+      title: item.title,
+      topic: doc.topic,
+      level: doc.level,
+      module_id: moduleId,
+      order: doc.order,
+      source_ids: [item.source_id],
+      keywords: item.keywords ?? [],
+      id: `${item.id}:textbook`,
+      kind: isLocatorOnly ? "textbook_locator" : "textbook_reference",
+      text: item.teaching_summary,
+      weight: isLocatorOnly ? 0.14 : 0.74,
+      citation: {
+        source_id: item.source_id,
+        book_title: item.book_title,
+        author: item.author,
+        section: item.title,
+        page_start: item.page_start,
+        page_end: item.page_end,
+        evidence_scope: item.evidence_scope
+      }
+    };
+
+    return {
+      ...chunk,
+      tokens: tokenize([
+        chunk.title,
+        chunk.topic,
+        item.section_path?.join(" "),
+        chunk.text,
+        item.book_title,
+        item.author,
+        ...(chunk.keywords ?? [])
+      ].join(" "))
+    };
+  });
+
+  return [...documentChunks, ...textbookChunks];
 }
 
 export function searchEvidence(kb, query, limit = 8, options = {}) {
@@ -195,6 +254,12 @@ export function searchEvidence(kb, query, limit = 8, options = {}) {
 
     if (lowerQuery.includes(chunk.title.toLowerCase())) score += 4;
     if (lowerQuery.includes(chunk.topic.toLowerCase())) score += 2;
+    if (chunk.citation) {
+      const author = String(chunk.citation.author ?? "").toLowerCase();
+      const authorLastName = author.split(/\s+/).filter(Boolean).at(-1) ?? "";
+      if (lowerQuery.includes("textbook") || lowerQuery.includes("教材") || lowerQuery.includes("课本")) score += 18;
+      if (authorLastName && lowerQuery.includes(authorLastName)) score += 55;
+    }
     score += (matchedTokens.size / Math.max(1, querySet.size)) * 2.25;
     score *= chunk.weight;
     score += contextualPrior(query, chunk, options);
@@ -209,6 +274,7 @@ export function searchEvidence(kb, query, limit = 8, options = {}) {
       topic: chunk.topic,
       module_id: chunk.module_id,
       text: chunk.text,
+      citation: chunk.citation,
       source_ids: chunk.source_ids,
       score: Number(boostedScore.toFixed(4)),
       base_score: Number(baseScore.toFixed(4)),

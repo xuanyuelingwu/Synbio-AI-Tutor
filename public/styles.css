@@ -568,6 +568,16 @@ h1 {
   color: var(--quiet);
 }
 
+.citation-meta {
+  display: block;
+  margin-top: 7px;
+  padding-left: 9px;
+  border-left: 2px solid rgba(47, 111, 143, 0.22);
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.45;
+}
+
 .prompt-row {
   display: flex;
   gap: 8px;

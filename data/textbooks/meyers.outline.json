@@ -1,0 +1,5319 @@
+{
+  "source_id": "local-meyers-synbio-textbook",
+  "book_title": "Synthetic Biology",
+  "author": "Robert A. Meyers",
+  "pages": 755,
+  "outline": [
+    {
+      "depth": 0,
+      "title": "Volume 1",
+      "page": 13,
+      "section_path": [
+        "Volume 1"
+      ]
+    },
+    {
+      "depth": 1,
+      "title": "Chapter 1 Synthetic Biology: Implications and Uses",
+      "page": 13,
+      "section_path": [
+        "Volume 1",
+        "Chapter 1 Synthetic Biology: Implications and Uses"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "1 Introduction",
+      "page": 14,
+      "section_path": [
+        "Volume 1",
+        "Chapter 1 Synthetic Biology: Implications and Uses",
+        "1 Introduction"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "2 DNA Assembly and Modification",
+      "page": 17,
+      "section_path": [
+        "Volume 1",
+        "Chapter 1 Synthetic Biology: Implications and Uses",
+        "2 DNA Assembly and Modification"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "3 Modular Parts and Circuits",
+      "page": 27,
+      "section_path": [
+        "Volume 1",
+        "Chapter 1 Synthetic Biology: Implications and Uses",
+        "3 Modular Parts and Circuits"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "4 Spatial Regulation",
+      "page": 30,
+      "section_path": [
+        "Volume 1",
+        "Chapter 1 Synthetic Biology: Implications and Uses",
+        "4 Spatial Regulation"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "4.1 Co-Localization",
+      "page": 31,
+      "section_path": [
+        "Volume 1",
+        "Chapter 1 Synthetic Biology: Implications and Uses",
+        "4 Spatial Regulation",
+        "4.1 Co-Localization"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "4.2 Compartmentalization",
+      "page": 32,
+      "section_path": [
+        "Volume 1",
+        "Chapter 1 Synthetic Biology: Implications and Uses",
+        "4 Spatial Regulation",
+        "4.2 Compartmentalization"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "5 The Synthetic Cell",
+      "page": 33,
+      "section_path": [
+        "Volume 1",
+        "Chapter 1 Synthetic Biology: Implications and Uses",
+        "5 The Synthetic Cell"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "6 Societal Challenges Posed by Synthetic Biology",
+      "page": 35,
+      "section_path": [
+        "Volume 1",
+        "Chapter 1 Synthetic Biology: Implications and Uses",
+        "6 Societal Challenges Posed by Synthetic Biology"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "7 Concluding Remarks",
+      "page": 37,
+      "section_path": [
+        "Volume 1",
+        "Chapter 1 Synthetic Biology: Implications and Uses",
+        "7 Concluding Remarks"
+      ]
+    },
+    {
+      "depth": 1,
+      "title": "Part I Biological Basis",
+      "page": 45,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "Chapter 2 The Emergence of the First Cells",
+      "page": 47,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 2 The Emergence of the First Cells"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "1 Introduction",
+      "page": 49,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 2 The Emergence of the First Cells",
+        "1 Introduction"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "2 Origin of Prebiotic Metabolism and Compartments",
+      "page": 50,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 2 The Emergence of the First Cells",
+        "2 Origin of Prebiotic Metabolism and Compartments"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.1 ComparativeGenomics as aWay to Propose a Scenario for the Origins",
+      "page": 50,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 2 The Emergence of the First Cells",
+        "2 Origin of Prebiotic Metabolism and Compartments",
+        "2.1 ComparativeGenomics as aWay to Propose a Scenario for the Origins"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.2 Surface Chemistry",
+      "page": 53,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 2 The Emergence of the First Cells",
+        "2 Origin of Prebiotic Metabolism and Compartments",
+        "2.2 Surface Chemistry"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.3 The Origin of Nucleotides and the RNA-Metabolism World",
+      "page": 55,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 2 The Emergence of the First Cells",
+        "2 Origin of Prebiotic Metabolism and Compartments",
+        "2.3 The Origin of Nucleotides and the RNA-Metabolism World"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.4 From Substrates to Templates: the RNA-Genome World",
+      "page": 58,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 2 The Emergence of the First Cells",
+        "2 Origin of Prebiotic Metabolism and Compartments",
+        "2.4 From Substrates to Templates: the RNA-Genome World"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "3 Origin of Extant Cells",
+      "page": 60,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 2 The Emergence of the First Cells",
+        "3 Origin of Extant Cells"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.1 Origin of the Archaea",
+      "page": 61,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 2 The Emergence of the First Cells",
+        "3 Origin of Extant Cells",
+        "3.1 Origin of the Archaea"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.2 Origin of the Bacteria",
+      "page": 62,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 2 The Emergence of the First Cells",
+        "3 Origin of Extant Cells",
+        "3.2 Origin of the Bacteria"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.3 From Protokarya to Eukarya",
+      "page": 63,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 2 The Emergence of the First Cells",
+        "3 Origin of Extant Cells",
+        "3.3 From Protokarya to Eukarya"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.4 Between Domains: the Perpetuation of Horizontal Gene Transfer",
+      "page": 64,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 2 The Emergence of the First Cells",
+        "3 Origin of Extant Cells",
+        "3.4 Between Domains: the Perpetuation of Horizontal Gene Transfer"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "4 Conclusion",
+      "page": 66,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 2 The Emergence of the First Cells",
+        "4 Conclusion"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "Chapter 3 Regulation of Gene Expression",
+      "page": 73,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "1 Introduction",
+      "page": 79,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "1 Introduction"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "2 Regulation of Gene Expression in Prokaryotes",
+      "page": 80,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "2 Regulation of Gene Expression in Prokaryotes"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.1 Induction and Repression",
+      "page": 80,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "2 Regulation of Gene Expression in Prokaryotes",
+        "2.1 Induction and Repression"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.2 The Operon",
+      "page": 81,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "2 Regulation of Gene Expression in Prokaryotes",
+        "2.2 The Operon"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "2.2.1 The Lactose Operon (lac Operon)",
+      "page": 82,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "2 Regulation of Gene Expression in Prokaryotes",
+        "2.2 The Operon",
+        "2.2.1 The Lactose Operon (lac Operon)"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "2.2.2 The Histidine Operon",
+      "page": 87,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "2 Regulation of Gene Expression in Prokaryotes",
+        "2.2 The Operon",
+        "2.2.2 The Histidine Operon"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "2.2.3 The Tryptophan Operon",
+      "page": 87,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "2 Regulation of Gene Expression in Prokaryotes",
+        "2.2 The Operon",
+        "2.2.3 The Tryptophan Operon"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "2.2.4 The Arabinose Operon (ara Operon)",
+      "page": 90,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "2 Regulation of Gene Expression in Prokaryotes",
+        "2.2 The Operon",
+        "2.2.4 The Arabinose Operon (ara Operon)"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.3 Positive and Negative Control",
+      "page": 91,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "2 Regulation of Gene Expression in Prokaryotes",
+        "2.3 Positive and Negative Control"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.4 Attenuation: The Leader Sequence",
+      "page": 91,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "2 Regulation of Gene Expression in Prokaryotes",
+        "2.4 Attenuation: The Leader Sequence"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.5 Catabolite Repression",
+      "page": 93,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "2 Regulation of Gene Expression in Prokaryotes",
+        "2.5 Catabolite Repression"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.6 Cyclic AMP Receptor Protein",
+      "page": 94,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "2 Regulation of Gene Expression in Prokaryotes",
+        "2.6 Cyclic AMP Receptor Protein"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.7 Guanosine-5'-Diphosphate,3'-Diphosphate",
+      "page": 97,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "2 Regulation of Gene Expression in Prokaryotes",
+        "2.7 Guanosine-5'-Diphosphate,3'-Diphosphate"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.8 Riboswitch",
+      "page": 97,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "2 Regulation of Gene Expression in Prokaryotes",
+        "2.8 Riboswitch"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.9 Regulon",
+      "page": 97,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "2 Regulation of Gene Expression in Prokaryotes",
+        "2.9 Regulon"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "3 Regulation of Gene Expression in Eukaryotes",
+      "page": 99,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "3 Regulation of Gene Expression in Eukaryotes"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.1 Transcriptionally Active Chromatin",
+      "page": 104,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "3 Regulation of Gene Expression in Eukaryotes",
+        "3.1 Transcriptionally Active Chromatin"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.2 Regulation of Gene Expression at the Initiation of Transcription",
+      "page": 105,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "3 Regulation of Gene Expression in Eukaryotes",
+        "3.2 Regulation of Gene Expression at the Initiation of Transcription"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.3 Regulation of Gene Expression in Chloroplasts",
+      "page": 108,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "3 Regulation of Gene Expression in Eukaryotes",
+        "3.3 Regulation of Gene Expression in Chloroplasts"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.4 Regulation of Gene Expression in Mitochondria",
+      "page": 109,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "3 Regulation of Gene Expression in Eukaryotes",
+        "3.4 Regulation of Gene Expression in Mitochondria"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "4 RNA Splicing",
+      "page": 110,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "4 RNA Splicing"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.1 Nuclear Splicing",
+      "page": 111,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "4 RNA Splicing",
+        "4.1 Nuclear Splicing"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.2 Splicing Pathways",
+      "page": 113,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "4 RNA Splicing",
+        "4.2 Splicing Pathways"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "4.2.1 Spliceosomal Introns",
+      "page": 113,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "4 RNA Splicing",
+        "4.2 Splicing Pathways",
+        "4.2.1 Spliceosomal Introns"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "4.2.2 Spliceosome Formation and Activity",
+      "page": 114,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "4 RNA Splicing",
+        "4.2 Splicing Pathways",
+        "4.2.2 Spliceosome Formation and Activity"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "4.2.3 Self-Splicing",
+      "page": 114,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "4 RNA Splicing",
+        "4.2 Splicing Pathways",
+        "4.2.3 Self-Splicing"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "4.2.4 tRNA Splicing",
+      "page": 116,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "4 RNA Splicing",
+        "4.2 Splicing Pathways",
+        "4.2.4 tRNA Splicing"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.3 cis- and trans-Splicing Reactions",
+      "page": 118,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "4 RNA Splicing",
+        "4.3 cis- and trans-Splicing Reactions"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.4 Alternate Splicing",
+      "page": 118,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "4 RNA Splicing",
+        "4.4 Alternate Splicing"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "5 Role of microRNAs (miRNAs) in the Regulation of Gene Expression",
+      "page": 120,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "5 Role of microRNAs (miRNAs) in the Regulation of Gene Expression"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "6 Chromatin Structure and the Control of Gene Expression",
+      "page": 121,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "6 Chromatin Structure and the Control of Gene Expression"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "7 Epigenetic Control of Gene Expression",
+      "page": 123,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "7 Epigenetic Control of Gene Expression"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "8 Gene Regulation by Hormonal Action",
+      "page": 124,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "8 Gene Regulation by Hormonal Action"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "9 Post-Transcriptional Regulation of mRNA",
+      "page": 125,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "9 Post-Transcriptional Regulation of mRNA"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "10 Transport of Processed mRNA to the Cytoplasm",
+      "page": 126,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "10 Transport of Processed mRNA to the Cytoplasm"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "11 Regulation of Gene Expression at the Level of Translation",
+      "page": 127,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 3 Regulation of Gene Expression",
+        "11 Regulation of Gene Expression at the Level of Translation"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "Chapter 4 Interactome",
+      "page": 133,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 4 Interactome"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "1 Introduction",
+      "page": 135,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 4 Interactome",
+        "1 Introduction"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "2 Experimental Techniques for Detecting Protein Interactions",
+      "page": 136,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 4 Interactome",
+        "2 Experimental Techniques for Detecting Protein Interactions"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "3 Computational Prediction of Protein Interactions",
+      "page": 137,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 4 Interactome",
+        "3 Computational Prediction of Protein Interactions"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.1 Interaction Prediction from the Gene Patterns Across Genomes",
+      "page": 138,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 4 Interactome",
+        "3 Computational Prediction of Protein Interactions",
+        "3.1 Interaction Prediction from the Gene Patterns Across Genomes"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.1.1 Gene Fusion",
+      "page": 138,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 4 Interactome",
+        "3 Computational Prediction of Protein Interactions",
+        "3.1 Interaction Prediction from the Gene Patterns Across Genomes",
+        "3.1.1 Gene Fusion"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.1.2 Gene Order",
+      "page": 138,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 4 Interactome",
+        "3 Computational Prediction of Protein Interactions",
+        "3.1 Interaction Prediction from the Gene Patterns Across Genomes",
+        "3.1.2 Gene Order"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.1.3 Phylogenetic Profiling",
+      "page": 138,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 4 Interactome",
+        "3 Computational Prediction of Protein Interactions",
+        "3.1 Interaction Prediction from the Gene Patterns Across Genomes",
+        "3.1.3 Phylogenetic Profiling"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.2 Predicting Interaction from Sequence Coevolution",
+      "page": 139,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 4 Interactome",
+        "3 Computational Prediction of Protein Interactions",
+        "3.2 Predicting Interaction from Sequence Coevolution"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.3 Domain Interactions",
+      "page": 141,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 4 Interactome",
+        "3 Computational Prediction of Protein Interactions",
+        "3.3 Domain Interactions"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.4 Coexpression Networks",
+      "page": 143,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 4 Interactome",
+        "3 Computational Prediction of Protein Interactions",
+        "3.4 Coexpression Networks"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "4 Exploring the Topology of the Interactome",
+      "page": 144,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 4 Interactome",
+        "4 Exploring the Topology of the Interactome"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.1 Global Properties",
+      "page": 144,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 4 Interactome",
+        "4 Exploring the Topology of the Interactome",
+        "4.1 Global Properties"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.2 Network Centrality and Protein Essentiality",
+      "page": 144,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 4 Interactome",
+        "4 Exploring the Topology of the Interactome",
+        "4.2 Network Centrality and Protein Essentiality"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.3 Network Modules",
+      "page": 146,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 4 Interactome",
+        "4 Exploring the Topology of the Interactome",
+        "4.3 Network Modules"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "5 Comparing Protein-Protein Interaction Networks",
+      "page": 147,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 4 Interactome",
+        "5 Comparing Protein-Protein Interaction Networks"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.4 Network Motifs and Related Concepts",
+      "page": 147,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 4 Interactome",
+        "4 Exploring the Topology of the Interactome",
+        "4.4 Network Motifs and Related Concepts"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "6 Databases of Protein and Domain Interactions",
+      "page": 149,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 4 Interactome",
+        "6 Databases of Protein and Domain Interactions"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "7 Applications",
+      "page": 150,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 4 Interactome",
+        "7 Applications"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "7.1 Predicting Protein Function",
+      "page": 150,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 4 Interactome",
+        "7 Applications",
+        "7.1 Predicting Protein Function"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "8 Looking Ahead: Towards the Dynamic Interactome",
+      "page": 151,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 4 Interactome",
+        "8 Looking Ahead: Towards the Dynamic Interactome"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "7.2 Application to Human Diseases",
+      "page": 151,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 4 Interactome",
+        "7 Applications",
+        "7.2 Application to Human Diseases"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "Chapter 5 Microbiomes",
+      "page": 165,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 5 Microbiomes"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "1 Introduction",
+      "page": 167,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 5 Microbiomes",
+        "1 Introduction"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "2 History of Microbial Diversity Studies",
+      "page": 168,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 5 Microbiomes",
+        "2 History of Microbial Diversity Studies"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "3 Microbiomes",
+      "page": 169,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 5 Microbiomes",
+        "3 Microbiomes"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.1 Oceans",
+      "page": 169,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 5 Microbiomes",
+        "3 Microbiomes",
+        "3.1 Oceans"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.2 Air",
+      "page": 170,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 5 Microbiomes",
+        "3 Microbiomes",
+        "3.2 Air"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.3 Host-Associated Microbiomes",
+      "page": 171,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 5 Microbiomes",
+        "3 Microbiomes",
+        "3.3 Host-Associated Microbiomes"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.4 Human Body",
+      "page": 172,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 5 Microbiomes",
+        "3 Microbiomes",
+        "3.4 Human Body"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "4 Single-Cell Genomics",
+      "page": 174,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 5 Microbiomes",
+        "4 Single-Cell Genomics"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.5 Virome Studies",
+      "page": 174,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 5 Microbiomes",
+        "3 Microbiomes",
+        "3.5 Virome Studies"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "5 Sequence Technologies and Tools",
+      "page": 175,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 5 Microbiomes",
+        "5 Sequence Technologies and Tools"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "5.1 454 (Roche) GS Sequencing Technology",
+      "page": 176,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 5 Microbiomes",
+        "5 Sequence Technologies and Tools",
+        "5.1 454 (Roche) GS Sequencing Technology"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "5.1.1 Illumina/Solexa GA Sequencing Technology",
+      "page": 176,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 5 Microbiomes",
+        "5 Sequence Technologies and Tools",
+        "5.1 454 (Roche) GS Sequencing Technology",
+        "5.1.1 Illumina/Solexa GA Sequencing Technology"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "5.2 Assembly",
+      "page": 177,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 5 Microbiomes",
+        "5 Sequence Technologies and Tools",
+        "5.2 Assembly"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "5.1.2 ABI SOLiD Sequencing Technology",
+      "page": 177,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 5 Microbiomes",
+        "5 Sequence Technologies and Tools",
+        "5.1 454 (Roche) GS Sequencing Technology",
+        "5.1.2 ABI SOLiD Sequencing Technology"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "5.3 Data Analysis",
+      "page": 179,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 5 Microbiomes",
+        "5 Sequence Technologies and Tools",
+        "5.3 Data Analysis"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "5.3.1 Fragment Recruitment",
+      "page": 179,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 5 Microbiomes",
+        "5 Sequence Technologies and Tools",
+        "5.3 Data Analysis",
+        "5.3.1 Fragment Recruitment"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "5.4 Data Management",
+      "page": 181,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 5 Microbiomes",
+        "5 Sequence Technologies and Tools",
+        "5.4 Data Management"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "6 Future Perspectives",
+      "page": 184,
+      "section_path": [
+        "Volume 1",
+        "Part I Biological Basis",
+        "Chapter 5 Microbiomes",
+        "6 Future Perspectives"
+      ]
+    },
+    {
+      "depth": 1,
+      "title": "Part II Modeling",
+      "page": 191,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "Chapter 6 Dynamics of Biomolecular Networks",
+      "page": 193,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 6 Dynamics of Biomolecular Networks"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "1 Introduction",
+      "page": 195,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 6 Dynamics of Biomolecular Networks",
+        "1 Introduction"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "2 Boolean Dynamics Models",
+      "page": 196,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 6 Dynamics of Biomolecular Networks",
+        "2 Boolean Dynamics Models"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.1 Boolean Formalisms",
+      "page": 197,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 6 Dynamics of Biomolecular Networks",
+        "2 Boolean Dynamics Models",
+        "2.1 Boolean Formalisms"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.2 Generic Properties of (Random) Boolean Networks and Cell Behaviors: Cell Differentiations and the Cell Cycle",
+      "page": 197,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 6 Dynamics of Biomolecular Networks",
+        "2 Boolean Dynamics Models",
+        "2.2 Generic Properties of (Random) Boolean Networks and Cell Behaviors: Cell Differentiations and the Cell Cycle"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.3 Topological and Dynamical Properties: Homeostasis, Flexibility, and Evolvability",
+      "page": 198,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 6 Dynamics of Biomolecular Networks",
+        "2 Boolean Dynamics Models",
+        "2.3 Topological and Dynamical Properties: Homeostasis, Flexibility, and Evolvability"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.4 Biologically Relevant Boolean Rules",
+      "page": 200,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 6 Dynamics of Biomolecular Networks",
+        "2 Boolean Dynamics Models",
+        "2.4 Biologically Relevant Boolean Rules"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.5 Dynamical Simulation: An Example",
+      "page": 201,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 6 Dynamics of Biomolecular Networks",
+        "2 Boolean Dynamics Models",
+        "2.5 Dynamical Simulation: An Example"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.6 Boolean Networks Inference from Experimental Data: Probabilistic Boolean Networks",
+      "page": 201,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 6 Dynamics of Biomolecular Networks",
+        "2 Boolean Dynamics Models",
+        "2.6 Boolean Networks Inference from Experimental Data: Probabilistic Boolean Networks"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.7 Addition of Noise",
+      "page": 202,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 6 Dynamics of Biomolecular Networks",
+        "2 Boolean Dynamics Models",
+        "2.7 Addition of Noise"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "3 Continuous Dynamics Models",
+      "page": 203,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 6 Dynamics of Biomolecular Networks",
+        "3 Continuous Dynamics Models"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.1 ODE Formalisms: From Biochemistry to Mathematics",
+      "page": 204,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 6 Dynamics of Biomolecular Networks",
+        "3 Continuous Dynamics Models",
+        "3.1 ODE Formalisms: From Biochemistry to Mathematics"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.1.1 Biochemical Background-Based Models",
+      "page": 205,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 6 Dynamics of Biomolecular Networks",
+        "3 Continuous Dynamics Models",
+        "3.1 ODE Formalisms: From Biochemistry to Mathematics",
+        "3.1.1 Biochemical Background-Based Models"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.1.2 Empirically Based Approaches",
+      "page": 208,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 6 Dynamics of Biomolecular Networks",
+        "3 Continuous Dynamics Models",
+        "3.1 ODE Formalisms: From Biochemistry to Mathematics",
+        "3.1.2 Empirically Based Approaches"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.2 Summing Nodes and Links: From Math to Systems Biology",
+      "page": 210,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 6 Dynamics of Biomolecular Networks",
+        "3 Continuous Dynamics Models",
+        "3.2 Summing Nodes and Links: From Math to Systems Biology"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.2.1 Simple but Subtle Structures: SIMs and SOMs",
+      "page": 210,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 6 Dynamics of Biomolecular Networks",
+        "3 Continuous Dynamics Models",
+        "3.2 Summing Nodes and Links: From Math to Systems Biology",
+        "3.2.1 Simple but Subtle Structures: SIMs and SOMs"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.2.2 Oscillators, Clocks, and Bistable Switches: FB Dynamics",
+      "page": 213,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 6 Dynamics of Biomolecular Networks",
+        "3 Continuous Dynamics Models",
+        "3.2 Summing Nodes and Links: From Math to Systems Biology",
+        "3.2.2 Oscillators, Clocks, and Bistable Switches: FB Dynamics"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.2.3 FFLs: Noise Management and Pulse Generation",
+      "page": 215,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 6 Dynamics of Biomolecular Networks",
+        "3 Continuous Dynamics Models",
+        "3.2 Summing Nodes and Links: From Math to Systems Biology",
+        "3.2.3 FFLs: Noise Management and Pulse Generation"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.3 Perspectives",
+      "page": 217,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 6 Dynamics of Biomolecular Networks",
+        "3 Continuous Dynamics Models",
+        "3.3 Perspectives"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "Chapter 7 E-Cell: Computer Simulation of the Cell",
+      "page": 223,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 7 E-Cell: Computer Simulation of the Cell"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "1 Introduction",
+      "page": 225,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 7 E-Cell: Computer Simulation of the Cell",
+        "1 Introduction"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "2 Biological Modeling and Simulation Tools",
+      "page": 226,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 7 E-Cell: Computer Simulation of the Cell",
+        "2 Biological Modeling and Simulation Tools"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "3 The E-Cell System",
+      "page": 230,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 7 E-Cell: Computer Simulation of the Cell",
+        "3 The E-Cell System"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.1 Introduction",
+      "page": 230,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 7 E-Cell: Computer Simulation of the Cell",
+        "3 The E-Cell System",
+        "3.1 Introduction"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.2 Architecture of E-Cell",
+      "page": 232,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 7 E-Cell: Computer Simulation of the Cell",
+        "3 The E-Cell System",
+        "3.2 Architecture of E-Cell"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.2.1 Elements of the Control Panel",
+      "page": 232,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 7 E-Cell: Computer Simulation of the Cell",
+        "3 The E-Cell System",
+        "3.2 Architecture of E-Cell",
+        "3.2.1 Elements of the Control Panel"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.2.2 Elements of the E-Cell Model",
+      "page": 232,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 7 E-Cell: Computer Simulation of the Cell",
+        "3 The E-Cell System",
+        "3.2 Architecture of E-Cell",
+        "3.2.2 Elements of the E-Cell Model"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.3 Features of E-Cell 2.0",
+      "page": 233,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 7 E-Cell: Computer Simulation of the Cell",
+        "3 The E-Cell System",
+        "3.3 Features of E-Cell 2.0"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.4 Features of E-Cell 3.0",
+      "page": 233,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 7 E-Cell: Computer Simulation of the Cell",
+        "3 The E-Cell System",
+        "3.4 Features of E-Cell 3.0"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.5 Advantages of the E-Cell System",
+      "page": 234,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 7 E-Cell: Computer Simulation of the Cell",
+        "3 The E-Cell System",
+        "3.5 Advantages of the E-Cell System"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.6 Limitations of the E-Cell System",
+      "page": 234,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 7 E-Cell: Computer Simulation of the Cell",
+        "3 The E-Cell System",
+        "3.6 Limitations of the E-Cell System"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.7 E-Cell with 127 Genes",
+      "page": 234,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 7 E-Cell: Computer Simulation of the Cell",
+        "3 The E-Cell System",
+        "3.7 E-Cell with 127 Genes"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.8 Applications of the E-Cell System",
+      "page": 236,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 7 E-Cell: Computer Simulation of the Cell",
+        "3 The E-Cell System",
+        "3.8 Applications of the E-Cell System"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.9 Simulation of Erythrocyte Enzyme Deficiencies",
+      "page": 236,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 7 E-Cell: Computer Simulation of the Cell",
+        "3 The E-Cell System",
+        "3.9 Simulation of Erythrocyte Enzyme Deficiencies"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "4 Practical Applications",
+      "page": 239,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 7 E-Cell: Computer Simulation of the Cell",
+        "4 Practical Applications"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "5 Concluding Remarks",
+      "page": 239,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 7 E-Cell: Computer Simulation of the Cell",
+        "5 Concluding Remarks"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "Chapter 8 SynBioSS Designer Modeling Suite",
+      "page": 241,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 8 SynBioSS Designer Modeling Suite"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "1 Introduction",
+      "page": 242,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 8 SynBioSS Designer Modeling Suite",
+        "1 Introduction"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "2 Modeling Synthetic Systems Made by BioBricks",
+      "page": 245,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 8 SynBioSS Designer Modeling Suite",
+        "2 Modeling Synthetic Systems Made by BioBricks"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.1 Modeling BioBricks",
+      "page": 245,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 8 SynBioSS Designer Modeling Suite",
+        "2 Modeling Synthetic Systems Made by BioBricks",
+        "2.1 Modeling BioBricks"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.2 Inserting and Modifying BioBricks",
+      "page": 245,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 8 SynBioSS Designer Modeling Suite",
+        "2 Modeling Synthetic Systems Made by BioBricks",
+        "2.2 Inserting and Modifying BioBricks"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.3 Protein Input and Specifics",
+      "page": 247,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 8 SynBioSS Designer Modeling Suite",
+        "2 Modeling Synthetic Systems Made by BioBricks",
+        "2.3 Protein Input and Specifics"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.4 Effector Input and Specifics",
+      "page": 247,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 8 SynBioSS Designer Modeling Suite",
+        "2 Modeling Synthetic Systems Made by BioBricks",
+        "2.4 Effector Input and Specifics"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "3 Modeling Synthetic SystemsMade by User-Defined Genetic Constructs",
+      "page": 248,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 8 SynBioSS Designer Modeling Suite",
+        "3 Modeling Synthetic SystemsMade by User-Defined Genetic Constructs"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.5 Designer Output",
+      "page": 248,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 8 SynBioSS Designer Modeling Suite",
+        "2 Modeling Synthetic Systems Made by BioBricks",
+        "2.5 Designer Output"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.1 Modeling User-Defined Genetic Constructs",
+      "page": 248,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 8 SynBioSS Designer Modeling Suite",
+        "3 Modeling Synthetic SystemsMade by User-Defined Genetic Constructs",
+        "3.1 Modeling User-Defined Genetic Constructs"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.2 Inserting and Modifying User-Defined Parts",
+      "page": 252,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 8 SynBioSS Designer Modeling Suite",
+        "3 Modeling Synthetic SystemsMade by User-Defined Genetic Constructs",
+        "3.2 Inserting and Modifying User-Defined Parts"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.3 Protein Input, Specifics, and Generation of Output",
+      "page": 253,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 8 SynBioSS Designer Modeling Suite",
+        "3 Modeling Synthetic SystemsMade by User-Defined Genetic Constructs",
+        "3.3 Protein Input, Specifics, and Generation of Output"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "4 Current Limitations of the Designer",
+      "page": 254,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 8 SynBioSS Designer Modeling Suite",
+        "4 Current Limitations of the Designer"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "5 Conclusions",
+      "page": 255,
+      "section_path": [
+        "Volume 1",
+        "Part II Modeling",
+        "Chapter 8 SynBioSS Designer Modeling Suite",
+        "5 Conclusions"
+      ]
+    },
+    {
+      "depth": 1,
+      "title": "Part III Modular Parts and Circuits",
+      "page": 259,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "Chapter 9 Synthetic Gene Circuits",
+      "page": 261,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "1 Introduction to Synthetic Gene Circuits",
+      "page": 264,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "1 Introduction to Synthetic Gene Circuits"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "2 Building Blocks of Synthetic Gene Circuits",
+      "page": 265,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "2 Building Blocks of Synthetic Gene Circuits"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.1 The Chassis: Choice of the Host Cell",
+      "page": 265,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "2 Building Blocks of Synthetic Gene Circuits",
+        "2.1 The Chassis: Choice of the Host Cell"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.2 Inputs and Outputs of Synthetic Circuits",
+      "page": 266,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "2 Building Blocks of Synthetic Gene Circuits",
+        "2.2 Inputs and Outputs of Synthetic Circuits"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.3 Properties of Synthetic Building Blocks",
+      "page": 267,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "2 Building Blocks of Synthetic Gene Circuits",
+        "2.3 Properties of Synthetic Building Blocks"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.4 Building Blocks of Synthetic Transcriptional Regulation",
+      "page": 268,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "2 Building Blocks of Synthetic Gene Circuits",
+        "2.4 Building Blocks of Synthetic Transcriptional Regulation"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.5 Post-Transcriptional Regulation: RNA-Based Circuit Engineering",
+      "page": 273,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "2 Building Blocks of Synthetic Gene Circuits",
+        "2.5 Post-Transcriptional Regulation: RNA-Based Circuit Engineering"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.6 Insulator Elements",
+      "page": 275,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "2 Building Blocks of Synthetic Gene Circuits",
+        "2.6 Insulator Elements"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.7 Post-Translational Regulation and Protein-Based Circuits",
+      "page": 275,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "2 Building Blocks of Synthetic Gene Circuits",
+        "2.7 Post-Translational Regulation and Protein-Based Circuits"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "3 Dynamical Circuits",
+      "page": 276,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "3 Dynamical Circuits"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.1 Oscillators",
+      "page": 276,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "3 Dynamical Circuits",
+        "3.1 Oscillators"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.2 Toggle Switches",
+      "page": 278,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "3 Dynamical Circuits",
+        "3.2 Toggle Switches"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.3 Gene Cascades",
+      "page": 280,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "3 Dynamical Circuits",
+        "3.3 Gene Cascades"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.4 Bandpass Filters",
+      "page": 280,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "3 Dynamical Circuits",
+        "3.4 Bandpass Filters"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "4 Memory Devices",
+      "page": 281,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "4 Memory Devices"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.1 Volatile Memory",
+      "page": 282,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "4 Memory Devices",
+        "4.1 Volatile Memory"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.2 Nonvolatile Memory",
+      "page": 283,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "4 Memory Devices",
+        "4.2 Nonvolatile Memory"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "5 Boolean Logic and Digital Circuits",
+      "page": 285,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "5 Boolean Logic and Digital Circuits"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "6 Analog Circuits",
+      "page": 289,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "6 Analog Circuits"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "7 Intercellular Communication and Synthetic Multicellular Devices",
+      "page": 294,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "7 Intercellular Communication and Synthetic Multicellular Devices"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "7.1 Intercellular Communication Mechanisms",
+      "page": 295,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "7 Intercellular Communication and Synthetic Multicellular Devices",
+        "7.1 Intercellular Communication Mechanisms"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "7.2 Examples of Synthetic Multicellular Systems",
+      "page": 295,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "7 Intercellular Communication and Synthetic Multicellular Devices",
+        "7.2 Examples of Synthetic Multicellular Systems"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "8 Synthetic Circuit Construction: Challenges and Solutions",
+      "page": 298,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "8 Synthetic Circuit Construction: Challenges and Solutions"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "8.1 Circuit Design: Topology and Parameters",
+      "page": 298,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "8 Synthetic Circuit Construction: Challenges and Solutions",
+        "8.1 Circuit Design: Topology and Parameters"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "8.2 Circuit-Host and Circuit-Environment Interactions",
+      "page": 299,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "8 Synthetic Circuit Construction: Challenges and Solutions",
+        "8.2 Circuit-Host and Circuit-Environment Interactions"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "8.3 Noise and Robustness",
+      "page": 300,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "8 Synthetic Circuit Construction: Challenges and Solutions",
+        "8.3 Noise and Robustness"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "8.4 Evolution",
+      "page": 301,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "8 Synthetic Circuit Construction: Challenges and Solutions",
+        "8.4 Evolution"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "9 Applications of Synthetic Circuits",
+      "page": 302,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "9 Applications of Synthetic Circuits"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "9.1 Biosensors",
+      "page": 302,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "9 Applications of Synthetic Circuits",
+        "9.1 Biosensors"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "9.2 Therapeutic Applications",
+      "page": 303,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "9 Applications of Synthetic Circuits",
+        "9.2 Therapeutic Applications"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "9.3 Synthetic Biology in Manufacturing",
+      "page": 305,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "9 Applications of Synthetic Circuits",
+        "9.3 Synthetic Biology in Manufacturing"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "10 Conclusions",
+      "page": 306,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "10 Conclusions"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "Note Added in Proof",
+      "page": 306,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 9 Synthetic Gene Circuits",
+        "Note Added in Proof"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "Chapter 10 DNA Origami Nanorobots",
+      "page": 317,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 10 DNA Origami Nanorobots"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "1 Introduction to Robotics",
+      "page": 318,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 10 DNA Origami Nanorobots",
+        "1 Introduction to Robotics"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "1.1 A Brief History of Robotics",
+      "page": 319,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 10 DNA Origami Nanorobots",
+        "1 Introduction to Robotics",
+        "1.1 A Brief History of Robotics"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "1.2 Robotic Control of Molecules",
+      "page": 320,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 10 DNA Origami Nanorobots",
+        "1 Introduction to Robotics",
+        "1.2 Robotic Control of Molecules"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "2 DNA Nanotechnology",
+      "page": 322,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 10 DNA Origami Nanorobots",
+        "2 DNA Nanotechnology"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.1 Computing",
+      "page": 322,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 10 DNA Origami Nanorobots",
+        "2 DNA Nanotechnology",
+        "2.1 Computing"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.2 Nanofabrication",
+      "page": 322,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 10 DNA Origami Nanorobots",
+        "2 DNA Nanotechnology",
+        "2.2 Nanofabrication"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.3 Nucleic Acid Enzymes",
+      "page": 323,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 10 DNA Origami Nanorobots",
+        "2 DNA Nanotechnology",
+        "2.3 Nucleic Acid Enzymes"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.4 Nucleic Acid Sensors",
+      "page": 324,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 10 DNA Origami Nanorobots",
+        "2 DNA Nanotechnology",
+        "2.4 Nucleic Acid Sensors"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.5 DNA Actuators and Motors",
+      "page": 324,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 10 DNA Origami Nanorobots",
+        "2 DNA Nanotechnology",
+        "2.5 DNA Actuators and Motors"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.6 Miscellaneous Functions of Nucleic Acids",
+      "page": 325,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 10 DNA Origami Nanorobots",
+        "2 DNA Nanotechnology",
+        "2.6 Miscellaneous Functions of Nucleic Acids"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.7 DNA Origami",
+      "page": 325,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 10 DNA Origami Nanorobots",
+        "2 DNA Nanotechnology",
+        "2.7 DNA Origami"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.8 Computer-Aided Design (CAD) Tools for DNA Nanostructures",
+      "page": 326,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 10 DNA Origami Nanorobots",
+        "2 DNA Nanotechnology",
+        "2.8 Computer-Aided Design (CAD) Tools for DNA Nanostructures"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.9 Designing Scaffolded Origami in caDNAno: A Guided Tour",
+      "page": 326,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 10 DNA Origami Nanorobots",
+        "2 DNA Nanotechnology",
+        "2.9 Designing Scaffolded Origami in caDNAno: A Guided Tour"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "3 DNA Nanorobotics",
+      "page": 333,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 10 DNA Origami Nanorobots",
+        "3 DNA Nanorobotics"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.1 Case Study: A DNA Nanorobot",
+      "page": 333,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 10 DNA Origami Nanorobots",
+        "3 DNA Nanorobotics",
+        "3.1 Case Study: A DNA Nanorobot"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.2 Sensing the Environment",
+      "page": 334,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 10 DNA Origami Nanorobots",
+        "3 DNA Nanorobotics",
+        "3.2 Sensing the Environment"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.3 Information Processing and Logic Types",
+      "page": 335,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 10 DNA Origami Nanorobots",
+        "3 DNA Nanorobotics",
+        "3.3 Information Processing and Logic Types"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.4 Collective Behaviors",
+      "page": 336,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 10 DNA Origami Nanorobots",
+        "3 DNA Nanorobotics",
+        "3.4 Collective Behaviors"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "4 Challenges of Applying DNA Nanorobots to Therapeutics",
+      "page": 337,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 10 DNA Origami Nanorobots",
+        "4 Challenges of Applying DNA Nanorobots to Therapeutics"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.5 Synthetic Genetic Circuits and DNA Nanorobotics",
+      "page": 337,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 10 DNA Origami Nanorobots",
+        "3 DNA Nanorobotics",
+        "3.5 Synthetic Genetic Circuits and DNA Nanorobotics"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "5 Summary and Conclusions",
+      "page": 338,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 10 DNA Origami Nanorobots",
+        "5 Summary and Conclusions"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "Chapter 11 RNAi Synthetic Logic Circuits for Sensing, Information Processing, and Actuation",
+      "page": 345,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 11 RNAi Synthetic Logic Circuits for Sensing, Information Processing, and Actuation"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "1 Introduction",
+      "page": 346,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 11 RNAi Synthetic Logic Circuits for Sensing, Information Processing, and Actuation",
+        "1 Introduction"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "2 Overview of RNA Interference",
+      "page": 348,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 11 RNAi Synthetic Logic Circuits for Sensing, Information Processing, and Actuation",
+        "2 Overview of RNA Interference"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.1 MicroRNA-Mediated Regulatory Motifs",
+      "page": 350,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 11 RNAi Synthetic Logic Circuits for Sensing, Information Processing, and Actuation",
+        "2 Overview of RNA Interference",
+        "2.1 MicroRNA-Mediated Regulatory Motifs"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.2 RNAi Sensors",
+      "page": 353,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 11 RNAi Synthetic Logic Circuits for Sensing, Information Processing, and Actuation",
+        "2 Overview of RNA Interference",
+        "2.2 RNAi Sensors"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.3 Information Processing and Actuation for RNAi-Based Logic Circuits",
+      "page": 356,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 11 RNAi Synthetic Logic Circuits for Sensing, Information Processing, and Actuation",
+        "2 Overview of RNA Interference",
+        "2.3 Information Processing and Actuation for RNAi-Based Logic Circuits"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "3 Applications",
+      "page": 359,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 11 RNAi Synthetic Logic Circuits for Sensing, Information Processing, and Actuation",
+        "3 Applications"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.1 Smart Therapeutics",
+      "page": 359,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 11 RNAi Synthetic Logic Circuits for Sensing, Information Processing, and Actuation",
+        "3 Applications",
+        "3.1 Smart Therapeutics"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.2 Learning by Engineering",
+      "page": 360,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 11 RNAi Synthetic Logic Circuits for Sensing, Information Processing, and Actuation",
+        "3 Applications",
+        "3.2 Learning by Engineering"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "4 Conclusions and Perspectives",
+      "page": 361,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 11 RNAi Synthetic Logic Circuits for Sensing, Information Processing, and Actuation",
+        "4 Conclusions and Perspectives"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "Chapter 12 Synthetic Hybrid Biosensors",
+      "page": 369,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 12 Synthetic Hybrid Biosensors"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "1 Introduction",
+      "page": 371,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 12 Synthetic Hybrid Biosensors",
+        "1 Introduction"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "2 Sensor Design",
+      "page": 372,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 12 Synthetic Hybrid Biosensors",
+        "2 Sensor Design"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "3 Electrochemical Biosensors",
+      "page": 373,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 12 Synthetic Hybrid Biosensors",
+        "3 Electrochemical Biosensors"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.1 Amperometric Biosensors",
+      "page": 374,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 12 Synthetic Hybrid Biosensors",
+        "3 Electrochemical Biosensors",
+        "3.1 Amperometric Biosensors"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.2 Potentiometric Biosensors",
+      "page": 376,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 12 Synthetic Hybrid Biosensors",
+        "3 Electrochemical Biosensors",
+        "3.2 Potentiometric Biosensors"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.3 Conductometric Biosensors",
+      "page": 377,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 12 Synthetic Hybrid Biosensors",
+        "3 Electrochemical Biosensors",
+        "3.3 Conductometric Biosensors"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "4 Optical Biosensors",
+      "page": 378,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 12 Synthetic Hybrid Biosensors",
+        "4 Optical Biosensors"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.1 Conjugated Polymer-Based Biosensors",
+      "page": 378,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 12 Synthetic Hybrid Biosensors",
+        "4 Optical Biosensors",
+        "4.1 Conjugated Polymer-Based Biosensors"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.2 Surface Plasmon Resonance-Based Biosensors",
+      "page": 382,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 12 Synthetic Hybrid Biosensors",
+        "4 Optical Biosensors",
+        "4.2 Surface Plasmon Resonance-Based Biosensors"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "4.2.1 SPR Principles",
+      "page": 383,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 12 Synthetic Hybrid Biosensors",
+        "4 Optical Biosensors",
+        "4.2 Surface Plasmon Resonance-Based Biosensors",
+        "4.2.1 SPR Principles"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "4.2.2 Surface Chemistry in SPR Technique",
+      "page": 384,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 12 Synthetic Hybrid Biosensors",
+        "4 Optical Biosensors",
+        "4.2 Surface Plasmon Resonance-Based Biosensors",
+        "4.2.2 Surface Chemistry in SPR Technique"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "4.2.3 Surface Plasmon Fluorescence Technique",
+      "page": 385,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 12 Synthetic Hybrid Biosensors",
+        "4 Optical Biosensors",
+        "4.2 Surface Plasmon Resonance-Based Biosensors",
+        "4.2.3 Surface Plasmon Fluorescence Technique"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.3 Surface-Enhanced Raman Spectroscopy-Based Biosensors",
+      "page": 386,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 12 Synthetic Hybrid Biosensors",
+        "4 Optical Biosensors",
+        "4.3 Surface-Enhanced Raman Spectroscopy-Based Biosensors"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "5 Piezoelectric Biosensors",
+      "page": 387,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 12 Synthetic Hybrid Biosensors",
+        "5 Piezoelectric Biosensors"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "5.1 Bulk Acoustic Wave (BAW) Sensors",
+      "page": 389,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 12 Synthetic Hybrid Biosensors",
+        "5 Piezoelectric Biosensors",
+        "5.1 Bulk Acoustic Wave (BAW) Sensors"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "5.2 Surface-Generated Acoustic Wave (SGAW) Sensors",
+      "page": 390,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 12 Synthetic Hybrid Biosensors",
+        "5 Piezoelectric Biosensors",
+        "5.2 Surface-Generated Acoustic Wave (SGAW) Sensors"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "6 Thermal Biosensors",
+      "page": 391,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 12 Synthetic Hybrid Biosensors",
+        "6 Thermal Biosensors"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "7 Microarrays",
+      "page": 394,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 12 Synthetic Hybrid Biosensors",
+        "7 Microarrays"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "7.1 DNA Microarray",
+      "page": 394,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 12 Synthetic Hybrid Biosensors",
+        "7 Microarrays",
+        "7.1 DNA Microarray"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "7.2 Protein Microarray",
+      "page": 396,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 12 Synthetic Hybrid Biosensors",
+        "7 Microarrays",
+        "7.2 Protein Microarray"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "8 Conclusions",
+      "page": 397,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 12 Synthetic Hybrid Biosensors",
+        "8 Conclusions"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+      "page": 405,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "1 Industrial Production of Vitamin B12",
+      "page": 407,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "1 Industrial Production of Vitamin B12"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "2 Modular Assembly of Cobalamin",
+      "page": 411,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "2 Modular Assembly of Cobalamin"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.1 Cellular Resource Procurement",
+      "page": 412,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "2 Modular Assembly of Cobalamin",
+        "2.1 Cellular Resource Procurement"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.2 Building Blocks",
+      "page": 412,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "2 Modular Assembly of Cobalamin",
+        "2.2 Building Blocks"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.3 Synthesis of the Tetrapyrrole Macrocycle, Uroporphyrinogen III (Uro'gen III)",
+      "page": 412,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "2 Modular Assembly of Cobalamin",
+        "2.3 Synthesis of the Tetrapyrrole Macrocycle, Uroporphyrinogen III (Uro'gen III)"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "2.2.1 Building Block 1: ALA",
+      "page": 412,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "2 Modular Assembly of Cobalamin",
+        "2.2 Building Blocks",
+        "2.2.1 Building Block 1: ALA"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "2.2.2 Building Block 2: SAM",
+      "page": 412,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "2 Modular Assembly of Cobalamin",
+        "2.2 Building Blocks",
+        "2.2.2 Building Block 2: SAM"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.4 Different Molecular Assemblies",
+      "page": 414,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "2 Modular Assembly of Cobalamin",
+        "2.4 Different Molecular Assemblies"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "2.4.1 Section 1: The Last Common Step; Uro'gen III to Precorrin-2",
+      "page": 414,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "2 Modular Assembly of Cobalamin",
+        "2.4 Different Molecular Assemblies",
+        "2.4.1 Section 1: The Last Common Step; Uro'gen III to Precorrin-2"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "2.4.2 Section 2a: The Ancestral Pathway; Precorrin-2 to Cobyrinic Acid a,c-Diamide",
+      "page": 414,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "2 Modular Assembly of Cobalamin",
+        "2.4 Different Molecular Assemblies",
+        "2.4.2 Section 2a: The Ancestral Pathway; Precorrin-2 to Cobyrinic Acid a,c-Diamide"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "2.4.3 Section 2b: The Modern Pathway; Precorrin-2 to Cobyrinic Acid a,c-Diamide",
+      "page": 415,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "2 Modular Assembly of Cobalamin",
+        "2.4 Different Molecular Assemblies",
+        "2.4.3 Section 2b: The Modern Pathway; Precorrin-2 to Cobyrinic Acid a,c-Diamide"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "2.4.4 Section 3: Both Pathways, from Cobyrinic Acid a,c-Diamide to Adenosyl-Cobinamide",
+      "page": 416,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "2 Modular Assembly of Cobalamin",
+        "2.4 Different Molecular Assemblies",
+        "2.4.4 Section 3: Both Pathways, from Cobyrinic Acid a,c-Diamide to Adenosyl-Cobinamide"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.5 Biosynthesis of the Lower Axial Ligand, ***alpha***-Ribazole Phosphate",
+      "page": 417,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "2 Modular Assembly of Cobalamin",
+        "2.5 Biosynthesis of the Lower Axial Ligand, ***alpha***-Ribazole Phosphate"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.6 Biosynthesis of Aminopropanol-O-2-Phosphate (APP)",
+      "page": 417,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "2 Modular Assembly of Cobalamin",
+        "2.6 Biosynthesis of Aminopropanol-O-2-Phosphate (APP)"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.7 Final Assembly",
+      "page": 417,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "2 Modular Assembly of Cobalamin",
+        "2.7 Final Assembly"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "3 Nature Has Evolved Different Ways to Catalyze Ring Contraction",
+      "page": 418,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "3 Nature Has Evolved Different Ways to Catalyze Ring Contraction"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "4 The Methylases in the Cobalamin Biosynthetic Pathway Are Largely Derived From One Common Ancestor",
+      "page": 420,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "4 The Methylases in the Cobalamin Biosynthetic Pathway Are Largely Derived From One Common Ancestor"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "5 CobA: Enhancing Pathway Productivity through Protein Engineering",
+      "page": 423,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "5 CobA: Enhancing Pathway Productivity through Protein Engineering"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "6 Channeling Efficiency",
+      "page": 424,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "6 Channeling Efficiency"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "7 Biosynthesis of Mismethylated Analogs of Cobalamin",
+      "page": 424,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "7 Biosynthesis of Mismethylated Analogs of Cobalamin"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "8 Substitution of the Metal Ion",
+      "page": 427,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "8 Substitution of the Metal Ion"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "9 Tailoring of the Nucleotide Loop",
+      "page": 429,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "9 Tailoring of the Nucleotide Loop"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "10 Cobalamin Conjugates",
+      "page": 430,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "10 Cobalamin Conjugates"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "11 Physical Compartments for Pathway Sequestration",
+      "page": 431,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "11 Physical Compartments for Pathway Sequestration"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "11.1 Bacterial Protein-Based Microcompartments and Their Functions",
+      "page": 432,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "11 Physical Compartments for Pathway Sequestration",
+        "11.1 Bacterial Protein-Based Microcompartments and Their Functions"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "11.2 Architecture of Bacterial Microcompartments",
+      "page": 435,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "11 Physical Compartments for Pathway Sequestration",
+        "11.2 Architecture of Bacterial Microcompartments"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "11.3 Protein Sequestration into Microcompartments",
+      "page": 437,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "11 Physical Compartments for Pathway Sequestration",
+        "11.3 Protein Sequestration into Microcompartments"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "11.4 Engineering Microcompartments",
+      "page": 437,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "11 Physical Compartments for Pathway Sequestration",
+        "11.4 Engineering Microcompartments"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "11.5 Designing and Customizing Microcompartments",
+      "page": 438,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "11 Physical Compartments for Pathway Sequestration",
+        "11.5 Designing and Customizing Microcompartments"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "12 Future Directions",
+      "page": 440,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "12 Future Directions"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "References 429",
+      "page": 441,
+      "section_path": [
+        "Volume 1",
+        "Part III Modular Parts and Circuits",
+        "Chapter 13 Synthetic Biology in Metabolic Engineering: From Complex Biochemical Pathways to Compartmentalized Metabolic Processes-a Vitamin Connection",
+        "References 429"
+      ]
+    },
+    {
+      "depth": 0,
+      "title": "Volume 2",
+      "page": 453,
+      "section_path": [
+        "Volume 2"
+      ]
+    },
+    {
+      "depth": 1,
+      "title": "Part IV Synthetic Genomes",
+      "page": 453,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "Chapter 14 The Minimal Gene-Set Machinery",
+      "page": 453,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 14 The Minimal Gene-Set Machinery"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "1 Introduction",
+      "page": 457,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 14 The Minimal Gene-Set Machinery",
+        "1 Introduction"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "2 Top-Down Approaches to the Minimal Gene Set",
+      "page": 458,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 14 The Minimal Gene-Set Machinery",
+        "2 Top-Down Approaches to the Minimal Gene Set"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.1 Preserved Genes to Approach the Minimal Genetic Core: The Power and Pitfalls of Comparative Genomics",
+      "page": 459,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 14 The Minimal Gene-Set Machinery",
+        "2 Top-Down Approaches to the Minimal Gene Set",
+        "2.1 Preserved Genes to Approach the Minimal Genetic Core: The Power and Pitfalls of Comparative Genomics"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.2 Experimental Genetics: Mutational Approaches to Detect Essential Genes",
+      "page": 463,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 14 The Minimal Gene-Set Machinery",
+        "2 Top-Down Approaches to the Minimal Gene Set",
+        "2.2 Experimental Genetics: Mutational Approaches to Detect Essential Genes"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.3 Comparative Proteomics: Preserved versus Active Genes",
+      "page": 465,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 14 The Minimal Gene-Set Machinery",
+        "2 Top-Down Approaches to the Minimal Gene Set",
+        "2.3 Comparative Proteomics: Preserved versus Active Genes"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.4 Minimal Cell Modeling",
+      "page": 465,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 14 The Minimal Gene-Set Machinery",
+        "2 Top-Down Approaches to the Minimal Gene Set",
+        "2.4 Minimal Cell Modeling"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "3 The Minimal Gene-Set Machinery",
+      "page": 466,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 14 The Minimal Gene-Set Machinery",
+        "3 The Minimal Gene-Set Machinery"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.1 The First Pillar. Storage and Processing of Genetic Information: From Genes to Gene Products",
+      "page": 467,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 14 The Minimal Gene-Set Machinery",
+        "3 The Minimal Gene-Set Machinery",
+        "3.1 The First Pillar. Storage and Processing of Genetic Information: From Genes to Gene Products"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.1.1 DNA Metabolism",
+      "page": 467,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 14 The Minimal Gene-Set Machinery",
+        "3 The Minimal Gene-Set Machinery",
+        "3.1 The First Pillar. Storage and Processing of Genetic Information: From Genes to Gene Products",
+        "3.1.1 DNA Metabolism"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.1.2 RNA Metabolism",
+      "page": 474,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 14 The Minimal Gene-Set Machinery",
+        "3 The Minimal Gene-Set Machinery",
+        "3.1 The First Pillar. Storage and Processing of Genetic Information: From Genes to Gene Products",
+        "3.1.2 RNA Metabolism"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.1.3 Protein Processing, Folding, and Secretion",
+      "page": 479,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 14 The Minimal Gene-Set Machinery",
+        "3 The Minimal Gene-Set Machinery",
+        "3.1 The First Pillar. Storage and Processing of Genetic Information: From Genes to Gene Products",
+        "3.1.3 Protein Processing, Folding, and Secretion"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.2 The Second Pillar. Energetic and Intermediary Metabolism",
+      "page": 481,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 14 The Minimal Gene-Set Machinery",
+        "3 The Minimal Gene-Set Machinery",
+        "3.2 The Second Pillar. Energetic and Intermediary Metabolism"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.3 The Third Pillar. The Cell Envelope and Its Involvement in EssentialCellular Processes",
+      "page": 482,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 14 The Minimal Gene-Set Machinery",
+        "3 The Minimal Gene-Set Machinery",
+        "3.3 The Third Pillar. The Cell Envelope and Its Involvement in EssentialCellular Processes"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "4 Conclusions",
+      "page": 483,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 14 The Minimal Gene-Set Machinery",
+        "4 Conclusions"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "Chapter 15 Production of Mitochondrial Genome and Chromosomal DNA Segments Highly Engineered for Use in Mouse Genetics by a Bacillus subtilis-Based BGM Vector System",
+      "page": 491,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 15 Production of Mitochondrial Genome and Chromosomal DNA Segments Highly Engineered for Use in Mouse Genetics by a Bacillus subtilis-Based BGM Vector System"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "1 Introduction",
+      "page": 493,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 15 Production of Mitochondrial Genome and Chromosomal DNA Segments Highly Engineered for Use in Mouse Genetics by a Bacillus subtilis-Based BGM Vector System",
+        "1 Introduction"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "2 Giant DNA Handled by the BGM System",
+      "page": 494,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 15 Production of Mitochondrial Genome and Chromosomal DNA Segments Highly Engineered for Use in Mouse Genetics by a Bacillus subtilis-Based BGM Vector System",
+        "2 Giant DNA Handled by the BGM System"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.1 Differential Principles of DNA Uptake between E. coli and B. subtilis",
+      "page": 494,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 15 Production of Mitochondrial Genome and Chromosomal DNA Segments Highly Engineered for Use in Mouse Genetics by a Bacillus subtilis-Based BGM Vector System",
+        "2 Giant DNA Handled by the BGM System",
+        "2.1 Differential Principles of DNA Uptake between E. coli and B. subtilis"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.2 DNA Cloned in the Plasmid Form in B. subtilis",
+      "page": 496,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 15 Production of Mitochondrial Genome and Chromosomal DNA Segments Highly Engineered for Use in Mouse Genetics by a Bacillus subtilis-Based BGM Vector System",
+        "2 Giant DNA Handled by the BGM System",
+        "2.2 DNA Cloned in the Plasmid Form in B. subtilis"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.3 DNA Cloned in the B. subtilis Genome",
+      "page": 496,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 15 Production of Mitochondrial Genome and Chromosomal DNA Segments Highly Engineered for Use in Mouse Genetics by a Bacillus subtilis-Based BGM Vector System",
+        "2 Giant DNA Handled by the BGM System",
+        "2.3 DNA Cloned in the B. subtilis Genome"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "3 Production of a Full-Length Mouse Mitochondrial Genome by the BGM System",
+      "page": 497,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 15 Production of Mitochondrial Genome and Chromosomal DNA Segments Highly Engineered for Use in Mouse Genetics by a Bacillus subtilis-Based BGM Vector System",
+        "3 Production of a Full-Length Mouse Mitochondrial Genome by the BGM System"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.4 Assembly of Contiguous DNAs in the B. subtilis Genome: the Domino Method",
+      "page": 497,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 15 Production of Mitochondrial Genome and Chromosomal DNA Segments Highly Engineered for Use in Mouse Genetics by a Bacillus subtilis-Based BGM Vector System",
+        "2 Giant DNA Handled by the BGM System",
+        "2.4 Assembly of Contiguous DNAs in the B. subtilis Genome: the Domino Method"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.1 Cloning and Engineering of mtDNA in E. coli",
+      "page": 497,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 15 Production of Mitochondrial Genome and Chromosomal DNA Segments Highly Engineered for Use in Mouse Genetics by a Bacillus subtilis-Based BGM Vector System",
+        "3 Production of a Full-Length Mouse Mitochondrial Genome by the BGM System",
+        "3.1 Cloning and Engineering of mtDNA in E. coli"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.2 Direct Cloning by Use of Purified mtDNA by BGM",
+      "page": 499,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 15 Production of Mitochondrial Genome and Chromosomal DNA Segments Highly Engineered for Use in Mouse Genetics by a Bacillus subtilis-Based BGM Vector System",
+        "3 Production of a Full-Length Mouse Mitochondrial Genome by the BGM System",
+        "3.2 Direct Cloning by Use of Purified mtDNA by BGM"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.3 Synthesis of mtDNA by the Domino Method",
+      "page": 500,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 15 Production of Mitochondrial Genome and Chromosomal DNA Segments Highly Engineered for Use in Mouse Genetics by a Bacillus subtilis-Based BGM Vector System",
+        "3 Production of a Full-Length Mouse Mitochondrial Genome by the BGM System",
+        "3.3 Synthesis of mtDNA by the Domino Method"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "4 Production of Heavily Manipulated DNA for Mouse Genetics",
+      "page": 502,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 15 Production of Mitochondrial Genome and Chromosomal DNA Segments Highly Engineered for Use in Mouse Genetics by a Bacillus subtilis-Based BGM Vector System",
+        "4 Production of Heavily Manipulated DNA for Mouse Genetics"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.1 BAC Plasmid Vectors for Large DNA Handling in E. coli",
+      "page": 502,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 15 Production of Mitochondrial Genome and Chromosomal DNA Segments Highly Engineered for Use in Mouse Genetics by a Bacillus subtilis-Based BGM Vector System",
+        "4 Production of Heavily Manipulated DNA for Mouse Genetics",
+        "4.1 BAC Plasmid Vectors for Large DNA Handling in E. coli"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.2 BAC Domino Transfer in BGM",
+      "page": 503,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 15 Production of Mitochondrial Genome and Chromosomal DNA Segments Highly Engineered for Use in Mouse Genetics by a Bacillus subtilis-Based BGM Vector System",
+        "4 Production of Heavily Manipulated DNA for Mouse Genetics",
+        "4.2 BAC Domino Transfer in BGM"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "4.2.1 Complex Engineering for BAC Inserts (Deletion, Inversion)",
+      "page": 504,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 15 Production of Mitochondrial Genome and Chromosomal DNA Segments Highly Engineered for Use in Mouse Genetics by a Bacillus subtilis-Based BGM Vector System",
+        "4 Production of Heavily Manipulated DNA for Mouse Genetics",
+        "4.2 BAC Domino Transfer in BGM",
+        "4.2.1 Complex Engineering for BAC Inserts (Deletion, Inversion)"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "4.2.2 Connection of Two Adjacent BACs in BGM",
+      "page": 504,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 15 Production of Mitochondrial Genome and Chromosomal DNA Segments Highly Engineered for Use in Mouse Genetics by a Bacillus subtilis-Based BGM Vector System",
+        "4 Production of Heavily Manipulated DNA for Mouse Genetics",
+        "4.2 BAC Domino Transfer in BGM",
+        "4.2.2 Connection of Two Adjacent BACs in BGM"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "4.2.3 Isolation and Purification of BAC in BGM",
+      "page": 507,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 15 Production of Mitochondrial Genome and Chromosomal DNA Segments Highly Engineered for Use in Mouse Genetics by a Bacillus subtilis-Based BGM Vector System",
+        "4 Production of Heavily Manipulated DNA for Mouse Genetics",
+        "4.2 BAC Domino Transfer in BGM",
+        "4.2.3 Isolation and Purification of BAC in BGM"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.3 Applications for Heavily Engineered BACs Produced in Transgenic Mice",
+      "page": 509,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 15 Production of Mitochondrial Genome and Chromosomal DNA Segments Highly Engineered for Use in Mouse Genetics by a Bacillus subtilis-Based BGM Vector System",
+        "4 Production of Heavily Manipulated DNA for Mouse Genetics",
+        "4.3 Applications for Heavily Engineered BACs Produced in Transgenic Mice"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.4 Comprehensive BAC/BGM Library Construction Proposals",
+      "page": 511,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 15 Production of Mitochondrial Genome and Chromosomal DNA Segments Highly Engineered for Use in Mouse Genetics by a Bacillus subtilis-Based BGM Vector System",
+        "4 Production of Heavily Manipulated DNA for Mouse Genetics",
+        "4.4 Comprehensive BAC/BGM Library Construction Proposals"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.5 Long-Term Storage of Valuable DNA Resources in the BGM System",
+      "page": 511,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 15 Production of Mitochondrial Genome and Chromosomal DNA Segments Highly Engineered for Use in Mouse Genetics by a Bacillus subtilis-Based BGM Vector System",
+        "4 Production of Heavily Manipulated DNA for Mouse Genetics",
+        "4.5 Long-Term Storage of Valuable DNA Resources in the BGM System"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "5 Future Perspectives for the BGM System in Molecular Cloning and Genome Design",
+      "page": 512,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 15 Production of Mitochondrial Genome and Chromosomal DNA Segments Highly Engineered for Use in Mouse Genetics by a Bacillus subtilis-Based BGM Vector System",
+        "5 Future Perspectives for the BGM System in Molecular Cloning and Genome Design"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "Chapter 16 Synthetic Genetic Polymers Functioning to Store and Propagate Information by Genetic Alphabet Expansion",
+      "page": 517,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 16 Synthetic Genetic Polymers Functioning to Store and Propagate Information by Genetic Alphabet Expansion"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "1 Introduction",
+      "page": 519,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 16 Synthetic Genetic Polymers Functioning to Store and Propagate Information by Genetic Alphabet Expansion",
+        "1 Introduction"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "2 Unnatural Base Pairs",
+      "page": 520,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 16 Synthetic Genetic Polymers Functioning to Store and Propagate Information by Genetic Alphabet Expansion",
+        "2 Unnatural Base Pairs"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.1 Bidirectionally Complementary Base Pairs",
+      "page": 520,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 16 Synthetic Genetic Polymers Functioning to Store and Propagate Information by Genetic Alphabet Expansion",
+        "2 Unnatural Base Pairs",
+        "2.1 Bidirectionally Complementary Base Pairs"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "2.1.1 Ds-Pa Pair",
+      "page": 520,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 16 Synthetic Genetic Polymers Functioning to Store and Propagate Information by Genetic Alphabet Expansion",
+        "2 Unnatural Base Pairs",
+        "2.1 Bidirectionally Complementary Base Pairs",
+        "2.1.1 Ds-Pa Pair"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "2.1.2 Ds-Px Pair",
+      "page": 522,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 16 Synthetic Genetic Polymers Functioning to Store and Propagate Information by Genetic Alphabet Expansion",
+        "2 Unnatural Base Pairs",
+        "2.1 Bidirectionally Complementary Base Pairs",
+        "2.1.2 Ds-Px Pair"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "2.1.3 5SICS-MMO2 and 5SICS-NaM Pairs",
+      "page": 524,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 16 Synthetic Genetic Polymers Functioning to Store and Propagate Information by Genetic Alphabet Expansion",
+        "2 Unnatural Base Pairs",
+        "2.1 Bidirectionally Complementary Base Pairs",
+        "2.1.3 5SICS-MMO2 and 5SICS-NaM Pairs"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "2.1.4 P-Z Pair",
+      "page": 524,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 16 Synthetic Genetic Polymers Functioning to Store and Propagate Information by Genetic Alphabet Expansion",
+        "2 Unnatural Base Pairs",
+        "2.1 Bidirectionally Complementary Base Pairs",
+        "2.1.4 P-Z Pair"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.2 Unidirectionally Complementary Base Pairs",
+      "page": 525,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 16 Synthetic Genetic Polymers Functioning to Store and Propagate Information by Genetic Alphabet Expansion",
+        "2 Unnatural Base Pairs",
+        "2.2 Unidirectionally Complementary Base Pairs"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "2.1.5 S-Cu-S Pair",
+      "page": 525,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 16 Synthetic Genetic Polymers Functioning to Store and Propagate Information by Genetic Alphabet Expansion",
+        "2 Unnatural Base Pairs",
+        "2.1 Bidirectionally Complementary Base Pairs",
+        "2.1.5 S-Cu-S Pair"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "2.2.1 isoG-isoC Pair",
+      "page": 525,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 16 Synthetic Genetic Polymers Functioning to Store and Propagate Information by Genetic Alphabet Expansion",
+        "2 Unnatural Base Pairs",
+        "2.2 Unidirectionally Complementary Base Pairs",
+        "2.2.1 isoG-isoC Pair"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "3 Applications",
+      "page": 526,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 16 Synthetic Genetic Polymers Functioning to Store and Propagate Information by Genetic Alphabet Expansion",
+        "3 Applications"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.1 PCR Amplification and qPCR",
+      "page": 526,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 16 Synthetic Genetic Polymers Functioning to Store and Propagate Information by Genetic Alphabet Expansion",
+        "3 Applications",
+        "3.1 PCR Amplification and qPCR"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "2.2.2 s-y Pair",
+      "page": 526,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 16 Synthetic Genetic Polymers Functioning to Store and Propagate Information by Genetic Alphabet Expansion",
+        "2 Unnatural Base Pairs",
+        "2.2 Unidirectionally Complementary Base Pairs",
+        "2.2.2 s-y Pair"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "2.2.3 s-Pa Pair",
+      "page": 526,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 16 Synthetic Genetic Polymers Functioning to Store and Propagate Information by Genetic Alphabet Expansion",
+        "2 Unnatural Base Pairs",
+        "2.2 Unidirectionally Complementary Base Pairs",
+        "2.2.3 s-Pa Pair"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "4 Conclusion",
+      "page": 528,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 16 Synthetic Genetic Polymers Functioning to Store and Propagate Information by Genetic Alphabet Expansion",
+        "4 Conclusion"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.2 Transcription",
+      "page": 528,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 16 Synthetic Genetic Polymers Functioning to Store and Propagate Information by Genetic Alphabet Expansion",
+        "3 Applications",
+        "3.2 Transcription"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.3 Translation",
+      "page": 528,
+      "section_path": [
+        "Volume 2",
+        "Part IV Synthetic Genomes",
+        "Chapter 16 Synthetic Genetic Polymers Functioning to Store and Propagate Information by Genetic Alphabet Expansion",
+        "3 Applications",
+        "3.3 Translation"
+      ]
+    },
+    {
+      "depth": 1,
+      "title": "Part V Diseases and Therapeutics",
+      "page": 533,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "Chapter 17 Synthetic Biology Approaches for Regenerative Medicine",
+      "page": 535,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 17 Synthetic Biology Approaches for Regenerative Medicine"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "1 Introduction: Current Problems in Regenerative Medicine",
+      "page": 536,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 17 Synthetic Biology Approaches for Regenerative Medicine",
+        "1 Introduction: Current Problems in Regenerative Medicine"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "2 Synthetic Biology as a Promising Source of Solutions",
+      "page": 537,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 17 Synthetic Biology Approaches for Regenerative Medicine",
+        "2 Synthetic Biology as a Promising Source of Solutions"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.1 Production and Expansion of Stem Cells",
+      "page": 541,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 17 Synthetic Biology Approaches for Regenerative Medicine",
+        "2 Synthetic Biology as a Promising Source of Solutions",
+        "2.1 Production and Expansion of Stem Cells"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.2 Control of Differentiation/Potency",
+      "page": 542,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 17 Synthetic Biology Approaches for Regenerative Medicine",
+        "2 Synthetic Biology as a Promising Source of Solutions",
+        "2.2 Control of Differentiation/Potency"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.3 Addressing the Danger of Tumorigenicity",
+      "page": 543,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 17 Synthetic Biology Approaches for Regenerative Medicine",
+        "2 Synthetic Biology as a Promising Source of Solutions",
+        "2.3 Addressing the Danger of Tumorigenicity"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.4 Targeting in the Host",
+      "page": 544,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 17 Synthetic Biology Approaches for Regenerative Medicine",
+        "2 Synthetic Biology as a Promising Source of Solutions",
+        "2.4 Targeting in the Host"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.5 Population Control in the Host",
+      "page": 546,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 17 Synthetic Biology Approaches for Regenerative Medicine",
+        "2 Synthetic Biology as a Promising Source of Solutions",
+        "2.5 Population Control in the Host"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "3 Ethical, Legal, and Social Implications",
+      "page": 548,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 17 Synthetic Biology Approaches for Regenerative Medicine",
+        "3 Ethical, Legal, and Social Implications"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.6 Reporting of Cell Fate",
+      "page": 548,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 17 Synthetic Biology Approaches for Regenerative Medicine",
+        "2 Synthetic Biology as a Promising Source of Solutions",
+        "2.6 Reporting of Cell Fate"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "Chapter 18 The Synthetic Biology Approach to Stem Cells and Regenerative Medicine",
+      "page": 553,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 18 The Synthetic Biology Approach to Stem Cells and Regenerative Medicine"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "1 Introduction",
+      "page": 555,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 18 The Synthetic Biology Approach to Stem Cells and Regenerative Medicine",
+        "1 Introduction"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "2 Synthetic Gene Circuits for Directing Stem Cell Differentiation and Establishing Intercellular Communication Networks within 3D Tissue-Engineered Constructs",
+      "page": 556,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 18 The Synthetic Biology Approach to Stem Cells and Regenerative Medicine",
+        "2 Synthetic Gene Circuits for Directing Stem Cell Differentiation and Establishing Intercellular Communication Networks within 3D Tissue-Engineered Constructs"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "3 Precise Gene Targeting and Genome-Editing Technologies to Allay Safety Concerns of Synthetic Gene Circuits Encoded by Recombinant DNA",
+      "page": 558,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 18 The Synthetic Biology Approach to Stem Cells and Regenerative Medicine",
+        "3 Precise Gene Targeting and Genome-Editing Technologies to Allay Safety Concerns of Synthetic Gene Circuits Encoded by Recombinant DNA"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "4 Non-integrating Vectors for the Expression of Transgenes: Episomal Plasmids and Sendai Virus",
+      "page": 559,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 18 The Synthetic Biology Approach to Stem Cells and Regenerative Medicine",
+        "4 Non-integrating Vectors for the Expression of Transgenes: Episomal Plasmids and Sendai Virus"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "5 Modulating Gene Expression through Direct Delivery of Proteins and RNA into the Cell: A Safer Alternative for Stem Cell Differentiation and Reprogramming Compared with Recombinant DNA Transfection",
+      "page": 560,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 18 The Synthetic Biology Approach to Stem Cells and Regenerative Medicine",
+        "5 Modulating Gene Expression through Direct Delivery of Proteins and RNA into the Cell: A Safer Alternative for Stem Cell Differentiation and Reprogramming Compared with Recombinant DNA Transfection"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "6 Breakthrough: Chemical-Based Reprogramming to Pluripotent Stem Cells with Small Molecules Alone",
+      "page": 562,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 18 The Synthetic Biology Approach to Stem Cells and Regenerative Medicine",
+        "6 Breakthrough: Chemical-Based Reprogramming to Pluripotent Stem Cells with Small Molecules Alone"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "7 Overcoming the Limited Plasticity and Proliferative Potential of Adult Stem Cells Using a Synthetic Biology Toolkit",
+      "page": 562,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 18 The Synthetic Biology Approach to Stem Cells and Regenerative Medicine",
+        "7 Overcoming the Limited Plasticity and Proliferative Potential of Adult Stem Cells Using a Synthetic Biology Toolkit"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "8 Conclusions: Safety Issues and Future Outlook",
+      "page": 563,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 18 The Synthetic Biology Approach to Stem Cells and Regenerative Medicine",
+        "8 Conclusions: Safety Issues and Future Outlook"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "Chapter 19 Synthetic Biology Approaches to Cell Therapy",
+      "page": 571,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 19 Synthetic Biology Approaches to Cell Therapy"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "1 Introduction",
+      "page": 572,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 19 Synthetic Biology Approaches to Cell Therapy",
+        "1 Introduction"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "2 Cell Therapy Successes",
+      "page": 575,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 19 Synthetic Biology Approaches to Cell Therapy",
+        "2 Cell Therapy Successes"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.1 Hematopoietic Stem Cell Transplantation",
+      "page": 575,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 19 Synthetic Biology Approaches to Cell Therapy",
+        "2 Cell Therapy Successes",
+        "2.1 Hematopoietic Stem Cell Transplantation"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.2 Engineered Immunotherapy",
+      "page": 575,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 19 Synthetic Biology Approaches to Cell Therapy",
+        "2 Cell Therapy Successes",
+        "2.2 Engineered Immunotherapy"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.3 Tissue Engineering",
+      "page": 577,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 19 Synthetic Biology Approaches to Cell Therapy",
+        "2 Cell Therapy Successes",
+        "2.3 Tissue Engineering"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.4 Enhancing the Microbiome",
+      "page": 578,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 19 Synthetic Biology Approaches to Cell Therapy",
+        "2 Cell Therapy Successes",
+        "2.4 Enhancing the Microbiome"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "3 Synthetic Circuits",
+      "page": 579,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 19 Synthetic Biology Approaches to Cell Therapy",
+        "3 Synthetic Circuits"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.5 Liposomal Encapsulations",
+      "page": 579,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 19 Synthetic Biology Approaches to Cell Therapy",
+        "2 Cell Therapy Successes",
+        "2.5 Liposomal Encapsulations"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.1 Engineering Synthetic Gene Circuits",
+      "page": 580,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 19 Synthetic Biology Approaches to Cell Therapy",
+        "3 Synthetic Circuits",
+        "3.1 Engineering Synthetic Gene Circuits"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.2 Engineering Synthetic Protein Circuits",
+      "page": 582,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 19 Synthetic Biology Approaches to Cell Therapy",
+        "3 Synthetic Circuits",
+        "3.2 Engineering Synthetic Protein Circuits"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.3 Deploying Circuits in Mammalian Cells",
+      "page": 583,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 19 Synthetic Biology Approaches to Cell Therapy",
+        "3 Synthetic Circuits",
+        "3.3 Deploying Circuits in Mammalian Cells"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "4 Cell Therapies Enabled by Synthetic Biology",
+      "page": 585,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 19 Synthetic Biology Approaches to Cell Therapy",
+        "4 Cell Therapies Enabled by Synthetic Biology"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.1 Cell Therapy with Engineered Bacteria",
+      "page": 585,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 19 Synthetic Biology Approaches to Cell Therapy",
+        "4 Cell Therapies Enabled by Synthetic Biology",
+        "4.1 Cell Therapy with Engineered Bacteria"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.2 Optimizing Immunotherapy with Synthetic Biology",
+      "page": 587,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 19 Synthetic Biology Approaches to Cell Therapy",
+        "4 Cell Therapies Enabled by Synthetic Biology",
+        "4.2 Optimizing Immunotherapy with Synthetic Biology"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.3 Deploying Synthetic Circuits in Mammalian Cells to Treat Broad Diseases",
+      "page": 590,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 19 Synthetic Biology Approaches to Cell Therapy",
+        "4 Cell Therapies Enabled by Synthetic Biology",
+        "4.3 Deploying Synthetic Circuits in Mammalian Cells to Treat Broad Diseases"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.4 Artificial Cell Nanofactories as Therapeutics",
+      "page": 591,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 19 Synthetic Biology Approaches to Cell Therapy",
+        "4 Cell Therapies Enabled by Synthetic Biology",
+        "4.4 Artificial Cell Nanofactories as Therapeutics"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "5 Safety",
+      "page": 592,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 19 Synthetic Biology Approaches to Cell Therapy",
+        "5 Safety"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "6 Concluding Remarks",
+      "page": 594,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 19 Synthetic Biology Approaches to Cell Therapy",
+        "6 Concluding Remarks"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "Chapter 20 Synthetic Biology Approaches for Vaccine Development",
+      "page": 601,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 20 Synthetic Biology Approaches for Vaccine Development"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "1 Introduction",
+      "page": 603,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 20 Synthetic Biology Approaches for Vaccine Development",
+        "1 Introduction"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "2 Synthetic Approaches to Vaccine Design",
+      "page": 605,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 20 Synthetic Biology Approaches for Vaccine Development",
+        "2 Synthetic Approaches to Vaccine Design"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.1 Codon Usage Recoding",
+      "page": 606,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 20 Synthetic Biology Approaches for Vaccine Development",
+        "2 Synthetic Approaches to Vaccine Design",
+        "2.1 Codon Usage Recoding"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "3 Attenuation by CPB Recoding",
+      "page": 608,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 20 Synthetic Biology Approaches for Vaccine Development",
+        "3 Attenuation by CPB Recoding"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.2 Codon-Pair Bias",
+      "page": 608,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 20 Synthetic Biology Approaches for Vaccine Development",
+        "2 Synthetic Approaches to Vaccine Design",
+        "2.2 Codon-Pair Bias"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.1 Poliovirus",
+      "page": 609,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 20 Synthetic Biology Approaches for Vaccine Development",
+        "3 Attenuation by CPB Recoding",
+        "3.1 Poliovirus"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.2 Scrambled Poliovirus",
+      "page": 610,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 20 Synthetic Biology Approaches for Vaccine Development",
+        "3 Attenuation by CPB Recoding",
+        "3.2 Scrambled Poliovirus"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.3 Influenza Virus",
+      "page": 612,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 20 Synthetic Biology Approaches for Vaccine Development",
+        "3 Attenuation by CPB Recoding",
+        "3.3 Influenza Virus"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.4 Recoding HIV",
+      "page": 616,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 20 Synthetic Biology Approaches for Vaccine Development",
+        "3 Attenuation by CPB Recoding",
+        "3.4 Recoding HIV"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "4 Mechanisms of Attenuation by Recoding",
+      "page": 617,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 20 Synthetic Biology Approaches for Vaccine Development",
+        "4 Mechanisms of Attenuation by Recoding"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.5 Recoding Prokaryotes",
+      "page": 617,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 20 Synthetic Biology Approaches for Vaccine Development",
+        "3 Attenuation by CPB Recoding",
+        "3.5 Recoding Prokaryotes"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "5 Eradication as the Goal of Vaccines",
+      "page": 619,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 20 Synthetic Biology Approaches for Vaccine Development",
+        "5 Eradication as the Goal of Vaccines"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "6 Concluding Remarks",
+      "page": 621,
+      "section_path": [
+        "Volume 2",
+        "Part V Diseases and Therapeutics",
+        "Chapter 20 Synthetic Biology Approaches for Vaccine Development",
+        "6 Concluding Remarks"
+      ]
+    },
+    {
+      "depth": 1,
+      "title": "Part VI Chemicals Production",
+      "page": 629,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "Chapter 21 Metabolic Engineering for the Production of Diols",
+      "page": 631,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "1 Introduction",
+      "page": 634,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "1 Introduction"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "2 1,2-Propanediol (1,2-PD)",
+      "page": 635,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "2 1,2-Propanediol (1,2-PD)"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.1 Microbiological Synthesis of 1,2-PD",
+      "page": 637,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "2 1,2-Propanediol (1,2-PD)",
+        "2.1 Microbiological Synthesis of 1,2-PD"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.2 Factors Influencing 1,2-PD Formation by Microorganisms",
+      "page": 638,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "2 1,2-Propanediol (1,2-PD)",
+        "2.2 Factors Influencing 1,2-PD Formation by Microorganisms"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "2.2.1 Medium Composition and Environmental Conditions",
+      "page": 638,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "2 1,2-Propanediol (1,2-PD)",
+        "2.2 Factors Influencing 1,2-PD Formation by Microorganisms",
+        "2.2.1 Medium Composition and Environmental Conditions"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.3 Genetic Engineering in 1,2-PD Production",
+      "page": 642,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "2 1,2-Propanediol (1,2-PD)",
+        "2.3 Genetic Engineering in 1,2-PD Production"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "3 1,3-Propanediol",
+      "page": 643,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "3 1,3-Propanediol"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.1 Microbial Production of 1,3-PD",
+      "page": 643,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "3 1,3-Propanediol",
+        "3.1 Microbial Production of 1,3-PD"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.2 Glycerol Metabolism in Microorganisms Producing 1,3-PD",
+      "page": 644,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "3 1,3-Propanediol",
+        "3.2 Glycerol Metabolism in Microorganisms Producing 1,3-PD"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.3 Influence of Medium Composition on the Microbial Production of 1,3-PD from Glycerol",
+      "page": 645,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "3 1,3-Propanediol",
+        "3.3 Influence of Medium Composition on the Microbial Production of 1,3-PD from Glycerol"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.3.1 Glycerol",
+      "page": 645,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "3 1,3-Propanediol",
+        "3.3 Influence of Medium Composition on the Microbial Production of 1,3-PD from Glycerol",
+        "3.3.1 Glycerol"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.3.2 Carbohydrates",
+      "page": 647,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "3 1,3-Propanediol",
+        "3.3 Influence of Medium Composition on the Microbial Production of 1,3-PD from Glycerol",
+        "3.3.2 Carbohydrates"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.3.3 Diols",
+      "page": 648,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "3 1,3-Propanediol",
+        "3.3 Influence of Medium Composition on the Microbial Production of 1,3-PD from Glycerol",
+        "3.3.3 Diols"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.4 Influence of Process Parameters on the Microbial Production of 1,3-PD from Glycerol",
+      "page": 649,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "3 1,3-Propanediol",
+        "3.4 Influence of Process Parameters on the Microbial Production of 1,3-PD from Glycerol"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.3.4 Nitrogen Source",
+      "page": 649,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "3 1,3-Propanediol",
+        "3.3 Influence of Medium Composition on the Microbial Production of 1,3-PD from Glycerol",
+        "3.3.4 Nitrogen Source"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.3.5 Organic Acids",
+      "page": 649,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "3 1,3-Propanediol",
+        "3.3 Influence of Medium Composition on the Microbial Production of 1,3-PD from Glycerol",
+        "3.3.5 Organic Acids"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.3.6 Vitamins",
+      "page": 649,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "3 1,3-Propanediol",
+        "3.3 Influence of Medium Composition on the Microbial Production of 1,3-PD from Glycerol",
+        "3.3.6 Vitamins"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.4.1 pH",
+      "page": 649,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "3 1,3-Propanediol",
+        "3.4 Influence of Process Parameters on the Microbial Production of 1,3-PD from Glycerol",
+        "3.4.1 pH"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.5 Genetic Engineering of 1,3-PD",
+      "page": 650,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "3 1,3-Propanediol",
+        "3.5 Genetic Engineering of 1,3-PD"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.4.2 Oxygen Supply",
+      "page": 650,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "3 1,3-Propanediol",
+        "3.4 Influence of Process Parameters on the Microbial Production of 1,3-PD from Glycerol",
+        "3.4.2 Oxygen Supply"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "4 2,3-Butanediol",
+      "page": 653,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "4 2,3-Butanediol"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.1 2,3-BD Metabolic Pathway",
+      "page": 653,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "4 2,3-Butanediol",
+        "4.1 2,3-BD Metabolic Pathway"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.2 Fermentation",
+      "page": 654,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "4 2,3-Butanediol",
+        "4.2 Fermentation"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "4.2.1 Substrates",
+      "page": 654,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "4 2,3-Butanediol",
+        "4.2 Fermentation",
+        "4.2.1 Substrates"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.3 Fermentation Conditions",
+      "page": 657,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "4 2,3-Butanediol",
+        "4.3 Fermentation Conditions"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "4.3.1 Aeration",
+      "page": 657,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "4 2,3-Butanediol",
+        "4.3 Fermentation Conditions",
+        "4.3.1 Aeration"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "4.3.2 pH",
+      "page": 659,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "4 2,3-Butanediol",
+        "4.3 Fermentation Conditions",
+        "4.3.2 pH"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "4.3.3 Temperature",
+      "page": 661,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "4 2,3-Butanediol",
+        "4.3 Fermentation Conditions",
+        "4.3.3 Temperature"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.4 Recovery of Biologically Produced 2,3-BD",
+      "page": 662,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "4 2,3-Butanediol",
+        "4.4 Recovery of Biologically Produced 2,3-BD"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "4.3.4 Medium Supplementation with Acetic Acid",
+      "page": 662,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "4 2,3-Butanediol",
+        "4.3 Fermentation Conditions",
+        "4.3.4 Medium Supplementation with Acetic Acid"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.5 Genetic Engineering of 2,3-BD",
+      "page": 663,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 21 Metabolic Engineering for the Production of Diols",
+        "4 2,3-Butanediol",
+        "4.5 Genetic Engineering of 2,3-BD"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "Chapter 22 Synthetic Biology in Biofuels Production",
+      "page": 677,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "1 Introduction",
+      "page": 679,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "1 Introduction"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "2 Synthetic Biology: The Tools and Applications",
+      "page": 681,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "2 Synthetic Biology: The Tools and Applications"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.1 Fabrication of Genes",
+      "page": 681,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "2 Synthetic Biology: The Tools and Applications",
+        "2.1 Fabrication of Genes"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.2 Biological Circuits",
+      "page": 682,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "2 Synthetic Biology: The Tools and Applications",
+        "2.2 Biological Circuits"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.3 Metabolic Engineering",
+      "page": 682,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "2 Synthetic Biology: The Tools and Applications",
+        "2.3 Metabolic Engineering"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "2.4 Predicting Fabricated Genes or Pathways Behavior in a Biological System",
+      "page": 683,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "2 Synthetic Biology: The Tools and Applications",
+        "2.4 Predicting Fabricated Genes or Pathways Behavior in a Biological System"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "2.4.1 Metabolic Network Modeling",
+      "page": 683,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "2 Synthetic Biology: The Tools and Applications",
+        "2.4 Predicting Fabricated Genes or Pathways Behavior in a Biological System",
+        "2.4.1 Metabolic Network Modeling"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "2.4.2 Analysis of the Model",
+      "page": 683,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "2 Synthetic Biology: The Tools and Applications",
+        "2.4 Predicting Fabricated Genes or Pathways Behavior in a Biological System",
+        "2.4.2 Analysis of the Model"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "3 Role of Synthetic Biology in Feedstock Improvement",
+      "page": 684,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "3 Role of Synthetic Biology in Feedstock Improvement"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.1 Feedstock Engineering for Efficient Hydrolysis",
+      "page": 684,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "3 Role of Synthetic Biology in Feedstock Improvement",
+        "3.1 Feedstock Engineering for Efficient Hydrolysis"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.1.1 Feedstock Engineering for Low Lignin Content",
+      "page": 685,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "3 Role of Synthetic Biology in Feedstock Improvement",
+        "3.1 Feedstock Engineering for Efficient Hydrolysis",
+        "3.1.1 Feedstock Engineering for Low Lignin Content"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.2 Feedstock Engineering for Increased Biomass",
+      "page": 686,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "3 Role of Synthetic Biology in Feedstock Improvement",
+        "3.2 Feedstock Engineering for Increased Biomass"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.1.2 Change in Lignin Structure",
+      "page": 686,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "3 Role of Synthetic Biology in Feedstock Improvement",
+        "3.1 Feedstock Engineering for Efficient Hydrolysis",
+        "3.1.2 Change in Lignin Structure"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.2.1 Delay in Reproductive Phase",
+      "page": 686,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "3 Role of Synthetic Biology in Feedstock Improvement",
+        "3.2 Feedstock Engineering for Increased Biomass",
+        "3.2.1 Delay in Reproductive Phase"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.2.2 Genetic Manipulation of Plant Growth Regulators",
+      "page": 687,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "3 Role of Synthetic Biology in Feedstock Improvement",
+        "3.2 Feedstock Engineering for Increased Biomass",
+        "3.2.2 Genetic Manipulation of Plant Growth Regulators"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.2.3 Modulation of Nutrient Metabolism",
+      "page": 687,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "3 Role of Synthetic Biology in Feedstock Improvement",
+        "3.2 Feedstock Engineering for Increased Biomass",
+        "3.2.3 Modulation of Nutrient Metabolism"
+      ]
+    },
+    {
+      "depth": 5,
+      "title": "3.2.4 Facilitation of Phosphorus Utilization",
+      "page": 687,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "3 Role of Synthetic Biology in Feedstock Improvement",
+        "3.2 Feedstock Engineering for Increased Biomass",
+        "3.2.4 Facilitation of Phosphorus Utilization"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "4 Enzyme Engineering for Hydrolysis of Biomass",
+      "page": 688,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "4 Enzyme Engineering for Hydrolysis of Biomass"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "3.3 Feedstock Engineering for Heterologous Expression of Hydrolyzing Enzyme",
+      "page": 688,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "3 Role of Synthetic Biology in Feedstock Improvement",
+        "3.3 Feedstock Engineering for Heterologous Expression of Hydrolyzing Enzyme"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.1 Enzymes with Higher Catalytic or Specific Activity",
+      "page": 688,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "4 Enzyme Engineering for Hydrolysis of Biomass",
+        "4.1 Enzymes with Higher Catalytic or Specific Activity"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.2 Enzymes with Improved Thermostability and pH Optima",
+      "page": 688,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "4 Enzyme Engineering for Hydrolysis of Biomass",
+        "4.2 Enzymes with Improved Thermostability and pH Optima"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "4.3 Enzymes with Bifunctional or Multifunctional Activities",
+      "page": 689,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "4 Enzyme Engineering for Hydrolysis of Biomass",
+        "4.3 Enzymes with Bifunctional or Multifunctional Activities"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "5 Microbial Engineering to Expand the Substrate Range",
+      "page": 690,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "5 Microbial Engineering to Expand the Substrate Range"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "6 Microbial Engineering to Produce Various Biofuel Molecules",
+      "page": 691,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "6 Microbial Engineering to Produce Various Biofuel Molecules"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "6.1 Lignocellulosic Ethanol",
+      "page": 691,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "6 Microbial Engineering to Produce Various Biofuel Molecules",
+        "6.1 Lignocellulosic Ethanol"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "6.2 Butanol and Higher-Chain Alcohols",
+      "page": 693,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "6 Microbial Engineering to Produce Various Biofuel Molecules",
+        "6.2 Butanol and Higher-Chain Alcohols"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "6.3 Fatty Acid-Based Biofuels",
+      "page": 696,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "6 Microbial Engineering to Produce Various Biofuel Molecules",
+        "6.3 Fatty Acid-Based Biofuels"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "7 Role of Synthetic Biology in Algal Fuels",
+      "page": 699,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "7 Role of Synthetic Biology in Algal Fuels"
+      ]
+    },
+    {
+      "depth": 4,
+      "title": "6.4 Isoprenoid-Based Biofuels",
+      "page": 699,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 22 Synthetic Biology in Biofuels Production",
+        "6 Microbial Engineering to Produce Various Biofuel Molecules",
+        "6.4 Isoprenoid-Based Biofuels"
+      ]
+    },
+    {
+      "depth": 2,
+      "title": "Chapter 23 Synthetic Biology of Antibiotic Production",
+      "page": 711,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 23 Synthetic Biology of Antibiotic Production"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "1 Introduction",
+      "page": 713,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 23 Synthetic Biology of Antibiotic Production",
+        "1 Introduction"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "2 The Need for Chemical Diversity",
+      "page": 714,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 23 Synthetic Biology of Antibiotic Production",
+        "2 The Need for Chemical Diversity"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "3 Classical Approaches to Antibiotic Biosynthesis",
+      "page": 716,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 23 Synthetic Biology of Antibiotic Production",
+        "3 Classical Approaches to Antibiotic Biosynthesis"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "4 Synthetic Biology Methods for Genome Prospecting of New Bioactive Molecules",
+      "page": 719,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 23 Synthetic Biology of Antibiotic Production",
+        "4 Synthetic Biology Methods for Genome Prospecting of New Bioactive Molecules"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "5 Synthetic Biology Approaches for the Rapid Generation of Chemical Diversity",
+      "page": 722,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 23 Synthetic Biology of Antibiotic Production",
+        "5 Synthetic Biology Approaches for the Rapid Generation of Chemical Diversity"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "6 Engineering of Versatile Chassis for the Synthetic Biology of Antibiotics",
+      "page": 724,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 23 Synthetic Biology of Antibiotic Production",
+        "6 Engineering of Versatile Chassis for the Synthetic Biology of Antibiotics"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "7 Tools for the Future",
+      "page": 727,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 23 Synthetic Biology of Antibiotic Production",
+        "7 Tools for the Future"
+      ]
+    },
+    {
+      "depth": 3,
+      "title": "References 717",
+      "page": 729,
+      "section_path": [
+        "Volume 2",
+        "Part VI Chemicals Production",
+        "Chapter 23 Synthetic Biology of Antibiotic Production",
+        "References 717"
+      ]
+    }
+  ]
+}

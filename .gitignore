@@ -1,4 +1,5 @@
 .env
 data/raw_sources/
+data/textbooks/raw/
 server.log
 *.log

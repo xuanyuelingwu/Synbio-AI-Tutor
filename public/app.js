@@ -281,6 +281,7 @@ function appendMessage(role, content, sources = [], evidence = []) {
             <strong>${escapeHtml(item.title)}</strong>
             <p>${escapeHtml(item.text)}</p>
             <span class="evidence-meta">${bilingualHtml(topicLabel(item.topic))}</span>
+            ${item.citation ? `<span class="citation-meta">${escapeHtml(item.citation.author)} · ${escapeHtml(item.citation.book_title)} · pp. ${escapeHtml(item.citation.page_start)}-${escapeHtml(item.citation.page_end)}<br>${escapeHtml(item.citation.section)}<br>${escapeHtml(item.citation.evidence_scope)}</span>` : ""}
             <span class="score-meta">${escapeHtml(item.module_id ?? "unscoped")} · ${escapeHtml(item.boost_reason ?? "none")} · ${escapeHtml(item.kind)} · ${Math.round((item.score ?? 0) * 10) / 10}</span>
           </section>
         `).join("")}

@@ -8,6 +8,7 @@
     "start": "node src/server.js",
     "dev": "node src/server.js",
     "ingest": "node scripts/ingest_sources.js",
+    "build:textbook-evidence": "node scripts/build_textbook_evidence.mjs",
     "check:prompt": "node scripts/check_deepseek_prompt.js",
     "check:frontend": "node scripts/check_frontend_render.js",
     "eval:retrieval": "node scripts/evaluate_retrieval.js",
