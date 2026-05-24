@@ -95,7 +95,47 @@ const server = http.createServer(async (req, res) => {
 
     if (req.method === "GET" && url.pathname === "/api/topics") {
       const topics = [...new Set(kb.documents.map((doc) => doc.topic))];
-      sendJson(res, 200, { topics, documents: kb.documents.map(({ id, title, topic, level }) => ({ id, title, topic, level })) });
+      sendJson(res, 200, { topics, documents: kb.documents.map(({ id, title, topic, level, module_id, order, source_tier }) => ({ id, title, topic, level, module_id, order, source_tier })) });
+      return;
+    }
+
+    if (req.method === "GET" && url.pathname === "/api/learning-path") {
+      const documentsById = new Map(kb.documents.map((doc) => [doc.id, doc]));
+      const modules = (kb.learning_path ?? []).map((module) => ({
+        ...module,
+        documents: (module.document_ids ?? [])
+          .map((id) => documentsById.get(id))
+          .filter(Boolean)
+          .map(({ id, title, topic, level, order, module_id, learning_objectives, core_terms, source_tier }) => ({
+            id,
+            title,
+            topic,
+            level,
+            order,
+            module_id,
+            learning_objectives,
+            core_terms,
+            source_tier
+          }))
+      }));
+      sendJson(res, 200, { modules });
+      return;
+    }
+
+    if (req.method === "GET" && url.pathname.startsWith("/api/learning-path/")) {
+      const moduleId = decodeURIComponent(url.pathname.replace("/api/learning-path/", ""));
+      const module = (kb.learning_path ?? []).find((item) => item.id === moduleId);
+
+      if (!module) {
+        sendJson(res, 404, { error: "Learning module not found" });
+        return;
+      }
+
+      const documentIds = new Set(module.document_ids ?? []);
+      const documents = kb.documents
+        .filter((doc) => documentIds.has(doc.id))
+        .sort((a, b) => (a.order ?? 999) - (b.order ?? 999));
+      sendJson(res, 200, { module, documents });
       return;
     }
 
@@ -117,13 +157,20 @@ const server = http.createServer(async (req, res) => {
     if (req.method === "POST" && url.pathname === "/api/ask") {
       const body = await parseJson(req);
       const question = String(body.question ?? "").trim();
+      const activeModuleId = String(body.activeModuleId ?? "").trim();
+      const activeDocumentId = String(body.activeDocumentId ?? "").trim();
+      const learningMode = body.learningMode !== false;
 
       if (question.length < 2) {
         sendJson(res, 400, { error: "请输入一个更具体的问题。" });
         return;
       }
 
-      const result = await answerQuestion(kb, question);
+      const result = await answerQuestion(kb, question, {
+        activeModuleId: activeModuleId || null,
+        activeDocumentId: activeDocumentId || null,
+        learningMode
+      });
       sendJson(res, 200, result);
       return;
     }

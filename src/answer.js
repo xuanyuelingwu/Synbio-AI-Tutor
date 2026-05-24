@@ -35,15 +35,26 @@ function sourceRefs(sourceIds = [], indexMap) {
     .join(" ");
 }
 
+function chineseKeywords(doc, limit = 3) {
+  return (doc.keywords ?? [])
+    .filter((keyword) => /[\u3400-\u9fff]/.test(keyword))
+    .slice(0, limit)
+    .join("、");
+}
+
 function publicEvidence(matches, limit = 6) {
   return topEvidence(matches, limit).map((item) => ({
     id: item.id,
     doc_id: item.doc.id,
     title: item.title,
     topic: item.topic,
+    module_id: item.module_id,
     kind: item.kind,
     text: item.text,
     score: item.score,
+    base_score: item.base_score,
+    boosted_score: item.boosted_score,
+    boost_reason: item.boost_reason,
     source_ids: item.source_ids
   }));
 }
@@ -60,6 +71,8 @@ function buildFallbackAnswer(matches, sources) {
   }
 
   const primary = matches[0].doc;
+  const primaryChinese = chineseKeywords(primary);
+  const primaryLabel = primaryChinese ? `${primary.title}（${primaryChinese}）` : primary.title;
   const indexMap = sourceIndexMap(sources);
   const evidence = topEvidence(matches, 5)
     .map((item) => {
@@ -74,7 +87,7 @@ function buildFallbackAnswer(matches, sources) {
     .join("、");
 
   return [
-    `可以。围绕“${primary.title}”，最核心的理解是：${primary.summary}`,
+    `可以。围绕“${primaryLabel}”，最核心的理解是：${primary.summary}`,
     "",
     evidence ? `当前知识库命中的证据：\n${evidence}` : "",
     "",
@@ -107,15 +120,17 @@ function buildInstructions(kb) {
   ].join("\n");
 }
 
-function buildContext(matches, sources) {
+function buildContext(matches, sources, options = {}) {
   const indexMap = sourceIndexMap(sources);
   const evidence = topEvidence(matches, 8).map((item, index) => {
     const refs = sourceRefs(item.source_ids, indexMap) || "未匹配来源编号";
     return [
       `证据 ${index + 1}: ${item.title}`,
       `主题: ${item.topic}`,
+      `学习模块: ${item.module_id ?? "未标注"}`,
       `类型: ${item.kind}`,
       `内容: ${item.text}`,
+      `检索加权: ${item.boost_reason ?? "none"}`,
       `来源: ${refs}`
     ].join("\n");
   }).join("\n\n");
@@ -126,6 +141,9 @@ function buildContext(matches, sources) {
 
   return [
     "优先依据这些证据片段回答，并在关键判断后使用来源编号。",
+    options.learningMode !== false && (options.activeModuleId || options.activeDocumentId)
+      ? "当前处于学习上下文加权检索：请优先围绕当前知识点解释，但若需要可回顾前置基础。"
+      : "当前处于自由提问或普通检索模式。",
     evidence || "没有命中证据片段。",
     "",
     "相关知识卡:",
@@ -136,7 +154,7 @@ function buildContext(matches, sources) {
   ].join("\n");
 }
 
-async function callDeepSeek({ question, kb, matches, sources }) {
+async function callDeepSeek({ question, kb, matches, sources, options }) {
   const apiKey = process.env.DEEPSEEK_API_KEY;
   if (!apiKey) return null;
 
@@ -157,7 +175,7 @@ async function callDeepSeek({ question, kb, matches, sources }) {
           "请严格依据以下检索资料回答。若资料不足，不要编造；请说明当前知识库不足，并给出安全的学习方向。",
           "回答要保持中文、准确、可追溯，同时有合成生物学科普的趣味和魅力。",
           "",
-          buildContext(matches, sources)
+          buildContext(matches, sources, options)
         ].join("\n")
       }
     ],
@@ -185,9 +203,9 @@ async function callDeepSeek({ question, kb, matches, sources }) {
   return data.choices?.[0]?.message?.content?.trim() ?? "";
 }
 
-export async function answerQuestion(kb, question) {
+export async function answerQuestion(kb, question, options = {}) {
   const safety = assessSafety(question);
-  const matches = searchDocuments(kb, question, 4);
+  const matches = searchDocuments(kb, question, 4, options);
   const sources = uniqueSourcesForDocs(kb, matches);
 
   if (!safety.allowed) {
@@ -202,11 +220,12 @@ export async function answerQuestion(kb, question) {
   }
 
   try {
-    const modelAnswer = await callDeepSeek({ question, kb, matches, sources });
+    const modelAnswer = await callDeepSeek({ question, kb, matches, sources, options });
     if (modelAnswer) {
       return {
         answer: modelAnswer,
         mode: "deepseek_rag",
+        context_weighted: options.learningMode !== false && Boolean(options.activeModuleId || options.activeDocumentId),
         confidence: matches.length ? 0.86 : 0.45,
         matches: matches.map(({ doc, score }) => ({ id: doc.id, title: doc.title, topic: doc.topic, score })),
         sources,
@@ -220,6 +239,7 @@ export async function answerQuestion(kb, question) {
   return {
     answer: buildFallbackAnswer(matches, sources),
     mode: "local_rag_fallback",
+    context_weighted: options.learningMode !== false && Boolean(options.activeModuleId || options.activeDocumentId),
     confidence: matches.length ? 0.72 : 0.35,
     matches: matches.map(({ doc, score }) => ({ id: doc.id, title: doc.title, topic: doc.topic, score })),
     sources,

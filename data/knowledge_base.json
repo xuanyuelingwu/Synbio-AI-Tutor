@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-23",
+  "updated_at": "2026-05-24",
   "project_positioning": "Synthetic biology AI tutor for public science Q&A and delightful exploration. The knowledge base is curated from authoritative public sources and is designed for retrieval-augmented generation. Fine-tuning is recommended for tone and conversation patterns, not as the primary store of scientific facts.",
   "sources": [
     {
@@ -8,7 +8,8 @@
       "publisher": "National Human Genome Research Institute (NHGRI), NIH",
       "url": "https://www.genome.gov/about-genomics/policy-issues/synthetic-biology",
       "authority": "US national genomics institute educational and policy resource",
-      "notes": "General definition, examples, genome editing distinction, ethical and social implications."
+      "notes": "General definition, examples, genome editing distinction, ethical and social implications.",
+      "source_tier": "public_authority"
     },
     {
       "id": "ncbi-biotech-age",
@@ -16,7 +17,8 @@
       "publisher": "NCBI Bookshelf / National Academies",
       "url": "https://www.ncbi.nlm.nih.gov/books/NBK535871/",
       "authority": "National Library of Medicine indexed National Academies report",
-      "notes": "Conceptual framing, engineering ideas, tools and dual-use context."
+      "notes": "Conceptual framing, engineering ideas, tools and dual-use context.",
+      "source_tier": "public_authority"
     },
     {
       "id": "ncbi-positioning",
@@ -24,7 +26,8 @@
       "publisher": "NCBI Bookshelf / National Academies",
       "url": "https://www.ncbi.nlm.nih.gov/books/NBK202049/",
       "authority": "National Academies symposium report hosted by NCBI",
-      "notes": "Engineering principles, parts/devices/systems, applications and history."
+      "notes": "Engineering principles, parts/devices/systems, applications and history.",
+      "source_tier": "public_authority"
     },
     {
       "id": "ncbi-applications",
@@ -32,7 +35,8 @@
       "publisher": "NCBI Bookshelf / National Academies",
       "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK84446/",
       "authority": "National Academies workshop summary hosted by NCBI",
-      "notes": "Synthetic circuits, toggle switch, repressilator, modular engineering."
+      "notes": "Synthetic circuits, toggle switch, repressilator, modular engineering.",
+      "source_tier": "public_authority"
     },
     {
       "id": "ncbi-biosensors",
@@ -40,7 +44,8 @@
       "publisher": "NCBI Bookshelf / National Academies",
       "url": "https://www.ncbi.nlm.nih.gov/books/NBK84465/",
       "authority": "National Academies workshop summary hosted by NCBI",
-      "notes": "Biosensor concepts and design thinking."
+      "notes": "Biosensor concepts and design thinking.",
+      "source_tier": "public_authority"
     },
     {
       "id": "who-responsible-life-sciences",
@@ -48,7 +53,8 @@
       "publisher": "World Health Organization",
       "url": "https://www.who.int/publications-detail-redirect/9789240056107/",
       "authority": "WHO global technical and normative guidance",
-      "notes": "Biorisk, dual-use governance, responsible research lifecycle."
+      "notes": "Biorisk, dual-use governance, responsible research lifecycle.",
+      "source_tier": "public_authority"
     },
     {
       "id": "nhgri-ai-genomics",
@@ -56,7 +62,8 @@
       "publisher": "National Human Genome Research Institute (NHGRI), NIH",
       "url": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/artificial-intelligence-machine-learning-and-genomics",
       "authority": "US national genomics institute educational resource",
-      "notes": "AI/ML framing for genomics and computational biological data."
+      "notes": "AI/ML framing for genomics and computational biological data.",
+      "source_tier": "public_authority"
     },
     {
       "id": "nibib-synbio",
@@ -64,7 +71,8 @@
       "publisher": "National Institute of Biomedical Imaging and Bioengineering (NIBIB), NIH",
       "url": "https://www.nibib.nih.gov/science-education/science-topics/synthetic-biology",
       "authority": "NIH biomedical engineering science education resource",
-      "notes": "Definition, biological circuits, biomedical applications, living DNA sensors and NIH Synthetic Biology Consortium context."
+      "notes": "Definition, biological circuits, biomedical applications, living DNA sensors and NIH Synthetic Biology Consortium context.",
+      "source_tier": "public_authority"
     },
     {
       "id": "nist-engineering-synbio",
@@ -72,7 +80,8 @@
       "publisher": "National Institute of Standards and Technology (NIST)",
       "url": "https://www.nist.gov/engineering-synthetic-biology",
       "authority": "US national measurement standards institute resource",
-      "notes": "Engineering biology, measurement science, biofoundries, standards, reproducibility and bioeconomy context."
+      "notes": "Engineering biology, measurement science, biofoundries, standards, reproducibility and bioeconomy context.",
+      "source_tier": "public_authority"
     },
     {
       "id": "nist-cell-free-systems",
@@ -80,7 +89,8 @@
       "publisher": "National Institute of Standards and Technology (NIST)",
       "url": "https://www.nist.gov/cell-free-systems",
       "authority": "US national measurement standards institute topic page",
-      "notes": "Cell-free systems as an engineering biology topic, with links to NIST publications and projects."
+      "notes": "Cell-free systems as an engineering biology topic, with links to NIST publications and projects.",
+      "source_tier": "public_authority"
     },
     {
       "id": "nist-protein-engineering",
@@ -88,7 +98,8 @@
       "publisher": "National Institute of Standards and Technology (NIST)",
       "url": "https://www.nist.gov/protein-engineering",
       "authority": "US national measurement standards institute topic page",
-      "notes": "Protein engineering as a synthetic biology-adjacent engineering topic, emphasizing measurement and standards."
+      "notes": "Protein engineering as a synthetic biology-adjacent engineering topic, emphasizing measurement and standards.",
+      "source_tier": "public_authority"
     },
     {
       "id": "national-academies-biodefense-synbio",
@@ -96,7 +107,8 @@
       "publisher": "National Academies of Sciences, Engineering, and Medicine",
       "url": "https://www.nationalacademies.org/publications/24890",
       "authority": "National Academies consensus study report",
-      "notes": "Framework for assessing security concerns and mitigation options related to advances in synthetic biology."
+      "notes": "Framework for assessing security concerns and mitigation options related to advances in synthetic biology.",
+      "source_tier": "public_authority"
     },
     {
       "id": "oecd-synbio-in-focus",
@@ -104,7 +116,8 @@
       "publisher": "OECD Science, Technology and Industry Working Papers",
       "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/02/synthetic-biology-in-focus_42893a6a/3e6510cf-en.pdf",
       "authority": "OECD working paper on science, technology and innovation policy",
-      "notes": "Policy themes including trustworthiness, responsibility, transparency, stewardship, public good and responsiveness."
+      "notes": "Policy themes including trustworthiness, responsibility, transparency, stewardship, public good and responsiveness.",
+      "source_tier": "public_authority"
     },
     {
       "id": "royal-society-synbio",
@@ -112,249 +125,2813 @@
       "publisher": "The Royal Society",
       "url": "https://royalsociety.org/news-resources/projects/synthetic-biology/",
       "authority": "UK national academy science policy resource",
-      "notes": "Definition, applications, benefits, uncertainty and public dialogue context."
+      "notes": "Definition, applications, benefits, uncertainty and public dialogue context.",
+      "source_tier": "public_authority"
+    },
+    {
+      "id": "local-meyers-synbio-textbook",
+      "title": "Synthetic Biology",
+      "publisher": "Robert A. Meyers, local textbook reference",
+      "url": "#local-textbook-reference-meyers",
+      "authority": "Local textbook reference provided by user; used for high-level curriculum structure only",
+      "notes": "Used to inform safe, original, non-procedural teaching topics: biological basis, modeling, gene circuits, synthetic cells, therapeutics, metabolic engineering and production applications.",
+      "source_tier": "local_textbook_reference"
+    },
+    {
+      "id": "local-braman-synbio-methods",
+      "title": "Synthetic Biology",
+      "publisher": "Jeffrey Carl Braman, local textbook reference",
+      "url": "#local-textbook-reference-braman",
+      "authority": "Local textbook reference provided by user; methods chapters are used only at conceptual level",
+      "notes": "Used to inform safe, original, non-procedural teaching topics: gene circuits, cell-free TXTL, genome editing concepts, design language, visualization and molecular assembly. Materials, Methods, Notes, parameters and protocols are excluded.",
+      "source_tier": "local_textbook_reference"
     }
   ],
   "documents": [
     {
-      "id": "synbio-definition",
-      "title": "什么是合成生物学",
-      "topic": "基础概念",
+      "id": "cell-basics",
+      "title": "Cells as Life Systems",
+      "topic": "Foundations of Life Systems",
       "level": "beginner",
-      "source_ids": ["nhgri-synbio", "ncbi-biotech-age", "ncbi-positioning"],
-      "keywords": ["定义", "合成生物学", "工程化", "生物系统", "设计", "构建", "redesign", "synthetic biology"],
-      "summary": "合成生物学把工程学的设计思想带入生命科学，目标是改造或构建生物部件、装置和系统，使细胞或生物获得有用的新能力。它不只是观察自然系统如何工作，还会问：如果想让一个生物系统表现出某种功能，需要哪些可组合的部件和调控逻辑？",
-      "facts": [
-        "常见目标包括让微生物生产药物、燃料或香料，或让细胞感知环境信号。",
-        "合成生物学强调标准化、模块化、抽象分层、建模和设计-构建-测试-学习循环。",
-        "该领域跨越生物学、工程、计算科学、化学、遗传学和伦理治理。"
+      "source_ids": [
+        "local-meyers-synbio-textbook"
       ],
-      "analogy": "可以把它想成给细胞写一段温柔但严谨的说明书：DNA 像代码，细胞像会自己生长、会受环境影响的微型工厂。"
+      "keywords": [
+        "cells",
+        "life",
+        "systems",
+        "cell",
+        "DNA",
+        "RNA",
+        "protein",
+        "gene expression",
+        "regulation",
+        "细胞",
+        "生命系统",
+        "foundations life systems",
+        "textbook reference"
+      ],
+      "summary": "Cells are organized living systems with boundaries, energy use, information storage, and molecular machines. Meyers-style synthetic biology overviews treat the cell as the first system students must understand before they discuss engineered functions.",
+      "facts": [
+        "A cell is not a bag of chemicals; it is a regulated system with membranes, metabolism, information, and repair.",
+        "Synthetic biology designs usually depend on how a host cell allocates energy and resources.",
+        "The same design can behave differently in different cellular contexts."
+      ],
+      "analogy": "A cell is like a small city: it has borders, power use, communication, production, waste handling, and traffic rules.",
+      "module_id": "foundations-life-systems",
+      "order": 1,
+      "learning_objectives": [
+        "Explain the main idea of Cells as Life Systems.",
+        "Connect Cells as Life Systems to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "cell",
+        "DNA",
+        "RNA",
+        "protein",
+        "gene expression",
+        "regulation"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Cells as Life Systems important in synthetic biology?",
+        "How does Cells as Life Systems connect to the previous module?",
+        "What is one safe real-world application or limitation of Cells as Life Systems?"
+      ],
+      "source_tier": "local_textbook_reference"
     },
     {
-      "id": "synbio-vs-editing",
-      "title": "合成生物学和基因编辑的区别",
-      "topic": "基础概念",
+      "id": "dna-rna-protein-flow",
+      "title": "DNA, RNA, and Protein Information Flow",
+      "topic": "Foundations of Life Systems",
       "level": "beginner",
-      "source_ids": ["nhgri-synbio"],
-      "keywords": ["基因编辑", "CRISPR", "区别", "genome editing", "DNA", "基因组"],
-      "summary": "合成生物学和基因编辑都可能改变遗传代码，但侧重点不同。基因编辑通常是在现有基因组上做较小、较定位的修改；合成生物学常常会设计并组装较长 DNA 片段、通路或调控网络，让系统产生新的功能组合。",
-      "facts": [
-        "基因编辑工具可以删除、替换或插入小片段 DNA。",
-        "合成生物学项目可能把来自不同来源的基因、调控元件和代谢路径组合起来。",
-        "在实际研究中二者常常配合使用：编辑工具负责精确落笔，合成生物学负责整体设计。"
+      "source_ids": [
+        "nhgri-synbio",
+        "local-meyers-synbio-textbook"
       ],
-      "analogy": "基因编辑像在已有文章里精修句子；合成生物学更像搭一篇新文章的结构、段落和风格。"
+      "keywords": [
+        "dna",
+        "rna",
+        "and",
+        "protein",
+        "information",
+        "flow",
+        "cell",
+        "DNA",
+        "RNA",
+        "gene expression",
+        "regulation",
+        "蛋白质",
+        "信息流",
+        "foundations life systems"
+      ],
+      "summary": "DNA stores genetic information, RNA helps express and regulate that information, and proteins perform many cellular jobs. This high-level information flow is a core foundation for later topics such as circuits, sensors, and cell factories.",
+      "facts": [
+        "DNA is relatively stable information storage.",
+        "RNA can carry messages, regulate expression, or take part in molecular machines.",
+        "Proteins often act as enzymes, structures, transporters, receptors, or regulators."
+      ],
+      "analogy": "DNA is a reference library, RNA is a working note, and proteins are the tools built from those notes.",
+      "module_id": "foundations-life-systems",
+      "order": 2,
+      "learning_objectives": [
+        "Explain the main idea of DNA, RNA, and Protein Information Flow.",
+        "Connect DNA, RNA, and Protein Information Flow to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "cell",
+        "DNA",
+        "RNA",
+        "protein",
+        "gene expression",
+        "regulation"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is DNA, RNA, and Protein Information Flow important in synthetic biology?",
+        "How does DNA, RNA, and Protein Information Flow connect to the previous module?",
+        "What is one safe real-world application or limitation of DNA, RNA, and Protein Information Flow?"
+      ],
+      "source_tier": "local_textbook_reference"
+    },
+    {
+      "id": "genes-regulatory-elements",
+      "title": "Genes and Regulatory Elements",
+      "topic": "Foundations of Life Systems",
+      "level": "beginner",
+      "source_ids": [
+        "local-meyers-synbio-textbook",
+        "ncbi-positioning"
+      ],
+      "keywords": [
+        "genes",
+        "and",
+        "regulatory",
+        "elements",
+        "cell",
+        "DNA",
+        "RNA",
+        "protein",
+        "gene expression",
+        "regulation",
+        "基因",
+        "调控元件",
+        "foundations life systems",
+        "textbook reference"
+      ],
+      "summary": "A gene is more than a protein-coding segment. Synthetic biology also cares about promoters, regulatory regions, terminators, and other control elements because they influence when, where, and how strongly genetic information is used.",
+      "facts": [
+        "Regulatory elements shape expression timing and strength.",
+        "A part's behavior depends on nearby sequence context and host cell state.",
+        "Design libraries use parts conceptually, but real biology often resists perfect plug-and-play behavior."
+      ],
+      "analogy": "A gene is a recipe plus instructions about when the kitchen should actually cook it.",
+      "module_id": "foundations-life-systems",
+      "order": 3,
+      "learning_objectives": [
+        "Explain the main idea of Genes and Regulatory Elements.",
+        "Connect Genes and Regulatory Elements to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "cell",
+        "DNA",
+        "RNA",
+        "protein",
+        "gene expression",
+        "regulation"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Genes and Regulatory Elements important in synthetic biology?",
+        "How does Genes and Regulatory Elements connect to the previous module?",
+        "What is one safe real-world application or limitation of Genes and Regulatory Elements?"
+      ],
+      "source_tier": "local_textbook_reference"
+    },
+    {
+      "id": "gene-expression-regulation",
+      "title": "Gene Expression Regulation",
+      "topic": "Foundations of Life Systems",
+      "level": "beginner",
+      "source_ids": [
+        "local-meyers-synbio-textbook"
+      ],
+      "keywords": [
+        "gene",
+        "expression",
+        "regulation",
+        "cell",
+        "DNA",
+        "RNA",
+        "protein",
+        "gene expression",
+        "基因表达",
+        "表达调控",
+        "foundations life systems",
+        "textbook reference"
+      ],
+      "summary": "Gene expression regulation lets cells avoid wasting resources and respond to changing conditions. For learners, regulation is the bridge between molecular biology and engineered gene circuits.",
+      "facts": [
+        "Regulation can occur before transcription, after transcription, during translation, or through protein activity.",
+        "Turning expression up or down changes both a design's output and the burden on the host cell.",
+        "Regulation makes cells responsive, but it also adds delays and variability."
+      ],
+      "analogy": "Regulation is the dimmer switch and schedule board for cellular activity.",
+      "module_id": "foundations-life-systems",
+      "order": 4,
+      "learning_objectives": [
+        "Explain the main idea of Gene Expression Regulation.",
+        "Connect Gene Expression Regulation to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "cell",
+        "DNA",
+        "RNA",
+        "protein",
+        "gene expression",
+        "regulation"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Gene Expression Regulation important in synthetic biology?",
+        "How does Gene Expression Regulation connect to the previous module?",
+        "What is one safe real-world application or limitation of Gene Expression Regulation?"
+      ],
+      "source_tier": "local_textbook_reference"
+    },
+    {
+      "id": "host-chassis",
+      "title": "Hosts and Chassis Cells",
+      "topic": "Foundations of Life Systems",
+      "level": "beginner",
+      "source_ids": [
+        "ncbi-biotech-age",
+        "nist-engineering-synbio"
+      ],
+      "keywords": [
+        "hosts",
+        "and",
+        "chassis",
+        "cells",
+        "cell",
+        "DNA",
+        "RNA",
+        "protein",
+        "gene expression",
+        "regulation",
+        "宿主",
+        "底盘细胞",
+        "foundations life systems",
+        "public authority"
+      ],
+      "summary": "A chassis is the living host used to carry a design. The chassis supplies resources, maintenance, and cellular context, so it strongly affects whether a synthetic biology design works as intended.",
+      "facts": [
+        "Common teaching examples include bacteria, yeast, mammalian cells, and cell-free systems.",
+        "A chassis contributes metabolism, growth behavior, stress responses, and resource limits.",
+        "Good design asks whether the host is appropriate for the intended function and safety setting."
+      ],
+      "analogy": "A chassis is the vehicle that carries the engineered system; the same engine behaves differently in different vehicles.",
+      "module_id": "foundations-life-systems",
+      "order": 5,
+      "learning_objectives": [
+        "Explain the main idea of Hosts and Chassis Cells.",
+        "Connect Hosts and Chassis Cells to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "cell",
+        "DNA",
+        "RNA",
+        "protein",
+        "gene expression",
+        "regulation"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Hosts and Chassis Cells important in synthetic biology?",
+        "How does Hosts and Chassis Cells connect to the previous module?",
+        "What is one safe real-world application or limitation of Hosts and Chassis Cells?"
+      ],
+      "source_tier": "public_authority"
+    },
+    {
+      "id": "synbio-definition",
+      "title": "What Is Synthetic Biology?",
+      "topic": "From Biology to Engineering",
+      "level": "beginner",
+      "source_ids": [
+        "nhgri-synbio",
+        "ncbi-biotech-age",
+        "ncbi-positioning"
+      ],
+      "keywords": [
+        "what",
+        "synthetic",
+        "biology",
+        "DBTL",
+        "abstraction",
+        "module",
+        "standardization",
+        "chassis",
+        "合成生物学",
+        "定义",
+        "工程化生命系统",
+        "biology to engineering",
+        "public authority"
+      ],
+      "summary": "Synthetic biology applies engineering principles to the study and design of biological systems. It can redesign existing functions or assemble new combinations of biological parts for research, medicine, manufacturing, and environmental applications.",
+      "facts": [
+        "The field combines molecular biology, systems biology, engineering, computation, and ethics.",
+        "Its goal is not only to edit single genes but to design functions and systems.",
+        "Responsible design requires attention to safety, security, and social context."
+      ],
+      "analogy": "It is like moving from reading nature's instructions to responsibly composing new biological designs.",
+      "module_id": "biology-to-engineering",
+      "order": 1,
+      "learning_objectives": [
+        "Explain the main idea of What Is Synthetic Biology?.",
+        "Connect What Is Synthetic Biology? to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "DBTL",
+        "abstraction",
+        "module",
+        "standardization",
+        "chassis"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is What Is Synthetic Biology? important in synthetic biology?",
+        "How does What Is Synthetic Biology? connect to the previous module?",
+        "What is one safe real-world application or limitation of What Is Synthetic Biology??"
+      ],
+      "source_tier": "public_authority"
     },
     {
       "id": "design-build-test-learn",
-      "title": "设计-构建-测试-学习循环",
-      "topic": "工程方法",
+      "title": "Design-Build-Test-Learn Cycle",
+      "topic": "From Biology to Engineering",
       "level": "intermediate",
-      "source_ids": ["ncbi-positioning", "ncbi-applications"],
-      "keywords": ["DBTL", "设计", "构建", "测试", "学习", "工程循环", "modeling", "prototype"],
-      "summary": "合成生物学常用设计-构建-测试-学习循环：先用知识和模型提出设计，再构建 DNA 或细胞系统，测试实际行为，最后从数据中学习并改进下一轮设计。",
-      "facts": [
-        "工程化方法帮助研究者把复杂系统拆成可理解、可复用、可迭代的模块。",
-        "由于细胞存在环境依赖和随机性，测试和学习步骤非常关键。",
-        "计算建模、自动化实验和高通量测量能加速循环。"
+      "source_ids": [
+        "ncbi-positioning",
+        "ncbi-applications"
       ],
-      "analogy": "这像调一支细胞乐队：先写谱，排练，录音听效果，再修改下一版乐谱。"
+      "keywords": [
+        "design",
+        "build",
+        "test",
+        "learn",
+        "cycle",
+        "DBTL",
+        "abstraction",
+        "module",
+        "standardization",
+        "chassis",
+        "设计构建测试学习",
+        "设计",
+        "构建",
+        "测试"
+      ],
+      "summary": "The DBTL cycle organizes synthetic biology as an iterative learning process: propose a design, construct a version, measure behavior, and use the results to improve the next design.",
+      "facts": [
+        "DBTL accepts that first designs rarely work perfectly.",
+        "Measurement and learning are as important as construction.",
+        "The cycle supports safer, more transparent decision-making when paired with review and documentation."
+      ],
+      "analogy": "It is the engineering version of draft, prototype, test, and revise.",
+      "module_id": "biology-to-engineering",
+      "order": 2,
+      "learning_objectives": [
+        "Explain the main idea of Design-Build-Test-Learn Cycle.",
+        "Connect Design-Build-Test-Learn Cycle to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "DBTL",
+        "abstraction",
+        "module",
+        "standardization",
+        "chassis"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Design-Build-Test-Learn Cycle important in synthetic biology?",
+        "How does Design-Build-Test-Learn Cycle connect to the previous module?",
+        "What is one safe real-world application or limitation of Design-Build-Test-Learn Cycle?"
+      ],
+      "source_tier": "public_authority"
     },
     {
       "id": "parts-devices-systems",
-      "title": "生物部件、装置和系统",
-      "topic": "工程方法",
+      "title": "Parts, Devices, and Systems",
+      "topic": "From Biology to Engineering",
       "level": "intermediate",
-      "source_ids": ["ncbi-positioning", "ncbi-biotech-age"],
-      "keywords": ["部件", "装置", "系统", "启动子", "元件", "模块化", "parts", "devices", "systems"],
-      "summary": "合成生物学常把生物设计分成层级：部件是较小的功能单元，装置把多个部件组合成可执行逻辑的模块，系统则把多个装置整合到细胞或生物过程中。",
-      "facts": [
-        "部件可以包括启动子、核糖体结合位点、编码序列、调控 RNA 或蛋白元件。",
-        "装置可以实现开关、振荡、逻辑门、传感或代谢转换等功能。",
-        "系统层面需要考虑宿主细胞、资源竞争、环境条件和生物安全。"
+      "source_ids": [
+        "ncbi-positioning",
+        "ncbi-biotech-age"
       ],
-      "analogy": "部件像积木，装置像拼好的小机关，系统像一座会呼吸、会反馈的微型城市。"
+      "keywords": [
+        "parts",
+        "devices",
+        "and",
+        "systems",
+        "DBTL",
+        "abstraction",
+        "module",
+        "standardization",
+        "chassis",
+        "生物部件",
+        "装置",
+        "系统",
+        "关系",
+        "biology to engineering"
+      ],
+      "summary": "Synthetic biology often describes designs at nested levels. Parts are functional elements, devices combine parts into a useful behavior, and systems combine devices with host context and purpose.",
+      "facts": [
+        "This abstraction helps learners manage complexity.",
+        "A part's behavior can change when moved into a new device or host.",
+        "Designers use abstraction as a guide, not as a guarantee."
+      ],
+      "analogy": "Letters form words, words form sentences, and sentences form a meaningful paragraph.",
+      "module_id": "biology-to-engineering",
+      "order": 3,
+      "learning_objectives": [
+        "Explain the main idea of Parts, Devices, and Systems.",
+        "Connect Parts, Devices, and Systems to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "DBTL",
+        "abstraction",
+        "module",
+        "standardization",
+        "chassis"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Parts, Devices, and Systems important in synthetic biology?",
+        "How does Parts, Devices, and Systems connect to the previous module?",
+        "What is one safe real-world application or limitation of Parts, Devices, and Systems?"
+      ],
+      "source_tier": "public_authority"
+    },
+    {
+      "id": "abstraction-hierarchy",
+      "title": "Abstraction Hierarchy",
+      "topic": "From Biology to Engineering",
+      "level": "beginner",
+      "source_ids": [
+        "ncbi-positioning",
+        "local-meyers-synbio-textbook"
+      ],
+      "keywords": [
+        "abstraction",
+        "hierarchy",
+        "DBTL",
+        "module",
+        "standardization",
+        "chassis",
+        "抽象分层",
+        "层级",
+        "biology to engineering",
+        "textbook reference"
+      ],
+      "summary": "Abstraction hides lower-level details so designers can reason about larger biological functions. Braman-style method chapters emphasize that abstraction helps communication but must be checked against real biological behavior.",
+      "facts": [
+        "Abstraction levels can include DNA, parts, devices, circuits, pathways, and whole systems.",
+        "The method is useful for planning and teaching.",
+        "Biological context can break assumptions made at a higher abstraction level."
+      ],
+      "analogy": "A subway map simplifies a city so you can plan travel, but it is not the city itself.",
+      "module_id": "biology-to-engineering",
+      "order": 4,
+      "learning_objectives": [
+        "Explain the main idea of Abstraction Hierarchy.",
+        "Connect Abstraction Hierarchy to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "DBTL",
+        "abstraction",
+        "module",
+        "standardization",
+        "chassis"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Abstraction Hierarchy important in synthetic biology?",
+        "How does Abstraction Hierarchy connect to the previous module?",
+        "What is one safe real-world application or limitation of Abstraction Hierarchy?"
+      ],
+      "source_tier": "local_textbook_reference"
+    },
+    {
+      "id": "standardization-reuse",
+      "title": "Standardization and Reusable Parts",
+      "topic": "From Biology to Engineering",
+      "level": "beginner",
+      "source_ids": [
+        "nist-engineering-synbio",
+        "ncbi-positioning"
+      ],
+      "keywords": [
+        "standardization",
+        "and",
+        "reusable",
+        "parts",
+        "DBTL",
+        "abstraction",
+        "module",
+        "chassis",
+        "标准化",
+        "可复用部件",
+        "biology to engineering",
+        "public authority"
+      ],
+      "summary": "Standardization aims to make biological designs easier to share, compare, and reuse. Public authority sources and textbook discussions both stress that standards support measurement and collaboration.",
+      "facts": [
+        "Standards can describe part formats, measurements, metadata, and reporting practices.",
+        "Reusable parts work best when their context and limits are documented.",
+        "Standardization reduces confusion but cannot make biology perfectly predictable."
+      ],
+      "analogy": "Standard plugs help devices connect, but the power grid and appliance still matter.",
+      "module_id": "biology-to-engineering",
+      "order": 5,
+      "learning_objectives": [
+        "Explain the main idea of Standardization and Reusable Parts.",
+        "Connect Standardization and Reusable Parts to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "DBTL",
+        "abstraction",
+        "module",
+        "standardization",
+        "chassis"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Standardization and Reusable Parts important in synthetic biology?",
+        "How does Standardization and Reusable Parts connect to the previous module?",
+        "What is one safe real-world application or limitation of Standardization and Reusable Parts?"
+      ],
+      "source_tier": "public_authority"
+    },
+    {
+      "id": "sequencing-reading-dna",
+      "title": "Sequencing: Reading DNA",
+      "topic": "Reading and Writing DNA",
+      "level": "beginner",
+      "source_ids": [
+        "nhgri-synbio",
+        "local-meyers-synbio-textbook"
+      ],
+      "keywords": [
+        "sequencing",
+        "reading",
+        "dna",
+        "synthesis",
+        "assembly",
+        "editing",
+        "screening",
+        "测序",
+        "读取DNA",
+        "reading writing dna",
+        "textbook reference"
+      ],
+      "summary": "Sequencing determines the order of DNA bases. In synthetic biology education, sequencing is framed as a way to read and verify genetic information, not as a design instruction by itself.",
+      "facts": [
+        "Sequencing produces data that must be interpreted carefully.",
+        "Reading DNA is different from predicting every biological effect.",
+        "Genomic data raises privacy, equity, and security questions."
+      ],
+      "analogy": "Sequencing is reading the spelling of a long biological text.",
+      "module_id": "reading-writing-dna",
+      "order": 1,
+      "learning_objectives": [
+        "Explain the main idea of Sequencing: Reading DNA.",
+        "Connect Sequencing: Reading DNA to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "sequencing",
+        "synthesis",
+        "assembly",
+        "editing",
+        "screening"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Sequencing: Reading DNA important in synthetic biology?",
+        "How does Sequencing: Reading DNA connect to the previous module?",
+        "What is one safe real-world application or limitation of Sequencing: Reading DNA?"
+      ],
+      "source_tier": "local_textbook_reference"
+    },
+    {
+      "id": "dna-synthesis-assembly",
+      "title": "DNA Synthesis and Assembly",
+      "topic": "Reading and Writing DNA",
+      "level": "intermediate",
+      "source_ids": [
+        "nhgri-synbio",
+        "ncbi-positioning",
+        "local-braman-synbio-methods"
+      ],
+      "keywords": [
+        "dna",
+        "synthesis",
+        "and",
+        "assembly",
+        "sequencing",
+        "editing",
+        "screening",
+        "DNA合成",
+        "组装",
+        "reading writing dna",
+        "textbook reference"
+      ],
+      "summary": "DNA synthesis and assembly are high-level ways to write and combine DNA designs. Braman-style chapters include molecular assembly concepts, but this tutor keeps the discussion non-operational and focused on purpose, limits, and safety.",
+      "facts": [
+        "Synthesis creates designed DNA sequences through specialized services or laboratory systems.",
+        "Assembly combines DNA pieces into larger constructs at a conceptual level.",
+        "Screening, documentation, and biosafety review are important parts of responsible DNA writing."
+      ],
+      "analogy": "It is like composing and arranging paragraphs, while safety review checks what the document could do.",
+      "module_id": "reading-writing-dna",
+      "order": 2,
+      "learning_objectives": [
+        "Explain the main idea of DNA Synthesis and Assembly.",
+        "Connect DNA Synthesis and Assembly to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "sequencing",
+        "synthesis",
+        "assembly",
+        "editing",
+        "screening"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is DNA Synthesis and Assembly important in synthetic biology?",
+        "How does DNA Synthesis and Assembly connect to the previous module?",
+        "What is one safe real-world application or limitation of DNA Synthesis and Assembly?"
+      ],
+      "source_tier": "local_textbook_reference"
+    },
+    {
+      "id": "genome-editing-concepts",
+      "title": "Genome Editing Concepts",
+      "topic": "Reading and Writing DNA",
+      "level": "intermediate",
+      "source_ids": [
+        "nhgri-synbio",
+        "local-braman-synbio-methods"
+      ],
+      "keywords": [
+        "genome",
+        "editing",
+        "concepts",
+        "sequencing",
+        "synthesis",
+        "assembly",
+        "screening",
+        "基因组编辑",
+        "高层概念",
+        "reading writing dna",
+        "textbook reference"
+      ],
+      "summary": "Genome editing refers to targeted changes in genetic material. For beginners, the key idea is the distinction between choosing a target, changing information, and evaluating biological consequences.",
+      "facts": [
+        "Genome editing is a powerful concept but not the whole of synthetic biology.",
+        "Off-target effects, delivery, cell type, and ethics matter.",
+        "This project explains concepts and applications, not operational editing procedures."
+      ],
+      "analogy": "Editing a genome is like revising a sentence inside a large, interconnected manual.",
+      "module_id": "reading-writing-dna",
+      "order": 3,
+      "learning_objectives": [
+        "Explain the main idea of Genome Editing Concepts.",
+        "Connect Genome Editing Concepts to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "sequencing",
+        "synthesis",
+        "assembly",
+        "editing",
+        "screening"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Genome Editing Concepts important in synthetic biology?",
+        "How does Genome Editing Concepts connect to the previous module?",
+        "What is one safe real-world application or limitation of Genome Editing Concepts?"
+      ],
+      "source_tier": "local_textbook_reference"
+    },
+    {
+      "id": "synbio-vs-editing",
+      "title": "Synthetic Biology vs. Genome Editing",
+      "topic": "Reading and Writing DNA",
+      "level": "beginner",
+      "source_ids": [
+        "nhgri-synbio"
+      ],
+      "keywords": [
+        "synthetic",
+        "biology",
+        "genome",
+        "editing",
+        "sequencing",
+        "synthesis",
+        "assembly",
+        "screening",
+        "合成生物学",
+        "基因编辑",
+        "区别",
+        "reading writing dna",
+        "public authority"
+      ],
+      "summary": "Genome editing changes DNA at selected locations, while synthetic biology uses editing, synthesis, modeling, and design ideas to build or reconfigure biological functions. Editing can be one tool inside a larger design project.",
+      "facts": [
+        "Editing asks how to change a sequence; synthetic biology asks what function a system should perform.",
+        "Synthetic biology often combines parts, regulation, measurement, modeling, and iteration.",
+        "Neither field removes the need for safety review and responsible governance."
+      ],
+      "analogy": "Editing is changing lines in a document; synthetic biology is designing the whole document workflow.",
+      "module_id": "reading-writing-dna",
+      "order": 4,
+      "learning_objectives": [
+        "Explain the main idea of Synthetic Biology vs. Genome Editing.",
+        "Connect Synthetic Biology vs. Genome Editing to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "sequencing",
+        "synthesis",
+        "assembly",
+        "editing",
+        "screening"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Synthetic Biology vs. Genome Editing important in synthetic biology?",
+        "How does Synthetic Biology vs. Genome Editing connect to the previous module?",
+        "What is one safe real-world application or limitation of Synthetic Biology vs. Genome Editing?"
+      ],
+      "source_tier": "public_authority"
+    },
+    {
+      "id": "genetic-code-expansion",
+      "title": "Genetic Alphabet and Code Expansion",
+      "topic": "Reading and Writing DNA",
+      "level": "intermediate",
+      "source_ids": [
+        "local-meyers-synbio-textbook",
+        "nhgri-synbio"
+      ],
+      "keywords": [
+        "genetic",
+        "alphabet",
+        "and",
+        "code",
+        "expansion",
+        "sequencing",
+        "synthesis",
+        "assembly",
+        "editing",
+        "screening",
+        "遗传密码",
+        "扩展",
+        "reading writing dna",
+        "textbook reference"
+      ],
+      "summary": "Genetic code expansion explores whether biological systems can use additional chemical building blocks or assign new meanings to genetic signals. It illustrates how synthetic biology asks deep questions about the design space of life.",
+      "facts": [
+        "The standard genetic code links triplets of nucleic acid bases to amino acids.",
+        "Expanding that code can support new protein chemistry in controlled research contexts.",
+        "Such work requires careful containment, validation, and governance."
+      ],
+      "analogy": "It is like adding new letters or punctuation to a language and asking what new words become possible.",
+      "module_id": "reading-writing-dna",
+      "order": 5,
+      "learning_objectives": [
+        "Explain the main idea of Genetic Alphabet and Code Expansion.",
+        "Connect Genetic Alphabet and Code Expansion to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "sequencing",
+        "synthesis",
+        "assembly",
+        "editing",
+        "screening"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Genetic Alphabet and Code Expansion important in synthetic biology?",
+        "How does Genetic Alphabet and Code Expansion connect to the previous module?",
+        "What is one safe real-world application or limitation of Genetic Alphabet and Code Expansion?"
+      ],
+      "source_tier": "local_textbook_reference"
+    },
+    {
+      "id": "operons-feedback",
+      "title": "Operons, Feedback, and Regulatory Logic",
+      "topic": "Gene Regulation and Genetic Circuits",
+      "level": "intermediate",
+      "source_ids": [
+        "local-meyers-synbio-textbook"
+      ],
+      "keywords": [
+        "operons",
+        "feedback",
+        "and",
+        "regulatory",
+        "logic",
+        "operon",
+        "switch",
+        "oscillator",
+        "logic gate",
+        "操纵子",
+        "反馈",
+        "调控逻辑",
+        "gene regulation circuits",
+        "textbook reference"
+      ],
+      "summary": "Operons show how genes can be regulated together. Feedback loops and regulatory logic help cells maintain balance, respond to signals, and create engineered behaviors.",
+      "facts": [
+        "Negative feedback can reduce runaway behavior.",
+        "Positive feedback can help create switch-like states.",
+        "Natural regulatory systems inspired many synthetic circuit designs."
+      ],
+      "analogy": "Feedback is like a thermostat comparing the current room state with a desired state.",
+      "module_id": "gene-regulation-circuits",
+      "order": 1,
+      "learning_objectives": [
+        "Explain the main idea of Operons, Feedback, and Regulatory Logic.",
+        "Connect Operons, Feedback, and Regulatory Logic to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "operon",
+        "feedback",
+        "switch",
+        "oscillator",
+        "logic gate"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Operons, Feedback, and Regulatory Logic important in synthetic biology?",
+        "How does Operons, Feedback, and Regulatory Logic connect to the previous module?",
+        "What is one safe real-world application or limitation of Operons, Feedback, and Regulatory Logic?"
+      ],
+      "source_tier": "local_textbook_reference"
     },
     {
       "id": "genetic-circuits",
-      "title": "遗传线路：开关、振荡器和逻辑门",
-      "topic": "核心案例",
+      "title": "Genetic Circuits",
+      "topic": "Gene Regulation and Genetic Circuits",
       "level": "intermediate",
-      "source_ids": ["ncbi-applications"],
-      "keywords": ["遗传线路", "toggle switch", "repressilator", "振荡器", "逻辑门", "基因网络", "circuit"],
-      "summary": "早期合成生物学的代表案例包括遗传开关和 repressilator 振荡器。它们显示基因调控元件可以被设计成类似电子线路的行为，例如记忆状态或周期性变化。",
-      "facts": [
-        "遗传开关可以在两个状态之间保持记忆式转换。",
-        "振荡器让基因表达随时间周期性起伏。",
-        "这些案例证明了用工程蓝图构建细胞行为的可能性，也暴露了生物系统比电子元件更依赖环境的问题。"
+      "source_ids": [
+        "ncbi-applications"
       ],
-      "analogy": "遗传线路像细胞里的小控制台：有按钮、有节拍器，也有会互相影响的信号灯。"
+      "keywords": [
+        "genetic",
+        "circuits",
+        "operon",
+        "feedback",
+        "switch",
+        "oscillator",
+        "logic gate",
+        "遗传线路",
+        "开关",
+        "振荡器",
+        "逻辑门",
+        "gene regulation circuits",
+        "public authority"
+      ],
+      "summary": "Genetic circuits are engineered regulatory networks that process biological signals. Classic teaching examples include switches, oscillators, and logic gates, but real cells add noise, delay, burden, and context effects.",
+      "facts": [
+        "A circuit links inputs, regulatory interactions, and outputs.",
+        "Feedback can stabilize behavior or create dynamics such as oscillation.",
+        "Circuit diagrams are simplified models of molecular interactions."
+      ],
+      "analogy": "A genetic circuit is like a control panel built from cellular parts.",
+      "module_id": "gene-regulation-circuits",
+      "order": 3,
+      "learning_objectives": [
+        "Explain the main idea of Genetic Circuits.",
+        "Connect Genetic Circuits to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "operon",
+        "feedback",
+        "switch",
+        "oscillator",
+        "logic gate"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Genetic Circuits important in synthetic biology?",
+        "How does Genetic Circuits connect to the previous module?",
+        "What is one safe real-world application or limitation of Genetic Circuits?"
+      ],
+      "source_tier": "public_authority"
     },
     {
-      "id": "biosensors",
-      "title": "生物传感器",
-      "topic": "应用案例",
-      "level": "beginner",
-      "source_ids": ["nhgri-synbio", "ncbi-biosensors"],
-      "keywords": ["生物传感器", "biosensor", "检测", "环境", "信号", "污染", "诊断"],
-      "summary": "生物传感器利用细胞、蛋白或核酸对特定信号的响应，把环境中的化学物质、污染物或生物标志物转化为可读输出，如颜色、荧光或电信号。",
-      "facts": [
-        "合成生物学可设计传感模块、处理模块和输出模块。",
-        "应用场景包括环境监测、食品安全、医学检测和工业过程监控。",
-        "真实应用必须考虑灵敏度、特异性、稳定性、封闭使用和监管要求。"
-      ],
-      "analogy": "生物传感器像给细胞装了一只鼻子，再接上一盏小灯：闻到目标信号，就亮起来。"
-    },
-    {
-      "id": "applications",
-      "title": "合成生物学能做什么",
-      "topic": "应用案例",
-      "level": "beginner",
-      "source_ids": ["nhgri-synbio", "ncbi-positioning"],
-      "keywords": ["应用", "药物", "农业", "制造", "环境", "能源", "biomanufacturing", "medicine"],
-      "summary": "合成生物学的应用覆盖医学、制造、农业、环境和能源。公开科普中常见例子包括改造微生物清理污染、生产药物或燃料，改造作物提升营养，或让酵母生产香料分子。",
-      "facts": [
-        "生物制造可利用细胞生产小分子、蛋白、材料和化学品。",
-        "农业应用可能关注营养强化、抗逆性和可持续生产。",
-        "环境应用包括污染物检测和生物修复，但释放到环境中的系统需要严格评估。"
-      ],
-      "analogy": "它像把自然界亿万年打磨出的化学能力，请进一间更可控的设计工作室。"
-    },
-    {
-      "id": "ai-and-genomics",
-      "title": "AI 与基因组数据",
-      "topic": "AI融合",
+      "id": "logic-gates-information",
+      "title": "Logic Gates and Cellular Information Processing",
+      "topic": "Gene Regulation and Genetic Circuits",
       "level": "intermediate",
-      "source_ids": ["nhgri-ai-genomics"],
-      "keywords": ["AI", "机器学习", "基因组", "数据", "模型", "预测", "design"],
-      "summary": "AI 和机器学习可帮助研究者在复杂基因组数据中寻找模式，用于序列功能预测、实验设计建议、文献检索、数据解读和候选方案排序。它适合辅助科学判断，但不能替代实验验证和生物安全审查。",
-      "facts": [
-        "机器学习依赖高质量数据、清晰任务定义和严格验证。",
-        "在合成生物学中，AI 常用于设计空间搜索、结果预测、文本知识整合和自动化实验规划。",
-        "模型输出需要来源、置信度和人工审校，尤其是涉及健康、安全或环境问题时。"
+      "source_ids": [
+        "ncbi-applications",
+        "local-meyers-synbio-textbook"
       ],
-      "analogy": "AI 像一位读过很多实验记录的导航员，能指出可能的路线，但方向盘仍要握在科学规范和实验验证手里。"
+      "keywords": [
+        "logic",
+        "gates",
+        "and",
+        "cellular",
+        "information",
+        "processing",
+        "operon",
+        "feedback",
+        "switch",
+        "oscillator",
+        "logic gate",
+        "逻辑门",
+        "细胞信息处理",
+        "gene regulation circuits"
+      ],
+      "summary": "Synthetic biology can represent biological decision-making with logic ideas such as AND, OR, and NOT. Braman-style circuit discussions use these ideas to explain how cells can integrate multiple signals.",
+      "facts": [
+        "Logic gates map combinations of inputs to outputs.",
+        "Biological gates are probabilistic and context-dependent rather than perfectly digital.",
+        "Logic concepts help learners reason about decision-making in cells."
+      ],
+      "analogy": "A cellular logic gate is like a rule that says output only happens when the right signal pattern appears.",
+      "module_id": "gene-regulation-circuits",
+      "order": 4,
+      "learning_objectives": [
+        "Explain the main idea of Logic Gates and Cellular Information Processing.",
+        "Connect Logic Gates and Cellular Information Processing to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "operon",
+        "feedback",
+        "switch",
+        "oscillator",
+        "logic gate"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Logic Gates and Cellular Information Processing important in synthetic biology?",
+        "How does Logic Gates and Cellular Information Processing connect to the previous module?",
+        "What is one safe real-world application or limitation of Logic Gates and Cellular Information Processing?"
+      ],
+      "source_tier": "local_textbook_reference"
     },
     {
-      "id": "ethics-safety",
-      "title": "伦理、安全与负责任创新",
-      "topic": "安全治理",
-      "level": "beginner",
-      "source_ids": ["nhgri-synbio", "who-responsible-life-sciences", "ncbi-biotech-age"],
-      "keywords": ["伦理", "安全", "生物安全", "biosecurity", "biosafety", "dual-use", "治理", "风险", "负责任"],
-      "summary": "合成生物学有巨大潜力，也涉及生物安全、生物安保、环境影响、公平可及、监管和公众参与等问题。WHO 将负责任使用生命科学视为研究全生命周期中的共同责任，强调在释放创新潜力的同时预防误用风险。",
-      "facts": [
-        "双重用途研究是指既可能带来益处，也可能被误用造成伤害的研究。",
-        "负责任治理包括风险评估、机构审查、培训、透明沟通、监管遵循和持续监督。",
-        "科普问答应避免提供可操作的危险实验步骤、病原体增强方案、毒素生产细节或规避监管的建议。"
-      ],
-      "analogy": "合成生物学像一把能修桥也能伤人的精密工具；真正的魅力来自创造力和责任感一起在线。"
-    },
-    {
-      "id": "whole-genome-synthesis",
-      "title": "全基因组合成",
-      "topic": "前沿话题",
+      "id": "noise-burden-context",
+      "title": "Noise, Burden, and Context Dependence",
+      "topic": "Gene Regulation and Genetic Circuits",
       "level": "intermediate",
-      "source_ids": ["nhgri-synbio"],
-      "keywords": ["全基因组", "基因组合成", "Genome Project-Write", "yeast", "病毒", "genome synthesis"],
-      "summary": "研究者已经证明可以合成病毒基因组，并完成过细菌基因组合成以及酵母基因组的部分合成。全基因组合成帮助科学家理解基因组如何工作，也引发生物安保和伦理治理关注。",
-      "facts": [
-        "病毒基因组较小，因此早期全合成案例首先出现在病毒上。",
-        "全基因组合成可推动 DNA 合成技术、最小基因组研究和细胞设计。",
-        "涉及病原体或潜在危害的内容必须遵循严格监管和风险审查。"
+      "source_ids": [
+        "ncbi-positioning",
+        "nist-engineering-synbio"
       ],
-      "analogy": "如果测序是读一本生命之书，基因组合成就是学习如何排版、改写，甚至重做其中的章节。"
+      "keywords": [
+        "noise",
+        "burden",
+        "and",
+        "context",
+        "dependence",
+        "operon",
+        "feedback",
+        "switch",
+        "oscillator",
+        "logic gate",
+        "噪声",
+        "负担",
+        "上下文依赖",
+        "gene regulation circuits"
+      ],
+      "summary": "Biological circuits run inside living cells that fluctuate, compete for resources, and respond to stress. Noise, burden, and context explain why a beautiful design diagram may not behave perfectly.",
+      "facts": [
+        "Noise means variation among cells or over time.",
+        "Burden means the design consumes cellular resources.",
+        "Context dependence means the host and environment shape performance."
+      ],
+      "analogy": "A design is not performed on an empty stage; the cell is already running a crowded show.",
+      "module_id": "gene-regulation-circuits",
+      "order": 5,
+      "learning_objectives": [
+        "Explain the main idea of Noise, Burden, and Context Dependence.",
+        "Connect Noise, Burden, and Context Dependence to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "operon",
+        "feedback",
+        "switch",
+        "oscillator",
+        "logic gate"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Noise, Burden, and Context Dependence important in synthetic biology?",
+        "How does Noise, Burden, and Context Dependence connect to the previous module?",
+        "What is one safe real-world application or limitation of Noise, Burden, and Context Dependence?"
+      ],
+      "source_tier": "public_authority"
     },
     {
-      "id": "biomedical-synbio",
-      "title": "合成生物学在医学中的应用",
-      "topic": "应用案例",
-      "level": "beginner",
-      "source_ids": ["nibib-synbio", "nhgri-synbio", "royal-society-synbio"],
-      "keywords": ["医学", "生物医学", "药物", "治疗", "诊断", "living DNA sensors", "RNA", "therapy", "medicine"],
-      "summary": "合成生物学在医学中常被用于构建诊断、药物递送、细胞治疗和可编程生物系统等概念。权威科普材料常举出生物线路、活体 DNA 传感器、RNA 递送治疗蛋白等方向，强调它们的潜力，同时也提醒真实临床转化需要严格验证和监管。",
-      "facts": [
-        "NIBIB 将合成生物学描述为结合生物学、工程、遗传学、化学和计算科学的交叉领域。",
-        "生物线路可以调控细胞中的基因表达，让细胞执行特定任务。",
-        "医学应用通常需要经过安全性、有效性、可制造性和伦理审查，不应把早期研究直接等同于成熟疗法。"
+      "id": "rnai-synthetic-logic",
+      "title": "RNAi and Synthetic Logic",
+      "topic": "Gene Regulation and Genetic Circuits",
+      "level": "intermediate",
+      "source_ids": [
+        "local-meyers-synbio-textbook"
       ],
-      "analogy": "医学合成生物学像给细胞加一套更清晰的任务单：它可能帮助诊断或治疗，但每一条指令都必须先通过严谨的质量检查。"
+      "keywords": [
+        "rnai",
+        "and",
+        "synthetic",
+        "logic",
+        "operon",
+        "feedback",
+        "switch",
+        "oscillator",
+        "logic gate",
+        "RNAi",
+        "合成逻辑",
+        "gene regulation circuits",
+        "textbook reference"
+      ],
+      "summary": "RNA interference is one example of RNA-level regulation that can be connected to synthetic logic. The tutor treats it as a conceptual route for controlling expression, not as a procedural guide.",
+      "facts": [
+        "RNA can regulate gene expression after transcription.",
+        "RNA-level control can be combined with sensing and output modules.",
+        "Medical and research applications require careful delivery, specificity, and safety evaluation."
+      ],
+      "analogy": "RNAi is like a molecular mute button that can reduce a message before it becomes a protein.",
+      "module_id": "gene-regulation-circuits",
+      "order": 6,
+      "learning_objectives": [
+        "Explain the main idea of RNAi and Synthetic Logic.",
+        "Connect RNAi and Synthetic Logic to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "operon",
+        "feedback",
+        "switch",
+        "oscillator",
+        "logic gate"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is RNAi and Synthetic Logic important in synthetic biology?",
+        "How does RNAi and Synthetic Logic connect to the previous module?",
+        "What is one safe real-world application or limitation of RNAi and Synthetic Logic?"
+      ],
+      "source_tier": "local_textbook_reference"
+    },
+    {
+      "id": "network-dynamics",
+      "title": "Biomolecular Network Dynamics",
+      "topic": "Modeling and Design Tools",
+      "level": "intermediate",
+      "source_ids": [
+        "local-meyers-synbio-textbook"
+      ],
+      "keywords": [
+        "biomolecular",
+        "network",
+        "dynamics",
+        "model",
+        "simulation",
+        "CAD",
+        "design language",
+        "网络动态",
+        "生物分子网络",
+        "modeling design tools",
+        "textbook reference"
+      ],
+      "summary": "Biological networks change over time. Modeling network dynamics helps students understand feedback, delays, thresholds, stability, oscillation, and adaptation.",
+      "facts": [
+        "Dynamics describe how concentrations or activities change.",
+        "The same network can behave differently under different parameter ranges.",
+        "Models are useful for asking questions, not for replacing experiments and safety review."
+      ],
+      "analogy": "A network is less like a still photo and more like a movie with rules.",
+      "module_id": "modeling-design-tools",
+      "order": 1,
+      "learning_objectives": [
+        "Explain the main idea of Biomolecular Network Dynamics.",
+        "Connect Biomolecular Network Dynamics to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "model",
+        "simulation",
+        "network",
+        "CAD",
+        "design language"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Biomolecular Network Dynamics important in synthetic biology?",
+        "How does Biomolecular Network Dynamics connect to the previous module?",
+        "What is one safe real-world application or limitation of Biomolecular Network Dynamics?"
+      ],
+      "source_tier": "local_textbook_reference"
+    },
+    {
+      "id": "computer-simulation-cells",
+      "title": "Computer Simulation of Cells",
+      "topic": "Modeling and Design Tools",
+      "level": "intermediate",
+      "source_ids": [
+        "local-meyers-synbio-textbook",
+        "nhgri-ai-genomics"
+      ],
+      "keywords": [
+        "computer",
+        "simulation",
+        "cells",
+        "model",
+        "network",
+        "CAD",
+        "design language",
+        "细胞模拟",
+        "计算模拟",
+        "modeling design tools",
+        "textbook reference"
+      ],
+      "summary": "Computer simulations approximate cellular behavior to test ideas before physical work. Meyers-style systems discussions connect simulations to networks, pathways, and whole-cell thinking.",
+      "facts": [
+        "Simulations depend on assumptions and data quality.",
+        "They can reveal likely bottlenecks, contradictions, or sensitive variables.",
+        "A useful simulation is transparent about what it leaves out."
+      ],
+      "analogy": "A simulation is a flight simulator for biological ideas.",
+      "module_id": "modeling-design-tools",
+      "order": 2,
+      "learning_objectives": [
+        "Explain the main idea of Computer Simulation of Cells.",
+        "Connect Computer Simulation of Cells to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "model",
+        "simulation",
+        "network",
+        "CAD",
+        "design language"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Computer Simulation of Cells important in synthetic biology?",
+        "How does Computer Simulation of Cells connect to the previous module?",
+        "What is one safe real-world application or limitation of Computer Simulation of Cells?"
+      ],
+      "source_tier": "local_textbook_reference"
     },
     {
       "id": "measurement-standards-biofoundry",
-      "title": "测量、标准化和生物铸造厂",
-      "topic": "工程方法",
+      "title": "Measurement, Standards, and Biofoundries",
+      "topic": "Modeling and Design Tools",
       "level": "intermediate",
-      "source_ids": ["nist-engineering-synbio"],
-      "keywords": ["测量", "标准化", "生物铸造厂", "biofoundry", "reproducibility", "standards", "automation", "measurement"],
-      "summary": "工程化生命系统的一个难点是：细胞和生物过程会随时间、环境和测量方式变化。NIST 强调，可靠的测量、标准和自动化平台能帮助研究者更稳定地比较设计、评估结果，并推动可重复的生物制造。",
-      "facts": [
-        "NIST 将工程生物学描述为有意设计、制造和部署活细胞、细胞系统及其他生物过程。",
-        "生物系统不像静态材料那样容易测量，因此标准化和计量科学对合成生物学尤其重要。",
-        "自动化平台和生物铸造厂可以支持更系统的设计、测试、测量和筛选。"
+      "source_ids": [
+        "nist-engineering-synbio"
       ],
-      "analogy": "如果合成生物学像造桥，测量和标准就是尺子、水平仪和验收规范；没有它们，再漂亮的蓝图也很难可靠复现。"
+      "keywords": [
+        "measurement",
+        "standards",
+        "and",
+        "biofoundries",
+        "model",
+        "simulation",
+        "network",
+        "CAD",
+        "design language",
+        "测量",
+        "标准",
+        "标准化",
+        "生物铸造厂",
+        "modeling design tools"
+      ],
+      "summary": "Measurement, standards, and biofoundries make synthetic biology more reproducible. Public authority sources emphasize shared metrics and reporting, while teaching texts connect these ideas to DBTL and reliable design.",
+      "facts": [
+        "Measurement turns design behavior into comparable evidence.",
+        "Standards make it easier for teams to share parts, data, and expectations.",
+        "Biofoundries combine automation, measurement, data handling, and iterative design."
+      ],
+      "analogy": "Measurement and standards are the ruler, lab notebook, and shared vocabulary of biological engineering.",
+      "module_id": "modeling-design-tools",
+      "order": 3,
+      "learning_objectives": [
+        "Explain the main idea of Measurement, Standards, and Biofoundries.",
+        "Connect Measurement, Standards, and Biofoundries to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "model",
+        "simulation",
+        "network",
+        "CAD",
+        "design language"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Measurement, Standards, and Biofoundries important in synthetic biology?",
+        "How does Measurement, Standards, and Biofoundries connect to the previous module?",
+        "What is one safe real-world application or limitation of Measurement, Standards, and Biofoundries?"
+      ],
+      "source_tier": "public_authority"
     },
     {
-      "id": "cell-free-synthetic-biology",
-      "title": "细胞自由合成生物学",
-      "topic": "前沿话题",
+      "id": "ai-and-genomics",
+      "title": "AI and Genomic Data",
+      "topic": "Modeling and Design Tools",
       "level": "intermediate",
-      "source_ids": ["nist-cell-free-systems", "nist-engineering-synbio"],
-      "keywords": ["细胞自由", "无细胞", "cell-free", "TX-TL", "原型验证", "体外系统", "prototyping"],
-      "summary": "细胞自由系统把部分生物反应从完整活细胞中拿出来，在更可控的体外环境中研究和原型验证。它常用于快速测试生物部件、理解反应网络或探索最小细胞等问题，但它不是绕开安全规范的捷径。",
-      "facts": [
-        "NIST 将 cell-free systems 列为工程/合成生物学的重要主题之一。",
-        "细胞自由系统可以降低完整细胞带来的部分复杂性，帮助研究者更快观察某些分子层面的输入输出关系。",
-        "从体外系统得到的结论仍需要谨慎外推到活细胞和真实应用场景。"
+      "source_ids": [
+        "nhgri-ai-genomics"
       ],
-      "analogy": "细胞自由系统像把一台复杂机器的关键齿轮拿到透明工作台上观察：更容易看清局部机制，但不能忘记整台机器还有外壳、负载和环境。"
+      "keywords": [
+        "and",
+        "genomic",
+        "data",
+        "model",
+        "simulation",
+        "network",
+        "CAD",
+        "design language",
+        "AI",
+        "基因组",
+        "数据分析",
+        "设计",
+        "modeling design tools",
+        "public authority"
+      ],
+      "summary": "AI can help classify sequences, predict features, search literature, and support design exploration. It must be used with caution because biological datasets can be biased, incomplete, or sensitive.",
+      "facts": [
+        "AI predictions need experimental validation and expert review.",
+        "Genomic data can raise privacy and security risks.",
+        "Good AI assistance should cite evidence and admit uncertainty."
+      ],
+      "analogy": "AI is a map-reading assistant, not the terrain and not the safety officer.",
+      "module_id": "modeling-design-tools",
+      "order": 4,
+      "learning_objectives": [
+        "Explain the main idea of AI and Genomic Data.",
+        "Connect AI and Genomic Data to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "model",
+        "simulation",
+        "network",
+        "CAD",
+        "design language"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is AI and Genomic Data important in synthetic biology?",
+        "How does AI and Genomic Data connect to the previous module?",
+        "What is one safe real-world application or limitation of AI and Genomic Data?"
+      ],
+      "source_tier": "public_authority"
+    },
+    {
+      "id": "bio-cad-design-language",
+      "title": "Bio-CAD and Design Languages",
+      "topic": "Modeling and Design Tools",
+      "level": "intermediate",
+      "source_ids": [
+        "local-braman-synbio-methods",
+        "nist-engineering-synbio"
+      ],
+      "keywords": [
+        "bio",
+        "cad",
+        "and",
+        "design",
+        "languages",
+        "model",
+        "simulation",
+        "network",
+        "CAD",
+        "design language",
+        "生物CAD",
+        "设计语言",
+        "modeling design tools",
+        "textbook reference"
+      ],
+      "summary": "Bio-CAD and biological design languages help represent parts, interactions, and system architecture. Braman-style chapters mention design language and DNAplotlib-like visualization as ways to make designs easier to communicate.",
+      "facts": [
+        "Design languages can standardize diagrams and metadata.",
+        "Visual tools help teams compare designs before construction.",
+        "A diagram is not a protocol and cannot prove a design will work."
+      ],
+      "analogy": "Bio-CAD is like architectural drawing for biological designs.",
+      "module_id": "modeling-design-tools",
+      "order": 5,
+      "learning_objectives": [
+        "Explain the main idea of Bio-CAD and Design Languages.",
+        "Connect Bio-CAD and Design Languages to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "model",
+        "simulation",
+        "network",
+        "CAD",
+        "design language"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Bio-CAD and Design Languages important in synthetic biology?",
+        "How does Bio-CAD and Design Languages connect to the previous module?",
+        "What is one safe real-world application or limitation of Bio-CAD and Design Languages?"
+      ],
+      "source_tier": "local_textbook_reference"
+    },
+    {
+      "id": "biosensors",
+      "title": "Biosensors",
+      "topic": "Biosensors and Signal Processing",
+      "level": "beginner",
+      "source_ids": [
+        "nhgri-synbio",
+        "ncbi-biosensors"
+      ],
+      "keywords": [
+        "biosensors",
+        "sensor",
+        "input",
+        "signal processing",
+        "output",
+        "specificity",
+        "sensitivity",
+        "生物传感器",
+        "核心思想",
+        "输入",
+        "输出",
+        "biosensors signal processing",
+        "public authority"
+      ],
+      "summary": "Biosensors connect a biological recognition event to a measurable output. They can be used in research, health, environmental monitoring, and manufacturing when carefully designed and validated.",
+      "facts": [
+        "A biosensor has a recognition component, a signal-processing component, and an output.",
+        "Good sensing depends on specificity, sensitivity, range, and robustness.",
+        "Field use requires attention to containment, false signals, and interpretation."
+      ],
+      "analogy": "A biosensor is a molecular smoke detector with a biological recognition step.",
+      "module_id": "biosensors-signal-processing",
+      "order": 1,
+      "learning_objectives": [
+        "Explain the main idea of Biosensors.",
+        "Connect Biosensors to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "sensor",
+        "input",
+        "signal processing",
+        "output",
+        "specificity",
+        "sensitivity"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Biosensors important in synthetic biology?",
+        "How does Biosensors connect to the previous module?",
+        "What is one safe real-world application or limitation of Biosensors?"
+      ],
+      "source_tier": "public_authority"
+    },
+    {
+      "id": "sensor-input-modules",
+      "title": "Sensor Input Modules",
+      "topic": "Biosensors and Signal Processing",
+      "level": "beginner",
+      "source_ids": [
+        "ncbi-biosensors",
+        "nibib-synbio"
+      ],
+      "keywords": [
+        "sensor",
+        "input",
+        "modules",
+        "signal processing",
+        "output",
+        "specificity",
+        "sensitivity",
+        "传感输入",
+        "输入模块",
+        "biosensors signal processing",
+        "public authority"
+      ],
+      "summary": "Input modules allow a biological system to detect chemicals, light, temperature, metabolites, or other signals. The teaching focus is on what counts as an input and how inputs begin information flow.",
+      "facts": [
+        "Inputs can come from the environment or from inside the cell.",
+        "Recognition must be selective enough for the intended context.",
+        "Input modules are often paired with regulatory components."
+      ],
+      "analogy": "The input module is the system's ear, eye, or nose.",
+      "module_id": "biosensors-signal-processing",
+      "order": 2,
+      "learning_objectives": [
+        "Explain the main idea of Sensor Input Modules.",
+        "Connect Sensor Input Modules to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "sensor",
+        "input",
+        "signal processing",
+        "output",
+        "specificity",
+        "sensitivity"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Sensor Input Modules important in synthetic biology?",
+        "How does Sensor Input Modules connect to the previous module?",
+        "What is one safe real-world application or limitation of Sensor Input Modules?"
+      ],
+      "source_tier": "public_authority"
+    },
+    {
+      "id": "signal-processing-output",
+      "title": "Signal Processing and Output Modules",
+      "topic": "Biosensors and Signal Processing",
+      "level": "beginner",
+      "source_ids": [
+        "ncbi-biosensors",
+        "local-meyers-synbio-textbook"
+      ],
+      "keywords": [
+        "signal",
+        "processing",
+        "and",
+        "output",
+        "modules",
+        "sensor",
+        "input",
+        "signal processing",
+        "specificity",
+        "sensitivity",
+        "信号处理",
+        "输出模块",
+        "biosensors signal processing",
+        "textbook reference"
+      ],
+      "summary": "After sensing, a biological design must process information and produce a useful output. Outputs can be fluorescence, growth behavior, molecule production, or a therapeutic effect in regulated contexts.",
+      "facts": [
+        "Signal processing can amplify, filter, invert, or combine inputs.",
+        "Outputs must be easy to measure and meaningful for the application.",
+        "Strong outputs can increase cellular burden."
+      ],
+      "analogy": "Signal processing turns a whisper from the sensor into a clear decision.",
+      "module_id": "biosensors-signal-processing",
+      "order": 3,
+      "learning_objectives": [
+        "Explain the main idea of Signal Processing and Output Modules.",
+        "Connect Signal Processing and Output Modules to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "sensor",
+        "input",
+        "signal processing",
+        "output",
+        "specificity",
+        "sensitivity"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Signal Processing and Output Modules important in synthetic biology?",
+        "How does Signal Processing and Output Modules connect to the previous module?",
+        "What is one safe real-world application or limitation of Signal Processing and Output Modules?"
+      ],
+      "source_tier": "local_textbook_reference"
+    },
+    {
+      "id": "specificity-sensitivity",
+      "title": "Specificity and Sensitivity",
+      "topic": "Biosensors and Signal Processing",
+      "level": "beginner",
+      "source_ids": [
+        "ncbi-biosensors",
+        "nist-engineering-synbio"
+      ],
+      "keywords": [
+        "specificity",
+        "and",
+        "sensitivity",
+        "sensor",
+        "input",
+        "signal processing",
+        "output",
+        "特异性",
+        "灵敏度",
+        "biosensors signal processing",
+        "public authority"
+      ],
+      "summary": "Specificity asks whether a biosensor responds to the right target, while sensitivity asks how small a target amount it can detect. Both matter for trustworthy interpretation.",
+      "facts": [
+        "High sensitivity without specificity can create false alarms.",
+        "High specificity with poor sensitivity can miss weak signals.",
+        "Real samples may contain interfering substances."
+      ],
+      "analogy": "A good sensor should hear the right voice in a noisy room.",
+      "module_id": "biosensors-signal-processing",
+      "order": 4,
+      "learning_objectives": [
+        "Explain the main idea of Specificity and Sensitivity.",
+        "Connect Specificity and Sensitivity to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "sensor",
+        "input",
+        "signal processing",
+        "output",
+        "specificity",
+        "sensitivity"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Specificity and Sensitivity important in synthetic biology?",
+        "How does Specificity and Sensitivity connect to the previous module?",
+        "What is one safe real-world application or limitation of Specificity and Sensitivity?"
+      ],
+      "source_tier": "public_authority"
+    },
+    {
+      "id": "pathways-flux",
+      "title": "Metabolic Pathways and Flux",
+      "topic": "Metabolic Engineering and Cell Factories",
+      "level": "intermediate",
+      "source_ids": [
+        "local-meyers-synbio-textbook",
+        "ncbi-positioning"
+      ],
+      "keywords": [
+        "metabolic",
+        "pathways",
+        "and",
+        "flux",
+        "pathway",
+        "cell factory",
+        "burden",
+        "yield",
+        "代谢通路",
+        "通量",
+        "metabolic engineering cell factories",
+        "textbook reference"
+      ],
+      "summary": "Metabolic pathways are linked reactions that transform molecules. Flux describes how much material moves through a pathway, making it central to cell factory design.",
+      "facts": [
+        "Pathways connect enzymes, substrates, products, cofactors, and regulation.",
+        "Changing one step can redirect resources across the cell.",
+        "Flux depends on both pathway design and host physiology."
+      ],
+      "analogy": "A pathway is a road network, and flux is the traffic moving through it.",
+      "module_id": "metabolic-engineering-cell-factories",
+      "order": 1,
+      "learning_objectives": [
+        "Explain the main idea of Metabolic Pathways and Flux.",
+        "Connect Metabolic Pathways and Flux to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "pathway",
+        "flux",
+        "cell factory",
+        "burden",
+        "yield"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Metabolic Pathways and Flux important in synthetic biology?",
+        "How does Metabolic Pathways and Flux connect to the previous module?",
+        "What is one safe real-world application or limitation of Metabolic Pathways and Flux?"
+      ],
+      "source_tier": "local_textbook_reference"
+    },
+    {
+      "id": "microbial-cell-factories",
+      "title": "Microbial Cell Factories",
+      "topic": "Metabolic Engineering and Cell Factories",
+      "level": "beginner",
+      "source_ids": [
+        "nhgri-synbio",
+        "local-meyers-synbio-textbook"
+      ],
+      "keywords": [
+        "microbial",
+        "cell",
+        "factories",
+        "pathway",
+        "flux",
+        "cell factory",
+        "burden",
+        "yield",
+        "微生物",
+        "细胞工厂",
+        "metabolic engineering cell factories",
+        "textbook reference"
+      ],
+      "summary": "Microbial cell factories use engineered microbes to make useful products. Meyers-style application topics connect this idea to fuels, chemicals, medicines, and materials.",
+      "facts": [
+        "A cell factory must balance product formation with cell health.",
+        "Scale-up, quality control, and containment are major practical concerns.",
+        "The best host depends on product type, pathway needs, and safety setting."
+      ],
+      "analogy": "A cell factory is a living production line with its own maintenance needs.",
+      "module_id": "metabolic-engineering-cell-factories",
+      "order": 2,
+      "learning_objectives": [
+        "Explain the main idea of Microbial Cell Factories.",
+        "Connect Microbial Cell Factories to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "pathway",
+        "flux",
+        "cell factory",
+        "burden",
+        "yield"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Microbial Cell Factories important in synthetic biology?",
+        "How does Microbial Cell Factories connect to the previous module?",
+        "What is one safe real-world application or limitation of Microbial Cell Factories?"
+      ],
+      "source_tier": "local_textbook_reference"
     },
     {
       "id": "protein-engineering",
-      "title": "蛋白工程与合成生物学",
-      "topic": "工程方法",
+      "title": "Protein Engineering",
+      "topic": "Metabolic Engineering and Cell Factories",
       "level": "intermediate",
-      "source_ids": ["nist-protein-engineering", "nist-engineering-synbio"],
-      "keywords": ["蛋白工程", "protein engineering", "酶", "功能", "结构", "设计", "测量"],
-      "summary": "蛋白工程关注如何理解和改造蛋白质的功能、稳定性、结合能力或催化能力。它与合成生物学密切相关，因为许多生物线路、传感器、代谢通路和细胞工厂最终都依赖蛋白质执行具体功能。",
-      "facts": [
-        "蛋白质常是细胞中执行催化、识别、结构支撑和信号传递的核心分子。",
-        "蛋白工程需要把设计想法、功能测量和结构理解结合起来。",
-        "在科普层面可以讨论设计原则和应用方向，但不应提供可直接执行的危险蛋白或毒素优化方案。"
+      "source_ids": [
+        "nist-protein-engineering",
+        "nist-engineering-synbio"
       ],
-      "analogy": "如果 DNA 像设计图，蛋白质就像真正上岗的工具和机器；蛋白工程是在理解工具原理后，谨慎调整它的形状和性能。"
+      "keywords": [
+        "protein",
+        "engineering",
+        "pathway",
+        "flux",
+        "cell factory",
+        "burden",
+        "yield",
+        "蛋白工程",
+        "蛋白质",
+        "合成生物学",
+        "metabolic engineering cell factories",
+        "public authority"
+      ],
+      "summary": "Protein engineering changes or designs proteins to improve or create functions. It connects structure, function, evolution, computation, and safety-aware validation.",
+      "facts": [
+        "Proteins can act as enzymes, binders, sensors, structures, or regulators.",
+        "Small sequence changes can have large functional effects.",
+        "Predictions are useful, but function and safety require evidence."
+      ],
+      "analogy": "Protein engineering is like reshaping a tool so it fits a task better.",
+      "module_id": "metabolic-engineering-cell-factories",
+      "order": 3,
+      "learning_objectives": [
+        "Explain the main idea of Protein Engineering.",
+        "Connect Protein Engineering to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "pathway",
+        "flux",
+        "cell factory",
+        "burden",
+        "yield"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Protein Engineering important in synthetic biology?",
+        "How does Protein Engineering connect to the previous module?",
+        "What is one safe real-world application or limitation of Protein Engineering?"
+      ],
+      "source_tier": "public_authority"
+    },
+    {
+      "id": "applications",
+      "title": "Applications of Synthetic Biology",
+      "topic": "Metabolic Engineering and Cell Factories",
+      "level": "beginner",
+      "source_ids": [
+        "nhgri-synbio",
+        "ncbi-positioning"
+      ],
+      "keywords": [
+        "applications",
+        "synthetic",
+        "biology",
+        "pathway",
+        "flux",
+        "cell factory",
+        "burden",
+        "yield",
+        "应用",
+        "合成生物学能做什么",
+        "metabolic engineering cell factories",
+        "public authority"
+      ],
+      "summary": "Synthetic biology applications include medicine, agriculture, manufacturing, materials, sensing, and research tools. The same design mindset can serve many areas, but each has different risks and governance needs.",
+      "facts": [
+        "Applications should be judged by benefit, risk, feasibility, and public value.",
+        "A promising lab result is not the same as a safe real-world product.",
+        "Responsible innovation includes stakeholder engagement and oversight."
+      ],
+      "analogy": "Synthetic biology is a toolbox; the responsible question is what problem the tool is solving.",
+      "module_id": "metabolic-engineering-cell-factories",
+      "order": 4,
+      "learning_objectives": [
+        "Explain the main idea of Applications of Synthetic Biology.",
+        "Connect Applications of Synthetic Biology to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "pathway",
+        "flux",
+        "cell factory",
+        "burden",
+        "yield"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Applications of Synthetic Biology important in synthetic biology?",
+        "How does Applications of Synthetic Biology connect to the previous module?",
+        "What is one safe real-world application or limitation of Applications of Synthetic Biology?"
+      ],
+      "source_tier": "public_authority"
+    },
+    {
+      "id": "biofuels-chemicals-materials",
+      "title": "Biofuels, Chemicals, and Materials",
+      "topic": "Metabolic Engineering and Cell Factories",
+      "level": "intermediate",
+      "source_ids": [
+        "local-meyers-synbio-textbook",
+        "royal-society-synbio"
+      ],
+      "keywords": [
+        "biofuels",
+        "chemicals",
+        "and",
+        "materials",
+        "pathway",
+        "flux",
+        "cell factory",
+        "burden",
+        "yield",
+        "燃料",
+        "化学品",
+        "材料",
+        "metabolic engineering cell factories",
+        "textbook reference"
+      ],
+      "summary": "Synthetic biology can support production of fuels, commodity chemicals, specialty molecules, and materials. The educational emphasis is on pathway design and sustainability tradeoffs.",
+      "facts": [
+        "Biological production can use renewable feedstocks in some contexts.",
+        "Economic and environmental benefits depend on the whole process, not only the engineered cell.",
+        "Product toxicity and metabolic burden can limit performance."
+      ],
+      "analogy": "It is like asking a cell to run a carefully tuned workshop.",
+      "module_id": "metabolic-engineering-cell-factories",
+      "order": 5,
+      "learning_objectives": [
+        "Explain the main idea of Biofuels, Chemicals, and Materials.",
+        "Connect Biofuels, Chemicals, and Materials to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "pathway",
+        "flux",
+        "cell factory",
+        "burden",
+        "yield"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Biofuels, Chemicals, and Materials important in synthetic biology?",
+        "How does Biofuels, Chemicals, and Materials connect to the previous module?",
+        "What is one safe real-world application or limitation of Biofuels, Chemicals, and Materials?"
+      ],
+      "source_tier": "local_textbook_reference"
+    },
+    {
+      "id": "cell-free-synthetic-biology",
+      "title": "Cell-Free Synthetic Biology",
+      "topic": "Cell-Free Systems and Synthetic Cells",
+      "level": "intermediate",
+      "source_ids": [
+        "nist-cell-free-systems",
+        "nist-engineering-synbio"
+      ],
+      "keywords": [
+        "cell",
+        "free",
+        "synthetic",
+        "biology",
+        "cell-free system",
+        "TXTL",
+        "minimal genome",
+        "compartment",
+        "synthetic cell",
+        "细胞自由",
+        "无细胞",
+        "合成生物学",
+        "cell free synthetic cells",
+        "public authority"
+      ],
+      "summary": "Cell-free systems use extracted or reconstructed biological machinery outside living cells. Braman-style TXTL discussions make this useful for prototyping, education, and biosensing concepts without treating it as a recipe.",
+      "facts": [
+        "Cell-free systems can simplify some variables by removing growth and survival from the design problem.",
+        "They still depend on complex biological components and careful interpretation.",
+        "They can support rapid conceptual testing under appropriate supervision."
+      ],
+      "analogy": "Cell-free biology is like taking part of the cellular workshop onto a bench for controlled study.",
+      "module_id": "cell-free-synthetic-cells",
+      "order": 1,
+      "learning_objectives": [
+        "Explain the main idea of Cell-Free Synthetic Biology.",
+        "Connect Cell-Free Synthetic Biology to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "cell-free system",
+        "TXTL",
+        "minimal genome",
+        "compartment",
+        "synthetic cell"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Cell-Free Synthetic Biology important in synthetic biology?",
+        "How does Cell-Free Synthetic Biology connect to the previous module?",
+        "What is one safe real-world application or limitation of Cell-Free Synthetic Biology?"
+      ],
+      "source_tier": "public_authority"
+    },
+    {
+      "id": "minimal-genome",
+      "title": "Minimal Genomes",
+      "topic": "Cell-Free Systems and Synthetic Cells",
+      "level": "intermediate",
+      "source_ids": [
+        "local-meyers-synbio-textbook",
+        "nhgri-synbio"
+      ],
+      "keywords": [
+        "minimal",
+        "genomes",
+        "cell-free system",
+        "TXTL",
+        "minimal genome",
+        "compartment",
+        "synthetic cell",
+        "最小基因组",
+        "cell free synthetic cells",
+        "textbook reference"
+      ],
+      "summary": "Minimal genome research asks what genetic functions are necessary for life under defined conditions. It helps students think about essential genes, context, and the boundary between natural and designed systems.",
+      "facts": [
+        "Essentiality depends on environment and organism.",
+        "A minimal genome is not automatically a simple organism.",
+        "The topic connects foundational biology with synthetic cell research."
+      ],
+      "analogy": "A minimal genome is like asking what parts a vehicle needs to move in one specific setting.",
+      "module_id": "cell-free-synthetic-cells",
+      "order": 2,
+      "learning_objectives": [
+        "Explain the main idea of Minimal Genomes.",
+        "Connect Minimal Genomes to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "cell-free system",
+        "TXTL",
+        "minimal genome",
+        "compartment",
+        "synthetic cell"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Minimal Genomes important in synthetic biology?",
+        "How does Minimal Genomes connect to the previous module?",
+        "What is one safe real-world application or limitation of Minimal Genomes?"
+      ],
+      "source_tier": "local_textbook_reference"
+    },
+    {
+      "id": "compartmentalization-synthetic-cells",
+      "title": "Compartmentalization and Synthetic Cells",
+      "topic": "Cell-Free Systems and Synthetic Cells",
+      "level": "intermediate",
+      "source_ids": [
+        "local-meyers-synbio-textbook",
+        "nist-cell-free-systems"
+      ],
+      "keywords": [
+        "compartmentalization",
+        "and",
+        "synthetic",
+        "cells",
+        "cell-free system",
+        "TXTL",
+        "minimal genome",
+        "compartment",
+        "synthetic cell",
+        "隔室化",
+        "合成细胞",
+        "cell free synthetic cells",
+        "textbook reference"
+      ],
+      "summary": "Compartmentalization creates boundaries that organize reactions and information. Synthetic cell research studies how life-like functions can emerge when components are placed inside controlled compartments.",
+      "facts": [
+        "Membranes and compartments separate inside from outside.",
+        "Compartments can concentrate molecules and control exchange.",
+        "Synthetic cells are research models, not simple copies of natural life."
+      ],
+      "analogy": "A compartment is a room that lets a tiny chemistry project have an inside and an outside.",
+      "module_id": "cell-free-synthetic-cells",
+      "order": 3,
+      "learning_objectives": [
+        "Explain the main idea of Compartmentalization and Synthetic Cells.",
+        "Connect Compartmentalization and Synthetic Cells to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "cell-free system",
+        "TXTL",
+        "minimal genome",
+        "compartment",
+        "synthetic cell"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Compartmentalization and Synthetic Cells important in synthetic biology?",
+        "How does Compartmentalization and Synthetic Cells connect to the previous module?",
+        "What is one safe real-world application or limitation of Compartmentalization and Synthetic Cells?"
+      ],
+      "source_tier": "local_textbook_reference"
+    },
+    {
+      "id": "biomedical-synbio",
+      "title": "Biomedical Applications",
+      "topic": "Biomedical and Frontier Applications",
+      "level": "beginner",
+      "source_ids": [
+        "nibib-synbio",
+        "nhgri-synbio",
+        "royal-society-synbio"
+      ],
+      "keywords": [
+        "biomedical",
+        "applications",
+        "cell therapy",
+        "vaccine",
+        "DNA origami",
+        "living material",
+        "translation",
+        "医学",
+        "诊断",
+        "治疗",
+        "应用",
+        "biomedical frontier applications",
+        "public authority"
+      ],
+      "summary": "Biomedical synthetic biology includes engineered cells, diagnostics, therapeutic delivery concepts, vaccines, and regenerative medicine. It requires strong safety, ethics, and clinical oversight.",
+      "facts": [
+        "Medical applications must consider efficacy, delivery, immune response, and patient safety.",
+        "Engineering a biological function is only one part of clinical translation.",
+        "Regulation and informed consent are central to responsible use."
+      ],
+      "analogy": "Biomedical design is not only building a tool; it is fitting that tool into a human care system.",
+      "module_id": "biomedical-frontier-applications",
+      "order": 1,
+      "learning_objectives": [
+        "Explain the main idea of Biomedical Applications.",
+        "Connect Biomedical Applications to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "cell therapy",
+        "vaccine",
+        "DNA origami",
+        "living material",
+        "translation"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Biomedical Applications important in synthetic biology?",
+        "How does Biomedical Applications connect to the previous module?",
+        "What is one safe real-world application or limitation of Biomedical Applications?"
+      ],
+      "source_tier": "public_authority"
+    },
+    {
+      "id": "regenerative-cell-therapy",
+      "title": "Regenerative Medicine and Cell Therapy",
+      "topic": "Biomedical and Frontier Applications",
+      "level": "intermediate",
+      "source_ids": [
+        "local-meyers-synbio-textbook",
+        "nibib-synbio"
+      ],
+      "keywords": [
+        "regenerative",
+        "medicine",
+        "and",
+        "cell",
+        "therapy",
+        "cell therapy",
+        "vaccine",
+        "DNA origami",
+        "living material",
+        "translation",
+        "再生医学",
+        "细胞治疗",
+        "biomedical frontier applications",
+        "textbook reference"
+      ],
+      "summary": "Cell therapies can use living cells as treatments, while regenerative medicine aims to repair or replace damaged tissues. Synthetic biology can add sensing, control, or production functions in carefully regulated settings.",
+      "facts": [
+        "Engineered cells can sense environments and produce responses.",
+        "Safety concerns include persistence, targeting, immune effects, and unintended behavior.",
+        "Clinical translation requires rigorous testing and oversight."
+      ],
+      "analogy": "A cell therapy is a living tool that must act in the right place, at the right time, and within limits.",
+      "module_id": "biomedical-frontier-applications",
+      "order": 2,
+      "learning_objectives": [
+        "Explain the main idea of Regenerative Medicine and Cell Therapy.",
+        "Connect Regenerative Medicine and Cell Therapy to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "cell therapy",
+        "vaccine",
+        "DNA origami",
+        "living material",
+        "translation"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Regenerative Medicine and Cell Therapy important in synthetic biology?",
+        "How does Regenerative Medicine and Cell Therapy connect to the previous module?",
+        "What is one safe real-world application or limitation of Regenerative Medicine and Cell Therapy?"
+      ],
+      "source_tier": "local_textbook_reference"
+    },
+    {
+      "id": "vaccines-immunology-synbio",
+      "title": "Vaccines and Immunology Applications",
+      "topic": "Biomedical and Frontier Applications",
+      "level": "intermediate",
+      "source_ids": [
+        "local-meyers-synbio-textbook",
+        "nibib-synbio"
+      ],
+      "keywords": [
+        "vaccines",
+        "and",
+        "immunology",
+        "applications",
+        "cell therapy",
+        "vaccine",
+        "DNA origami",
+        "living material",
+        "translation",
+        "疫苗",
+        "免疫",
+        "biomedical frontier applications",
+        "textbook reference"
+      ],
+      "summary": "Synthetic biology contributes concepts and platforms for vaccine design, immune engineering, and diagnostics. The tutor keeps this at the level of principles, applications, and safeguards.",
+      "facts": [
+        "Vaccines train immune memory through carefully evaluated platforms.",
+        "Synthetic biology can help design antigens, delivery concepts, or manufacturing processes.",
+        "Public trust depends on transparency, safety evidence, and clear communication."
+      ],
+      "analogy": "A vaccine is like a training exercise for the immune system.",
+      "module_id": "biomedical-frontier-applications",
+      "order": 3,
+      "learning_objectives": [
+        "Explain the main idea of Vaccines and Immunology Applications.",
+        "Connect Vaccines and Immunology Applications to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "cell therapy",
+        "vaccine",
+        "DNA origami",
+        "living material",
+        "translation"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Vaccines and Immunology Applications important in synthetic biology?",
+        "How does Vaccines and Immunology Applications connect to the previous module?",
+        "What is one safe real-world application or limitation of Vaccines and Immunology Applications?"
+      ],
+      "source_tier": "local_textbook_reference"
+    },
+    {
+      "id": "dna-origami-nanostructures",
+      "title": "DNA Origami and Nanostructures",
+      "topic": "Biomedical and Frontier Applications",
+      "level": "intermediate",
+      "source_ids": [
+        "local-meyers-synbio-textbook"
+      ],
+      "keywords": [
+        "dna",
+        "origami",
+        "and",
+        "nanostructures",
+        "cell therapy",
+        "vaccine",
+        "DNA origami",
+        "living material",
+        "translation",
+        "DNA折纸",
+        "纳米结构",
+        "biomedical frontier applications",
+        "textbook reference"
+      ],
+      "summary": "DNA origami uses the predictable pairing of DNA bases to design nanoscale shapes and structures. It shows that DNA can be a construction material, not only genetic information.",
+      "facts": [
+        "The concept relies on base-pairing rules and nanoscale self-assembly.",
+        "Applications include research tools, materials, and delivery concepts.",
+        "Educational coverage should focus on principles rather than assembly recipes."
+      ],
+      "analogy": "DNA origami treats DNA like a programmable nanoscale folding material.",
+      "module_id": "biomedical-frontier-applications",
+      "order": 4,
+      "learning_objectives": [
+        "Explain the main idea of DNA Origami and Nanostructures.",
+        "Connect DNA Origami and Nanostructures to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "cell therapy",
+        "vaccine",
+        "DNA origami",
+        "living material",
+        "translation"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is DNA Origami and Nanostructures important in synthetic biology?",
+        "How does DNA Origami and Nanostructures connect to the previous module?",
+        "What is one safe real-world application or limitation of DNA Origami and Nanostructures?"
+      ],
+      "source_tier": "local_textbook_reference"
+    },
+    {
+      "id": "whole-genome-synthesis",
+      "title": "Whole-Genome Synthesis",
+      "topic": "Biomedical and Frontier Applications",
+      "level": "intermediate",
+      "source_ids": [
+        "nhgri-synbio"
+      ],
+      "keywords": [
+        "whole",
+        "genome",
+        "synthesis",
+        "cell therapy",
+        "vaccine",
+        "DNA origami",
+        "living material",
+        "translation",
+        "全基因组",
+        "合成",
+        "前沿话题",
+        "biomedical frontier applications",
+        "public authority"
+      ],
+      "summary": "Whole-genome synthesis studies the design and construction of very large genetic systems. It is a frontier topic that connects DNA writing, genome organization, standards, and biosecurity screening.",
+      "facts": [
+        "Whole-genome work shows why biological design must consider system-level organization.",
+        "The field raises strong governance and dual-use concerns.",
+        "Educational discussion should remain conceptual and safety-aware."
+      ],
+      "analogy": "It is closer to planning a whole operating system than changing one setting.",
+      "module_id": "biomedical-frontier-applications",
+      "order": 5,
+      "learning_objectives": [
+        "Explain the main idea of Whole-Genome Synthesis.",
+        "Connect Whole-Genome Synthesis to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "cell therapy",
+        "vaccine",
+        "DNA origami",
+        "living material",
+        "translation"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Whole-Genome Synthesis important in synthetic biology?",
+        "How does Whole-Genome Synthesis connect to the previous module?",
+        "What is one safe real-world application or limitation of Whole-Genome Synthesis?"
+      ],
+      "source_tier": "public_authority"
+    },
+    {
+      "id": "engineered-living-materials",
+      "title": "Engineered Living Materials",
+      "topic": "Biomedical and Frontier Applications",
+      "level": "intermediate",
+      "source_ids": [
+        "local-braman-synbio-methods",
+        "royal-society-synbio"
+      ],
+      "keywords": [
+        "engineered",
+        "living",
+        "materials",
+        "cell therapy",
+        "vaccine",
+        "DNA origami",
+        "living material",
+        "translation",
+        "工程活细胞材料",
+        "活材料",
+        "biomedical frontier applications",
+        "textbook reference"
+      ],
+      "summary": "Engineered living materials combine biological activity with material properties. They may sense, self-repair, produce molecules, or respond to environments under controlled conditions.",
+      "facts": [
+        "Living materials blur the boundary between device and organism.",
+        "Containment and lifecycle management are central safety issues.",
+        "The field connects synthetic biology with materials science and design."
+      ],
+      "analogy": "A living material is like a wall, coating, or fabric that can perform biological functions.",
+      "module_id": "biomedical-frontier-applications",
+      "order": 6,
+      "learning_objectives": [
+        "Explain the main idea of Engineered Living Materials.",
+        "Connect Engineered Living Materials to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "cell therapy",
+        "vaccine",
+        "DNA origami",
+        "living material",
+        "translation"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Engineered Living Materials important in synthetic biology?",
+        "How does Engineered Living Materials connect to the previous module?",
+        "What is one safe real-world application or limitation of Engineered Living Materials?"
+      ],
+      "source_tier": "local_textbook_reference"
+    },
+    {
+      "id": "ethics-safety",
+      "title": "Ethics, Safety, and Responsible Innovation",
+      "topic": "Safety, Ethics, and Public Trust",
+      "level": "beginner",
+      "source_ids": [
+        "nhgri-synbio",
+        "who-responsible-life-sciences",
+        "ncbi-biotech-age"
+      ],
+      "keywords": [
+        "ethics",
+        "safety",
+        "and",
+        "responsible",
+        "innovation",
+        "biosafety",
+        "biosecurity",
+        "dual use",
+        "governance",
+        "public trust",
+        "伦理",
+        "安全",
+        "治理",
+        "负责任创新"
+      ],
+      "summary": "Responsible synthetic biology asks who benefits, who bears risk, how uncertainty is handled, and how decisions are governed. Ethics is part of design, not an afterthought.",
+      "facts": [
+        "Safety includes harm prevention for people, animals, and environments.",
+        "Ethics includes fairness, consent, access, and accountability.",
+        "Public trust grows through transparency and meaningful engagement."
+      ],
+      "analogy": "Ethics is the steering system that keeps technical power pointed toward public value.",
+      "module_id": "safety-ethics-public-trust",
+      "order": 1,
+      "learning_objectives": [
+        "Explain the main idea of Ethics, Safety, and Responsible Innovation.",
+        "Connect Ethics, Safety, and Responsible Innovation to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "biosafety",
+        "biosecurity",
+        "dual use",
+        "governance",
+        "public trust"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Ethics, Safety, and Responsible Innovation important in synthetic biology?",
+        "How does Ethics, Safety, and Responsible Innovation connect to the previous module?",
+        "What is one safe real-world application or limitation of Ethics, Safety, and Responsible Innovation?"
+      ],
+      "source_tier": "public_authority"
     },
     {
       "id": "biosecurity-risk-assessment",
-      "title": "合成生物学的生物安保风险评估",
-      "topic": "安全治理",
+      "title": "Biosecurity Risk Assessment",
+      "topic": "Safety, Ethics, and Public Trust",
       "level": "intermediate",
-      "source_ids": ["national-academies-biodefense-synbio", "who-responsible-life-sciences", "oecd-synbio-in-focus"],
-      "keywords": ["生物安保", "biosecurity", "风险评估", "双重用途", "biodefense", "misuse", "治理", "mitigation"],
-      "summary": "National Academies 将合成生物学视为主要服务于有益目标的领域，但也强调某些能力可能被误用，因此需要现实、分层、可更新的风险评估框架。风险治理的重点不是恐慌，而是识别哪些能力、情境和行为需要额外审查与缓释措施。",
-      "facts": [
-        "合成生物学的安全讨论应区分正常研究、双重用途风险和恶意误用场景。",
-        "权威报告强调用框架评估不同技术能力可能带来的安全关切，而不是把整个领域简单标签化。",
-        "缓释措施可包括培训、审查、责任文化、透明沟通和对高风险信息的谨慎处理。"
+      "source_ids": [
+        "national-academies-biodefense-synbio",
+        "who-responsible-life-sciences",
+        "oecd-synbio-in-focus"
       ],
-      "analogy": "生物安保像实验室和社会之间的防火门：它不是为了阻止所有探索，而是为了让有价值的探索在可控边界内发生。"
+      "keywords": [
+        "biosecurity",
+        "risk",
+        "assessment",
+        "biosafety",
+        "dual use",
+        "governance",
+        "public trust",
+        "生物安保",
+        "风险评估",
+        "合成生物学",
+        "safety ethics public trust",
+        "public authority"
+      ],
+      "summary": "Biosecurity risk assessment asks how biological knowledge or tools could be misused and how to reduce that risk. It is especially important for DNA synthesis, pathogens, toxins, and dual-use research.",
+      "facts": [
+        "Risk assessment considers capability, intent, access, and consequence.",
+        "Controls can include screening, training, review, and reporting norms.",
+        "Useful education should avoid actionable harmful detail."
+      ],
+      "analogy": "Biosecurity is like access control and threat modeling for life science.",
+      "module_id": "safety-ethics-public-trust",
+      "order": 2,
+      "learning_objectives": [
+        "Explain the main idea of Biosecurity Risk Assessment.",
+        "Connect Biosecurity Risk Assessment to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "biosafety",
+        "biosecurity",
+        "dual use",
+        "governance",
+        "public trust"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Biosecurity Risk Assessment important in synthetic biology?",
+        "How does Biosecurity Risk Assessment connect to the previous module?",
+        "What is one safe real-world application or limitation of Biosecurity Risk Assessment?"
+      ],
+      "source_tier": "public_authority"
     },
     {
       "id": "technology-stewardship-public-trust",
-      "title": "技术治理、公众信任与负责任创新",
-      "topic": "安全治理",
+      "title": "Technology Stewardship and Public Trust",
+      "topic": "Safety, Ethics, and Public Trust",
       "level": "beginner",
-      "source_ids": ["oecd-synbio-in-focus", "royal-society-synbio", "who-responsible-life-sciences"],
-      "keywords": ["技术治理", "公众信任", "负责任创新", "stewardship", "trust", "transparency", "public dialogue", "policy"],
-      "summary": "合成生物学不只是技术问题，也涉及社会目标、公众沟通、透明度和责任分配。OECD 强调可信、责任、透明、技术 stewardship 和公共利益等价值；Royal Society 也指出这一领域潜力巨大，但治理和社会影响仍存在不确定性。",
-      "facts": [
-        "公众沟通应是双向的：不仅向公众解释技术，也让研究和政策听见社会需求与担忧。",
-        "过度承诺应用效果可能损害信任，尤其是在技术还处于早期或高度不确定时。",
-        "负责任创新要求研究者、机构、企业和监管者共同关注风险、收益、公平性和长期影响。"
+      "source_ids": [
+        "oecd-synbio-in-focus",
+        "royal-society-synbio",
+        "who-responsible-life-sciences"
       ],
-      "analogy": "技术治理像给一艘快船配上航海图、气象预报和公共航道规则：速度重要，但方向、透明和责任同样重要。"
+      "keywords": [
+        "technology",
+        "stewardship",
+        "and",
+        "public",
+        "trust",
+        "biosafety",
+        "biosecurity",
+        "dual use",
+        "governance",
+        "public trust",
+        "公众信任",
+        "技术治理",
+        "创新",
+        "safety ethics public trust"
+      ],
+      "summary": "Technology stewardship means guiding a field through responsible choices over time. Public trust depends on openness, accountability, benefit sharing, and willingness to address concern.",
+      "facts": [
+        "Stewardship is ongoing, not a one-time approval.",
+        "Public engagement can improve problem framing and governance.",
+        "Trust is earned through behavior, not slogans."
+      ],
+      "analogy": "Stewardship is careful navigation when the map is still being drawn.",
+      "module_id": "safety-ethics-public-trust",
+      "order": 3,
+      "learning_objectives": [
+        "Explain the main idea of Technology Stewardship and Public Trust.",
+        "Connect Technology Stewardship and Public Trust to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "biosafety",
+        "biosecurity",
+        "dual use",
+        "governance",
+        "public trust"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Technology Stewardship and Public Trust important in synthetic biology?",
+        "How does Technology Stewardship and Public Trust connect to the previous module?",
+        "What is one safe real-world application or limitation of Technology Stewardship and Public Trust?"
+      ],
+      "source_tier": "public_authority"
+    },
+    {
+      "id": "dual-use-biosecurity",
+      "title": "Dual Use and Biosecurity",
+      "topic": "Safety, Ethics, and Public Trust",
+      "level": "intermediate",
+      "source_ids": [
+        "who-responsible-life-sciences",
+        "national-academies-biodefense-synbio"
+      ],
+      "keywords": [
+        "dual",
+        "use",
+        "and",
+        "biosecurity",
+        "biosafety",
+        "dual use",
+        "governance",
+        "public trust",
+        "双重用途",
+        "生物安保",
+        "safety ethics public trust",
+        "public authority"
+      ],
+      "summary": "Dual-use knowledge can support beneficial science but also create risks if misapplied. Synthetic biology education should teach students to notice this tension early.",
+      "facts": [
+        "The same technique may enable medicine, manufacturing, or misuse.",
+        "Dual-use review asks whether benefits justify risks and what safeguards are needed.",
+        "Responsible communication avoids enabling harmful replication."
+      ],
+      "analogy": "A powerful tool needs both purpose and guardrails.",
+      "module_id": "safety-ethics-public-trust",
+      "order": 4,
+      "learning_objectives": [
+        "Explain the main idea of Dual Use and Biosecurity.",
+        "Connect Dual Use and Biosecurity to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "biosafety",
+        "biosecurity",
+        "dual use",
+        "governance",
+        "public trust"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Dual Use and Biosecurity important in synthetic biology?",
+        "How does Dual Use and Biosecurity connect to the previous module?",
+        "What is one safe real-world application or limitation of Dual Use and Biosecurity?"
+      ],
+      "source_tier": "public_authority"
+    },
+    {
+      "id": "biosafety-biosecurity-difference",
+      "title": "Biosafety vs. Biosecurity",
+      "topic": "Safety, Ethics, and Public Trust",
+      "level": "beginner",
+      "source_ids": [
+        "who-responsible-life-sciences",
+        "national-academies-biodefense-synbio"
+      ],
+      "keywords": [
+        "biosafety",
+        "biosecurity",
+        "dual use",
+        "governance",
+        "public trust",
+        "生物安全",
+        "生物安保",
+        "区别",
+        "safety ethics public trust",
+        "public authority"
+      ],
+      "summary": "Biosafety focuses on preventing accidental exposure or release, while biosecurity focuses on preventing misuse, theft, or deliberate harm. Both are essential for responsible life science.",
+      "facts": [
+        "Biosafety asks how accidents are prevented.",
+        "Biosecurity asks how misuse is prevented.",
+        "Good governance coordinates both rather than treating them as separate worlds."
+      ],
+      "analogy": "Biosafety is safe handling; biosecurity is secure access and misuse prevention.",
+      "module_id": "safety-ethics-public-trust",
+      "order": 5,
+      "learning_objectives": [
+        "Explain the main idea of Biosafety vs. Biosecurity.",
+        "Connect Biosafety vs. Biosecurity to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "biosafety",
+        "biosecurity",
+        "dual use",
+        "governance",
+        "public trust"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Biosafety vs. Biosecurity important in synthetic biology?",
+        "How does Biosafety vs. Biosecurity connect to the previous module?",
+        "What is one safe real-world application or limitation of Biosafety vs. Biosecurity?"
+      ],
+      "source_tier": "public_authority"
+    },
+    {
+      "id": "public-dialogue-responsibility",
+      "title": "Public Dialogue and Responsible Innovation",
+      "topic": "Safety, Ethics, and Public Trust",
+      "level": "beginner",
+      "source_ids": [
+        "oecd-synbio-in-focus",
+        "royal-society-synbio",
+        "who-responsible-life-sciences"
+      ],
+      "keywords": [
+        "public",
+        "dialogue",
+        "and",
+        "responsible",
+        "innovation",
+        "biosafety",
+        "biosecurity",
+        "dual use",
+        "governance",
+        "public trust",
+        "公众对话",
+        "责任创新",
+        "safety ethics public trust",
+        "public authority"
+      ],
+      "summary": "Public dialogue helps synthetic biology align with social values and real needs. It is especially important when technologies affect health, food, environment, or community trust.",
+      "facts": [
+        "Dialogue should happen before decisions are locked in.",
+        "Different communities may define benefit and risk differently.",
+        "Responsible innovation learns from public concern instead of dismissing it."
+      ],
+      "analogy": "Public dialogue is a design review with the people who may live with the results.",
+      "module_id": "safety-ethics-public-trust",
+      "order": 6,
+      "learning_objectives": [
+        "Explain the main idea of Public Dialogue and Responsible Innovation.",
+        "Connect Public Dialogue and Responsible Innovation to the current learning module.",
+        "State one limitation or safety consideration without giving a protocol."
+      ],
+      "core_terms": [
+        "biosafety",
+        "biosecurity",
+        "dual use",
+        "governance",
+        "public trust"
+      ],
+      "misconceptions": [
+        "The concept is not a step-by-step laboratory instruction.",
+        "A diagram or model does not guarantee the same behavior in every cell.",
+        "Responsible design includes safety, context, and uncertainty."
+      ],
+      "student_questions": [
+        "Why is Public Dialogue and Responsible Innovation important in synthetic biology?",
+        "How does Public Dialogue and Responsible Innovation connect to the previous module?",
+        "What is one safe real-world application or limitation of Public Dialogue and Responsible Innovation?"
+      ],
+      "source_tier": "public_authority"
     }
   ],
   "safety_policy": {
@@ -371,5 +2948,259 @@
       "对现实生物系统进行危险改造的故障排除"
     ],
     "refusal_style": "友好解释边界，转向安全的概念层面、风险评估框架或正规学习资源。"
-  }
+  },
+  "learning_path": [
+    {
+      "id": "foundations-life-systems",
+      "title_en": "Foundations of Life Systems",
+      "title_zh": "生命系统基础",
+      "order": 1,
+      "audience": "high_school_intro",
+      "learning_goal": "Build a first mental model of cells, DNA, RNA, proteins, gene expression, and regulation.",
+      "prerequisites": [],
+      "document_ids": [
+        "cell-basics",
+        "dna-rna-protein-flow",
+        "genes-regulatory-elements",
+        "gene-expression-regulation",
+        "host-chassis"
+      ],
+      "guiding_questions": [
+        "What makes a cell a living system?",
+        "How does information move from DNA to RNA to protein?",
+        "Why do cells regulate genes instead of keeping every gene on?",
+        "What is a chassis cell in synthetic biology?"
+      ],
+      "checkpoint_prompt": "Explain how DNA, RNA, proteins, and regulation work together in one cell."
+    },
+    {
+      "id": "biology-to-engineering",
+      "title_en": "From Biology to Engineering",
+      "title_zh": "从自然到工程",
+      "order": 2,
+      "audience": "high_school_intro",
+      "learning_goal": "Understand why synthetic biology uses engineering ideas such as abstraction, modules, standards, and DBTL.",
+      "prerequisites": [
+        "foundations-life-systems"
+      ],
+      "document_ids": [
+        "synbio-definition",
+        "design-build-test-learn",
+        "parts-devices-systems",
+        "abstraction-hierarchy",
+        "standardization-reuse"
+      ],
+      "guiding_questions": [
+        "What is synthetic biology trying to design?",
+        "How is DBTL different from a one-time experiment?",
+        "Why do engineers divide complex systems into parts, devices, and systems?",
+        "Why is standardization useful but never perfect in biology?"
+      ],
+      "checkpoint_prompt": "Use one everyday engineering example to explain the DBTL cycle."
+    },
+    {
+      "id": "reading-writing-dna",
+      "title_en": "Reading and Writing DNA",
+      "title_zh": "读写 DNA",
+      "order": 3,
+      "audience": "high_school_intro",
+      "learning_goal": "Compare DNA sequencing, synthesis, assembly, and genome editing at a high conceptual level.",
+      "prerequisites": [
+        "foundations-life-systems",
+        "biology-to-engineering"
+      ],
+      "document_ids": [
+        "sequencing-reading-dna",
+        "dna-synthesis-assembly",
+        "genome-editing-concepts",
+        "synbio-vs-editing",
+        "genetic-code-expansion"
+      ],
+      "guiding_questions": [
+        "What is the difference between reading DNA and writing DNA?",
+        "Why is DNA assembly a design problem, not only a technical task?",
+        "How does genome editing differ from whole-system engineering?",
+        "Why should operational details stay inside trained laboratories?"
+      ],
+      "checkpoint_prompt": "Sort sequencing, synthesis, assembly, and editing into reading or writing activities."
+    },
+    {
+      "id": "gene-regulation-circuits",
+      "title_en": "Gene Regulation and Genetic Circuits",
+      "title_zh": "基因调控与遗传线路",
+      "order": 4,
+      "audience": "high_school_intro",
+      "learning_goal": "Learn how cells use regulatory logic, feedback, switches, oscillators, and logic gates to process information.",
+      "prerequisites": [
+        "foundations-life-systems",
+        "biology-to-engineering"
+      ],
+      "document_ids": [
+        "operons-feedback",
+        "genetic-circuits",
+        "logic-gates-information",
+        "noise-burden-context",
+        "rnai-synthetic-logic"
+      ],
+      "guiding_questions": [
+        "How can a gene circuit behave like a switch?",
+        "What does feedback do in a living system?",
+        "Why are cellular logic gates less predictable than electronic logic gates?",
+        "What limits circuit performance inside real cells?"
+      ],
+      "checkpoint_prompt": "Describe a simple genetic switch using input, processing, and output."
+    },
+    {
+      "id": "modeling-design-tools",
+      "title_en": "Modeling and Design Tools",
+      "title_zh": "模型、计算与设计工具",
+      "order": 5,
+      "audience": "high_school_intro",
+      "learning_goal": "See models, simulations, CAD ideas, and design languages as tools for thinking before building.",
+      "prerequisites": [
+        "biology-to-engineering",
+        "gene-regulation-circuits"
+      ],
+      "document_ids": [
+        "network-dynamics",
+        "computer-simulation-cells",
+        "measurement-standards-biofoundry",
+        "ai-and-genomics",
+        "bio-cad-design-language"
+      ],
+      "guiding_questions": [
+        "What can a model reveal before an experiment?",
+        "Why are biological models always simplifications?",
+        "How do design languages help teams communicate designs?",
+        "Where can AI help and where can it mislead?"
+      ],
+      "checkpoint_prompt": "Name one benefit and one limitation of modeling a biological network."
+    },
+    {
+      "id": "biosensors-signal-processing",
+      "title_en": "Biosensors and Signal Processing",
+      "title_zh": "生物传感器与信息输入输出",
+      "order": 6,
+      "audience": "high_school_intro",
+      "learning_goal": "Understand biosensors as systems that sense an input, process a signal, and produce a measurable output.",
+      "prerequisites": [
+        "gene-regulation-circuits"
+      ],
+      "document_ids": [
+        "biosensors",
+        "sensor-input-modules",
+        "signal-processing-output",
+        "specificity-sensitivity"
+      ],
+      "guiding_questions": [
+        "What counts as a biological input signal?",
+        "How does a biosensor convert sensing into output?",
+        "Why do specificity and sensitivity matter?",
+        "Why do real-world samples make sensing harder?"
+      ],
+      "checkpoint_prompt": "Sketch a biosensor as input, processor, and output without giving an experimental protocol."
+    },
+    {
+      "id": "metabolic-engineering-cell-factories",
+      "title_en": "Metabolic Engineering and Cell Factories",
+      "title_zh": "代谢工程与细胞工厂",
+      "order": 7,
+      "audience": "high_school_intro",
+      "learning_goal": "Connect pathways, flux, host burden, and product formation in metabolic engineering.",
+      "prerequisites": [
+        "biology-to-engineering"
+      ],
+      "document_ids": [
+        "pathways-flux",
+        "microbial-cell-factories",
+        "protein-engineering",
+        "applications",
+        "biofuels-chemicals-materials"
+      ],
+      "guiding_questions": [
+        "What is a metabolic pathway?",
+        "Why does flux matter for production?",
+        "How can a cell factory make useful molecules?",
+        "Why is yield only one part of a good design?"
+      ],
+      "checkpoint_prompt": "Explain why changing one pathway step can affect the whole cell."
+    },
+    {
+      "id": "cell-free-synthetic-cells",
+      "title_en": "Cell-Free Systems and Synthetic Cells",
+      "title_zh": "细胞自由系统、最小基因组与合成细胞",
+      "order": 8,
+      "audience": "high_school_intro",
+      "learning_goal": "Compare cell-free systems, minimal genomes, compartments, and synthetic cells as ways to study life-like systems.",
+      "prerequisites": [
+        "foundations-life-systems",
+        "reading-writing-dna"
+      ],
+      "document_ids": [
+        "cell-free-synthetic-biology",
+        "minimal-genome",
+        "compartmentalization-synthetic-cells"
+      ],
+      "guiding_questions": [
+        "Why study biology outside living cells?",
+        "What does a minimal genome teach us?",
+        "Why do compartments matter for life?",
+        "How are synthetic cells different from natural cells?"
+      ],
+      "checkpoint_prompt": "Compare cell-free prototyping and living-cell engineering in two sentences."
+    },
+    {
+      "id": "biomedical-frontier-applications",
+      "title_en": "Biomedical and Frontier Applications",
+      "title_zh": "医学、材料与前沿应用",
+      "order": 9,
+      "audience": "high_school_intro",
+      "learning_goal": "Survey medical, materials, DNA nanotechnology, and frontier applications without turning them into protocols.",
+      "prerequisites": [
+        "gene-regulation-circuits",
+        "reading-writing-dna"
+      ],
+      "document_ids": [
+        "biomedical-synbio",
+        "regenerative-cell-therapy",
+        "vaccines-immunology-synbio",
+        "dna-origami-nanostructures",
+        "whole-genome-synthesis",
+        "engineered-living-materials"
+      ],
+      "guiding_questions": [
+        "How can engineered cells support medicine?",
+        "Why are vaccines and immune systems important application areas?",
+        "What is DNA origami at a conceptual level?",
+        "What makes a living material different from an ordinary material?"
+      ],
+      "checkpoint_prompt": "Choose one application and explain the design idea plus one safety concern."
+    },
+    {
+      "id": "safety-ethics-public-trust",
+      "title_en": "Safety, Ethics, and Public Trust",
+      "title_zh": "安全、伦理与公众信任",
+      "order": 10,
+      "audience": "high_school_intro",
+      "learning_goal": "Learn the difference between biosafety, biosecurity, dual-use concerns, governance, and public trust.",
+      "prerequisites": [
+        "biology-to-engineering"
+      ],
+      "document_ids": [
+        "ethics-safety",
+        "biosecurity-risk-assessment",
+        "technology-stewardship-public-trust",
+        "dual-use-biosecurity",
+        "biosafety-biosecurity-difference",
+        "public-dialogue-responsibility"
+      ],
+      "guiding_questions": [
+        "What is the difference between biosafety and biosecurity?",
+        "Why can the same knowledge have beneficial and harmful uses?",
+        "How do governance and stewardship shape responsible innovation?",
+        "Why should public dialogue start early?"
+      ],
+      "checkpoint_prompt": "Explain a responsible innovation decision using benefit, risk, and public trust."
+    }
+  ]
 }

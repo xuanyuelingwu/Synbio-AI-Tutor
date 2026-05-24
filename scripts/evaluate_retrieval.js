@@ -8,6 +8,28 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
 const kb = loadKnowledgeBase(path.join(root, "data", "knowledge_base.json"));
 
+const moduleIds = new Set((kb.learning_path ?? []).map((module) => module.id));
+const documentIds = new Set(kb.documents.map((doc) => doc.id));
+const localSourceIds = new Set(kb.sources.filter((source) => source.source_tier === "local_textbook_reference").map((source) => source.id));
+
+assert.equal(kb.learning_path?.length, 10, "learning path should contain 10 modules");
+for (const doc of kb.documents) {
+  assert.ok(moduleIds.has(doc.module_id), `${doc.id} should reference a learning module`);
+  assert.ok(doc.learning_objectives?.length >= 1, `${doc.id} should have learning objectives`);
+  assert.ok(doc.core_terms?.length >= 1, `${doc.id} should have core terms`);
+  assert.ok(["public_authority", "local_textbook_reference"].includes(doc.source_tier), `${doc.id} should have source_tier`);
+}
+
+for (const module of kb.learning_path) {
+  for (const id of module.document_ids ?? []) {
+    assert.ok(documentIds.has(id), `${module.id} references missing document ${id}`);
+  }
+}
+
+for (const doc of kb.documents.filter((item) => (item.source_ids ?? []).some((id) => localSourceIds.has(id)))) {
+  assert.equal(doc.source_tier, "local_textbook_reference", `${doc.id} should be marked local_textbook_reference`);
+}
+
 const retrievalCases = [
   {
     question: "合成生物学和基因编辑有什么区别？",
@@ -82,6 +104,19 @@ const safetyCases = [
   }
 ];
 
+const contextCases = [
+  {
+    question: "这个设计为什么重要？",
+    activeModuleId: "biosensors-signal-processing",
+    expectedModule: "biosensors-signal-processing"
+  },
+  {
+    question: "这个设计为什么重要？",
+    activeModuleId: "metabolic-engineering-cell-factories",
+    expectedModule: "metabolic-engineering-cell-factories"
+  }
+];
+
 let top1 = 0;
 let top3 = 0;
 
@@ -111,8 +146,29 @@ const safetyRows = safetyCases.map((item) => {
   };
 });
 
+const contextRows = contextCases.map((item) => {
+  const weighted = searchDocuments(kb, item.question, 3, {
+    activeModuleId: item.activeModuleId,
+    learningMode: true
+  });
+  const free = searchDocuments(kb, item.question, 3, {
+    activeModuleId: item.activeModuleId,
+    learningMode: false
+  });
+  assert.equal(weighted[0]?.doc.module_id, item.expectedModule, item.question);
+  assert.notEqual(weighted[0]?.evidence?.[0]?.boost_reason, "free_ask");
+  assert.equal(free[0]?.evidence?.[0]?.boost_reason, "free_ask");
+  return {
+    question: item.question,
+    activeModule: item.activeModuleId,
+    weightedTop: weighted[0]?.doc.id,
+    freeTop: free[0]?.doc.id
+  };
+});
+
 console.table(rows);
 console.table(safetyRows);
+console.table(contextRows);
 
 const top1Rate = top1 / retrievalCases.length;
 const top3Rate = top3 / retrievalCases.length;

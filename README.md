@@ -23,6 +23,16 @@
 
 注意：`data/fine_tune_style_examples.jsonl` 目前仍是风格微调样例，不是已经完成的模型微调训练链路。现阶段事实准确性主要依赖 RAG，而不是把知识直接微调进模型。
 
+## 教学模式
+
+当前版本新增面向高中入门学习者的 `Learning Path / 学习主线`：
+
+- 10 个学习模块，从生命系统基础逐步进入工程设计、DNA 读写、遗传线路、模型工具、传感器、细胞工厂、合成细胞、前沿应用和安全治理。
+- 49 张知识卡，每张卡包含学习目标、核心术语、常见误区和推荐提问。
+- 点击左侧知识点后，会进入当前学习上下文；之后提问会优先提高当前模块和当前知识卡的证据权重。
+- `Free Ask / 自由提问` 会清除学习上下文，恢复全知识库普通检索。
+- 两本本地教材 PDF 仅作为本地教材参考，用于补全主题结构和高层概念；不会纳入可复现实验材料、步骤、参数或 protocol。
+
 ## 权威知识源
 
 当前知识库整理自：
@@ -135,6 +145,9 @@ scripts/start_server.ps1          Windows 启动脚本
 GET /api/health
 GET /api/sources
 GET /api/topics
+GET /api/learning-path
+GET /api/learning-path/:moduleId
+GET /api/documents/:id
 POST /api/ask
 ```
 
@@ -142,7 +155,10 @@ POST /api/ask
 
 ```json
 {
-  "question": "合成生物学和基因编辑有什么区别？"
+  "question": "合成生物学和基因编辑有什么区别？",
+  "activeModuleId": "reading-writing-dna",
+  "activeDocumentId": "synbio-vs-editing",
+  "learningMode": true
 }
 ```
 

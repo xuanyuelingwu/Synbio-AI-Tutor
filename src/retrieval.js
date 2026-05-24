@@ -27,8 +27,52 @@ export function tokenize(input = "") {
   return [...latin, ...cjk].filter((token) => !STOP_WORDS.has(token));
 }
 
-export function searchDocuments(kb, query, limit = 4) {
-  const evidence = searchEvidence(kb, query, limit * 3);
+function learningModuleOrder(kb, moduleId) {
+  return kb.learning_path?.find((module) => module.id === moduleId)?.order ?? null;
+}
+
+function applyLearningBoost(kb, chunk, score, options = {}) {
+  const learningMode = options.learningMode !== false;
+  if (!learningMode) {
+    return { boostedScore: score, boostReason: "free_ask" };
+  }
+
+  const reasons = [];
+  let multiplier = 1;
+
+  if (options.activeDocumentId && chunk.doc_id === options.activeDocumentId) {
+    multiplier *= 2.2;
+    reasons.push("active_document");
+  }
+
+  if (options.activeModuleId && chunk.module_id === options.activeModuleId) {
+    multiplier *= 1.6;
+    reasons.push("active_module");
+  } else if (options.activeModuleId && chunk.module_id) {
+    const activeOrder = learningModuleOrder(kb, options.activeModuleId);
+    const chunkOrder = learningModuleOrder(kb, chunk.module_id);
+    if (activeOrder && chunkOrder && chunkOrder < activeOrder) {
+      multiplier *= 1.15;
+      reasons.push("prerequisite_review");
+    }
+  }
+
+  return {
+    boostedScore: score * multiplier,
+    boostReason: reasons.length ? reasons.join("+") : "none"
+  };
+}
+
+function contextualPrior(query, chunk, options = {}) {
+  const learningMode = options.learningMode !== false;
+  if (!learningMode || !options.activeModuleId || chunk.module_id !== options.activeModuleId) return 0;
+  if (!/(这个|这种|该|它|当前|刚才|this|it|current)/i.test(query)) return 0;
+  if (options.activeDocumentId && chunk.doc_id === options.activeDocumentId) return 18;
+  return 12;
+}
+
+export function searchDocuments(kb, query, limit = 4, options = {}) {
+  const evidence = searchEvidence(kb, query, limit * 3, options);
   const docsById = new Map();
 
   for (const item of evidence) {
@@ -59,6 +103,8 @@ export function buildEvidenceChunks(kb) {
       title: doc.title,
       topic: doc.topic,
       level: doc.level,
+      module_id: doc.module_id,
+      order: doc.order,
       source_ids: doc.source_ids ?? [],
       keywords: doc.keywords ?? []
     };
@@ -101,7 +147,7 @@ export function buildEvidenceChunks(kb) {
   });
 }
 
-export function searchEvidence(kb, query, limit = 8) {
+export function searchEvidence(kb, query, limit = 8, options = {}) {
   const queryTokens = tokenize(query);
   if (queryTokens.length === 0) return [];
 
@@ -151,6 +197,9 @@ export function searchEvidence(kb, query, limit = 8) {
     if (lowerQuery.includes(chunk.topic.toLowerCase())) score += 2;
     score += (matchedTokens.size / Math.max(1, querySet.size)) * 2.25;
     score *= chunk.weight;
+    score += contextualPrior(query, chunk, options);
+    const baseScore = score;
+    const { boostedScore, boostReason } = applyLearningBoost(kb, chunk, baseScore, options);
 
     return {
       id: chunk.id,
@@ -158,9 +207,13 @@ export function searchEvidence(kb, query, limit = 8) {
       doc: chunk.doc,
       title: chunk.title,
       topic: chunk.topic,
+      module_id: chunk.module_id,
       text: chunk.text,
       source_ids: chunk.source_ids,
-      score: Number(score.toFixed(4)),
+      score: Number(boostedScore.toFixed(4)),
+      base_score: Number(baseScore.toFixed(4)),
+      boosted_score: Number(boostedScore.toFixed(4)),
+      boost_reason: boostReason,
       matched_tokens: [...matchedTokens].slice(0, 12)
     };
   });
