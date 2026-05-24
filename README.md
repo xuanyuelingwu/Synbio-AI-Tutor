@@ -1,143 +1,170 @@
-# 合成生物学 AI 助教系统
+# NucleArk Synthetic Biology AI Tutor
 
-一个面向科普问答和趣味体验的合成生物学 AI 助教原型。系统内置权威来源知识库，默认可离线用本地 RAG 模板回答；配置 `DEEPSEEK_API_KEY` 后，会把检索到的知识片段交给 DeepSeek V4 API 生成更自然的回答。
+**NucleArk / 核舟计划** 是项目背景与设计语言来源；本仓库实现的是其中一个面向科普教学的 **Synthetic Biology AI Tutor / 合成生物学 AI 助教**。它不直接讲解“相分离介导入核递送”的实验方案，而是服务于更基础的合成生物学入门学习：帮助零基础或弱基础学生先建立生命系统、工程设计、DNA 读写、遗传线路、细胞工厂、前沿应用与安全治理等概念框架，再围绕当前知识点自由提问。
 
-## 为什么用 RAG，而不是只微调
+当前版本是一个本地可运行的 RAG 教学原型：前端提供学习主线与知识卡片，后端基于结构化知识库检索证据；配置 DeepSeek API 后，模型会基于检索证据生成更自然的讲解。未配置 API 时，系统仍可使用本地 fallback 回答。
 
-科学事实需要可追溯、可更新。这个项目把“知识准确性”放在可审计知识库和检索增强上，把“有趣表达风格”放在提示词与可选微调样例上。也就是说：
+## 项目亮点
 
-- RAG 负责事实、引用、更新和安全边界。
-- 微调更适合训练语气、讲解节奏、类比风格和拒答方式。
-- 涉及生物安全、伦理或真实实验的问题，会转向安全的概念层面。
+- **教学主线优先**：从“知识卡 + 问答”升级为 10 个模块、49 张知识卡的高中入门学习路径。
+- **当前知识点加权检索**：学生点击某张知识卡后，后续提问会自动提高当前知识卡和当前模块的证据权重。
+- **证据可追溯**：回答返回 `evidence`，前端可展开查看命中的证据片段、所属模块、知识卡、基础分数与加权原因。
+- **教材参考扩充**：知识库参考了两本本地合成生物学教材的主题结构和方法概念，但只写入原创化、教学化、非操作性总结。
+- **安全边界**：对可操作实验步骤、病原体增强、危险序列设计、毒素或规避监管等请求进行安全重定向。
+- **克制的科研视觉语言**：前端以 NucleArk / 核舟计划为设计气质来源，保持冷淡、清晰、教学导向，不做花哨装饰。
 
-## 当前升级版能力
+## 版本更新
 
-这个版本已经从“整张知识卡关键词匹配”升级为“证据片段级 RAG”：
+### 旧版本：知识卡问答原型
 
-- 检索会把每张知识卡拆成摘要、事实、类比等证据片段，并用 BM25 风格评分、关键词加权和覆盖度加权排序。
-- `/api/ask` 会返回 `evidence` 字段，前端可展开查看命中的证据片段、主题、类型和分数。
-- DeepSeek 回答上下文会优先提供证据片段和来源编号，减少模型凭空发挥。
-- 本地 fallback 回答也会列出命中的证据片段和来源编号。
-- 安全边界从单纯关键词拦截改成“直接高风险意图”或“可操作请求 + 风险对象”的组合判断，普通概念科普问题更少被误拦。
-- 新增 `npm run eval:retrieval`，用于检查核心问题的 top-1 / top-3 检索命中率和安全边界样例。
+旧版本主要是一个“知识库 + 问答”的合成生物学 AI 助教原型：
 
-注意：`data/fine_tune_style_examples.jsonl` 目前仍是风格微调样例，不是已经完成的模型微调训练链路。现阶段事实准确性主要依赖 RAG，而不是把知识直接微调进模型。
+- 左侧展示若干知识卡片，学生可以围绕合成生物学概念自由提问。
+- 后端从结构化知识库中检索相关卡片和证据片段。
+- 回答侧重科普解释、来源追溯和基础安全边界。
+- 前端已经具备 NucleArk / 核舟计划的冷淡克制设计语言。
+- 适合作为合成生物学科普问答工具，但学习顺序、知识点层级和课堂教学引导还不够明确。
 
-## 教学模式
+### 新版本：教学知识主线版本
 
-当前版本新增面向高中入门学习者的 `Learning Path / 学习主线`：
+新版本的核心升级是加入 **Learning Path / 学习主线**，把系统从“问答工具”推进为“教学型 AI 助教”：
 
-- 10 个学习模块，从生命系统基础逐步进入工程设计、DNA 读写、遗传线路、模型工具、传感器、细胞工厂、合成细胞、前沿应用和安全治理。
-- 49 张知识卡，每张卡包含学习目标、核心术语、常见误区和推荐提问。
-- 点击左侧知识点后，会进入当前学习上下文；之后提问会优先提高当前模块和当前知识卡的证据权重。
-- `Free Ask / 自由提问` 会清除学习上下文，恢复全知识库普通检索。
-- 两本本地教材 PDF 仅作为本地教材参考，用于补全主题结构和高层概念；不会纳入可复现实验材料、步骤、参数或 protocol。
+- 新增 10 个连续学习模块，从生命系统基础逐步过渡到工程设计、DNA 读写、遗传线路、建模工具、传感器、细胞工厂、合成细胞、前沿应用与安全治理。
+- 知识库扩展到 49 张教学知识卡，每张卡都有学习目标、核心术语、常见误区和推荐提问。
+- 左侧导航从普通知识卡列表升级为可展开的教学目录，学生可以按模块逐步学习。
+- 点击知识点后，聊天区会展示该知识点的教学卡，并把它设为当前学习上下文。
+- 问答检索会提高当前知识点和当前模块的证据权重，让学生围绕正在学习的内容提问时，匹配更精确。
+- 新增 **Free Ask / 自由提问**，可随时退出当前学习上下文，回到全知识库检索。
+- 前端补充教材参考标识，来自本地教材结构的知识卡会显示 `Textbook / 教材参考`。
+- 保留并加强安全边界：教材相关内容只保留高层概念和教学总结，不纳入可复现实验步骤、参数或 protocol。
 
-## 权威知识源
+## 学习主线
 
-当前知识库整理自：
+`GET /api/learning-path` 返回完整学习路径。当前包含 10 个模块：
 
-- NHGRI/NIH: Synthetic Biology  
-  https://www.genome.gov/about-genomics/policy-issues/synthetic-biology
-- NCBI Bookshelf / National Academies: Biotechnology in the Age of Synthetic Biology  
-  https://www.ncbi.nlm.nih.gov/books/NBK535871/
-- NCBI Bookshelf / National Academies: Synthetic Biology: Science and Technology for the New Millennium  
-  https://www.ncbi.nlm.nih.gov/books/NBK202049/
-- NCBI Bookshelf / National Academies: Synthetic Biology: Applications Come of Age  
-  https://www.ncbi.nlm.nih.gov/sites/books/NBK84446/
-- NCBI Bookshelf / National Academies: Synthetic Biology and the Art of Biosensor Design  
-  https://www.ncbi.nlm.nih.gov/books/NBK84465/
-- WHO: Global Guidance Framework for the Responsible Use of the Life Sciences  
-  https://www.who.int/publications-detail-redirect/9789240056107/
-- NHGRI/NIH: Artificial Intelligence, Machine Learning and Genomics  
-  https://www.genome.gov/about-genomics/educational-resources/fact-sheets/artificial-intelligence-machine-learning-and-genomics
-- NIBIB/NIH: Synthetic Biology  
-  https://www.nibib.nih.gov/science-education/science-topics/synthetic-biology
-- NIST: Engineering / synthetic biology  
-  https://www.nist.gov/engineering-synthetic-biology
-- NIST: Cell-free systems  
-  https://www.nist.gov/cell-free-systems
-- NIST: Protein engineering  
-  https://www.nist.gov/protein-engineering
-- National Academies: Biodefense in the Age of Synthetic Biology  
-  https://www.nationalacademies.org/publications/24890
-- OECD: Synthetic biology in focus  
-  https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/02/synthetic-biology-in-focus_42893a6a/3e6510cf-en.pdf
-- The Royal Society: Synthetic biology  
-  https://royalsociety.org/news-resources/projects/synthetic-biology/
+1. **Foundations of Life Systems / 生命系统基础**
+2. **From Biology to Engineering / 从自然到工程**
+3. **Reading and Writing DNA / 读写 DNA**
+4. **Gene Regulation and Genetic Circuits / 基因调控与遗传线路**
+5. **Modeling and Design Tools / 模型、计算与设计工具**
+6. **Biosensors and Signal Processing / 生物传感器与信息输入输出**
+7. **Metabolic Engineering and Cell Factories / 代谢工程与细胞工厂**
+8. **Cell-Free Systems and Synthetic Cells / 细胞自由系统、最小基因组与合成细胞**
+9. **Biomedical and Frontier Applications / 医学、材料与前沿应用**
+10. **Safety, Ethics, and Public Trust / 安全、伦理与公众信任**
 
-## 运行
+每张知识卡包含：
 
-最简单的方式是双击：
+- `learning_objectives`
+- `core_terms`
+- `misconceptions`
+- `student_questions`
+- `module_id`
+- `source_tier`
+
+点击左侧知识卡后，聊天区会显示该知识点教学卡，并设置当前学习上下文。点击 **Free Ask / 自由提问** 会清除上下文，恢复全知识库普通检索。
+
+## 知识库与来源
+
+知识库文件位于 [data/knowledge_base.json](C:/Users/cavendish/OneDrive/文档/Synbio-AI-Tutor/data/knowledge_base.json)。
+
+公开权威来源包括：
+
+- NHGRI / NIH: Synthetic Biology
+- NCBI Bookshelf / National Academies: Biotechnology in the Age of Synthetic Biology
+- NCBI Bookshelf / National Academies: Synthetic Biology: Science and Technology for the New Millennium
+- NCBI Bookshelf / National Academies: Synthetic Biology: Applications Come of Age
+- NCBI Bookshelf / National Academies: Synthetic Biology and the Art of Biosensor Design
+- WHO: Global Guidance Framework for the Responsible Use of the Life Sciences
+- NHGRI / NIH: Artificial Intelligence, Machine Learning and Genomics
+- NIBIB / NIH: Synthetic Biology
+- NIST: Engineering / synthetic biology
+- NIST: Cell-free systems
+- NIST: Protein engineering
+- National Academies: Biodefense in the Age of Synthetic Biology
+- OECD: Synthetic biology in focus
+- The Royal Society: Synthetic biology
+
+本地教材参考：
+
+- Robert A. Meyers, **Synthetic Biology**
+- Jeffrey Carl Braman, **Synthetic Biology**
+
+教材内容只作为 `Local textbook reference / 本地教材参考` 使用，用于补全主题结构、概念粒度和教学路线。知识库不保存本地路径，不显示 z-library 文件名，也不纳入大段原文、可复现实验材料、步骤、参数或 protocol。
+
+## 检索逻辑
+
+核心检索在 [src/retrieval.js](C:/Users/cavendish/OneDrive/文档/Synbio-AI-Tutor/src/retrieval.js)。
+
+系统会把知识卡拆成证据片段：
+
+- `summary`
+- `facts`
+- `analogy`
+
+检索采用 BM25 风格评分，并结合关键词、标题、主题覆盖度进行排序。学习模式下会额外应用上下文加权：
+
+- 命中当前知识卡：`score * 2.2`
+- 命中当前学习模块：`score * 1.6`
+- 命中前置模块：`score * 1.15`
+- 自由提问模式：不应用学习上下文加权
+
+返回的 evidence 会包含：
+
+- `module_id`
+- `boost_reason`
+- `base_score`
+- `boosted_score`
+
+当用户使用“这个设计为什么重要？”这类指代性问题时，如果已经选择了当前知识点，系统会加入上下文先验，优先召回当前主题。
+
+## 安全策略
+
+安全判断在 [src/safety.js](C:/Users/cavendish/OneDrive/文档/Synbio-AI-Tutor/src/safety.js)。
+
+系统允许概念科普、伦理讨论、应用边界、非操作性高层解释；但会拒绝或重定向以下内容：
+
+- 病原体增强、传播性增强、毒力增强
+- 可复现实验步骤、参数、材料清单或 protocol
+- 危险序列设计、规避筛查或规避监管
+- 毒素、武器化、生物安保绕过
+
+安全重定向会尽量把问题转回安全的概念层、风险治理层或学习方向。
+
+## 运行方式
+
+最简单方式是双击：
 
 ```text
 start_synbio_tutor.cmd
 ```
 
-这个脚本不依赖 PowerShell，会自动寻找 Codex 自带的 Node.js 或系统 PATH 里的 Node.js。
+脚本会自动查找 Codex 自带的 Node.js 或系统 `PATH` 中的 Node.js。
 
-如果你的系统已经安装并配置了 Node.js，也可以用：
-
-```powershell
-node src/server.js
-```
-
-如果你偏好 PowerShell，也保留了这个启动脚本：
+也可以在项目目录运行：
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File scripts/start_server.ps1
+npm start
 ```
 
-打开：
+启动后访问：
 
 ```text
 http://localhost:3000
 ```
 
-接入 DeepSeek V4：
+## DeepSeek 配置
 
 复制 `.env.example` 为 `.env`，填入：
 
 ```text
-DEEPSEEK_API_KEY=你的 DeepSeek API Key
+DEEPSEEK_API_KEY=your_api_key
 DEEPSEEK_MODEL=deepseek-v4-flash
 DEEPSEEK_BASE_URL=https://api.deepseek.com
 PORT=3000
 ```
 
-然后启动：
-
-```text
-start_synbio_tutor.cmd
-```
-
-官方 DeepSeek API 当前使用 OpenAI 兼容的 `https://api.deepseek.com/chat/completions`。`deepseek-v4-flash` 适合日常科普问答，`deepseek-v4-pro` 更适合复杂推理和审校。旧模型名 `deepseek-chat` 和 `deepseek-reasoner` 官方标注会在 2026-07-24 后废弃。
-
-可选参数：
-
-```powershell
-$env:DEEPSEEK_BASE_URL="https://api.deepseek.com"
-$env:DEEPSEEK_THINKING="disabled"
-```
-
-本项目默认关闭 thinking 模式，减少延迟和 token 消耗；需要更强推理时可设为 `enabled`。
-
-## 项目结构
-
-```text
-data/knowledge_base.json          权威知识库与安全策略
-data/deepseek_system_prompt.md    DeepSeek V4 前置系统提示词
-data/fine_tune_style_examples.jsonl  风格微调样例
-public/                           前端界面
-src/                              RAG、问答与安全边界
-scripts/ingest_sources.js         拉取来源网页文本的采集脚本
-scripts/check_deepseek_prompt.js  DeepSeek 请求体和前置提示词检查
-scripts/verify_deepseek_api.js    DeepSeek API Key 与模型直连验证
-scripts/verify_app_deepseek.ps1   完整应用链路验证
-scripts/smoke_test.js             基础冒烟测试
-scripts/evaluate_retrieval.js     检索与安全边界评估
-scripts/start_server.ps1          Windows 启动脚本
-```
+未设置 `DEEPSEEK_API_KEY` 时，系统会使用本地 RAG fallback；设置后，`/api/ask` 会把检索证据交给 DeepSeek 生成回答。
 
 ## API
 
@@ -155,31 +182,56 @@ POST /api/ask
 
 ```json
 {
-  "question": "合成生物学和基因编辑有什么区别？",
-  "activeModuleId": "reading-writing-dna",
-  "activeDocumentId": "synbio-vs-editing",
+  "question": "这个设计为什么重要？",
+  "activeModuleId": "biosensors-signal-processing",
+  "activeDocumentId": "biosensors",
   "learningMode": true
 }
 ```
 
-返回中除了 `answer`、`mode`、`confidence`、`matches`、`sources`，还包含：
+响应包含：
 
 ```json
 {
+  "answer": "...",
+  "mode": "deepseek_rag",
+  "context_weighted": true,
+  "confidence": 0.86,
+  "matches": [],
+  "sources": [],
   "evidence": [
     {
-      "id": "synbio-vs-editing:summary",
-      "title": "合成生物学和基因编辑的区别",
-      "topic": "基础概念",
-      "kind": "summary",
-      "text": "命中的知识库证据片段",
-      "score": 12.34
+      "doc_id": "biosensors",
+      "module_id": "biosensors-signal-processing",
+      "boost_reason": "active_document+active_module",
+      "base_score": 57.6,
+      "boosted_score": 202.752
     }
   ]
 }
 ```
 
-## 验证
+## 项目结构
+
+```text
+data/knowledge_base.json             知识库、学习主线、来源与安全策略
+data/deepseek_system_prompt.md       DeepSeek 系统提示词
+data/fine_tune_style_examples.jsonl  风格微调样例，不是事实知识来源
+public/index.html                    前端页面
+public/app.js                        前端交互与学习路径渲染
+public/styles.css                    NucleArk 风格界面样式
+src/server.js                        HTTP 服务与 API
+src/retrieval.js                     证据检索与学习上下文加权
+src/answer.js                        回答生成、DeepSeek 调用、本地 fallback
+src/safety.js                        生物安全边界判断
+scripts/evaluate_retrieval.js        检索、学习上下文与安全样例评估
+scripts/smoke_test.js                基础冒烟测试
+scripts/check_frontend_render.js     前端静态渲染检查
+scripts/check_deepseek_prompt.js     DeepSeek 请求体检查
+scripts/repair_learning_content.mjs  教学内容修复与重建脚本
+```
+
+## 测试
 
 ```powershell
 npm test
@@ -188,12 +240,29 @@ npm run check:prompt
 npm run eval:retrieval
 ```
 
-## 后续可扩展方向
+当前验证结果：
 
-- 增加中文权威教材、综述和政策文件，经人工审校后进入知识库。
-- 把 `data/raw_sources` 接入向量数据库，替换当前关键词检索。
-- 为不同年龄层增加回答风格：小学生、大学通识、科研入门。
-- 增加教师后台：来源审校、知识卡版本管理、风险问题记录。
-- 增加离线 embedding 索引、reranker、引用到原文段落的证据定位和人工审校工作流。
+- 检索 top-1：14/14
+- 检索 top-3：14/14
+- 学习上下文加权测试通过
+- 自由提问模式测试通过
+- 安全边界样例测试通过
+- 前端渲染检查通过
+- DeepSeek prompt 检查通过
 
+## 当前边界
 
+- 本轮没有实现完整测验系统、学习进度持久化或教师后台。
+- 教材 PDF 没有全文解析成引用级证据，只作为高层主题参考。
+- 当前检索仍是轻量本地 BM25 风格算法，还没有 embedding、向量数据库或 reranker。
+- DeepSeek 回答质量依赖 API 可用性；无 API 时使用本地 fallback。
+- 该系统面向科普教学，不适合作为实验操作指导或临床、法律、监管决策依据。
+
+## 后续改进方向
+
+- 增加阶段性小测、错题回顾、学习进度记录。
+- 引入 embedding 索引和 reranker，提高长问题与跨模块问题的召回质量。
+- 为每个模块增加更精细的年龄分层讲解：初中版、高中版、大学通识版。
+- 建立教师后台，用于审核知识卡、来源、风险问答记录与版本更新。
+- 增加引用定位能力，把公开来源定位到更细的章节或段落。
+- 将教材参考内容进一步人工审核，形成更完整但仍非操作性的课程地图。
